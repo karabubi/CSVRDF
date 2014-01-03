@@ -28,7 +28,7 @@ public class Converter {
 		String[] nextLine;
 		String[] properties = reader.readNext();
 		
-		String ns = "http://aksw.org/Saleh/resource/";
+		String ns = "http://aksw.org/ns/drugs/";
 
 		// for each property
 		for (String property : properties)
@@ -69,23 +69,27 @@ public class Converter {
 
 			i++;
 		}
-		//create turtle
-		m.write(System.out, "TURTLE");
-		Iterator<Statement> it = m.listStatements();
-		while (it.hasNext())
-			//System.out.println(it.next());
-		
-		reader.close();
-		
-		try {
-			FileOutputStream fout = new FileOutputStream(
-					"output.rdf");
-			m.write(fout);
-		} catch (IOException e) {
-			System.out.println("Exception caught" + e.getMessage());
-		}
-		
+        // print turtle file
+        m.write(System.out, "TURTLE");
+        
+        // uncomment these to print all statements
+//        Iterator<Statement> it = m.listStatements();
+//        while (it.hasNext())
+//                System.out.println(it.next());
+        
+        reader.close();
+        
+        // save to file
+        try {
+                FileOutputStream fout = new FileOutputStream(
+                                "output.ttl");
+                m.write(fout, "TURTLE");
+        } catch (IOException e) {
+                System.out.println("Exception caught" + e.getMessage());
+                e.printStackTrace();
+        }
+        
 
-	}
+}
 
 }
