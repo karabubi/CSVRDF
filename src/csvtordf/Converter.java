@@ -70,7 +70,8 @@ public class Converter {
 			i++;
 		}
         // print turtle file
-        m.write(System.out, "TURTLE");
+        m.write(System.out, "N-TRIPLES");
+      //  m.write(System.out, "N-TRIPLE");
         
         // uncomment these to print all statements
 //        Iterator<Statement> it = m.listStatements();
@@ -82,8 +83,8 @@ public class Converter {
         // save to file
         try {
                 FileOutputStream fout = new FileOutputStream(
-                                "output.ttl");
-                m.write(fout, "TURTLE");
+                                "output.nt");
+                m.write(fout, "N-TRIPLES");
         } catch (IOException e) {
                 System.out.println("Exception caught" + e.getMessage());
                 e.printStackTrace();
