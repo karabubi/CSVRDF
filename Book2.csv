@@ -1,4 +1,4 @@
-http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2000/01/rdf-schema#label,http://aksw.org/ns/drugs/brandName,http://aksw.org/ns/drugs/genericEquivalency,http://aksw.org/ns/drugs/status,,,
+http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2000/01/rdf-schema#label,http://aksw.org/ns/drugs/brandName,http://aksw.org/ns/drugs/genericEquivalency,http://aksw.org/ns/rugs/status,,,
 Antidepressants,Bupropion,Wellbutrin�,Yes,N (for pain),,,
 Antidepressants,Citalopram,Celexa,Yes,N,,,
 Antidepressants,Escitalopram,Lexapro�,No,N (for pain),,,
