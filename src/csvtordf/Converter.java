@@ -29,6 +29,8 @@ public class Converter {
 		String[] properties = reader.readNext();
 		
 		String ns = "http://aksw.org/ns/drugs/";
+		
+		
 
 		// for each property
 		for (String property : properties)
@@ -48,19 +50,20 @@ public class Converter {
 				created.put(nextLine[0], ns+"Class" + i);
 				
 				// create classes
-		cl = m.createResource(ns+"Class" + i,m.getResource("http://www.w3.org/2000/01/rdf-schema#Class"));
-                                
-	m.add(cl,m.getProperty("http://www.w3.org/2000/01/rdf-schema#label"),nextLine[0]);
-       
-        
+				 cl = m.createResource(ns+"Class" + i,m.getResource("http://www.w3.org/2000/01/rdf-schema#Class"));
+				
+                  m.add(cl,m.getProperty("http://www.w3.org/2000/01/rdf-schema#label"),nextLine[0]);
+			       
         
 			} else {
 				cl = m.getResource(created.get(nextLine[0]));
                                 
 			}
 
-			// create instance
-			Resource r = m.createResource(ns+"Drug" + i, cl);
+			
+			// create drug as subclass of category
+			Resource r = m.createResource(ns+"Drug" + i, m.getResource("http://www.w3.org/2000/01/rdf-schema#Class")); 
+			m.add(r, m.getProperty("http://www.w3.org/2000/01/rdf-schema#subClassOf"), cl); 
 
 			// for each column
 			for (int j = 1; j < nextLine.length; j++)
@@ -70,8 +73,8 @@ public class Converter {
 			i++;
 		}
         // print turtle file
-        m.write(System.out, "N-TRIPLES");
-      //  m.write(System.out, "N-TRIPLE");
+      //  m.write(System.out, "N-TRIPLES");
+      m.write(System.out, "TURTLE");
         
         // uncomment these to print all statements
 //        Iterator<Statement> it = m.listStatements();
