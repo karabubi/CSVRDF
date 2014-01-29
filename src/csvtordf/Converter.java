@@ -40,42 +40,41 @@ public class Converter {
 		int i = 1;
 		
 		HashMap<String, String> created = new HashMap<>(); 
+		
+		// create class Drug
+		Resource classDrug = m.createResource(ns+"Drug",m.getResource("http://www.w3.org/2000/01/rdf-schema#Class"));
+		m.add(classDrug,m.getProperty("http://www.w3.org/2000/01/rdf-schema#label"),"Drug");
 
 		while ((nextLine = reader.readNext()) != null) {
 
-			Resource cl;
+			Resource cat;
 			
 			if(!created.containsKey(nextLine[0])) {
 			
-				created.put(nextLine[0], ns+"Class" + i);
+				created.put(nextLine[0], ns+"Category" + i);
 				
-				// create classes
-				 cl = m.createResource(ns+"Class" + i,m.getResource("http://www.w3.org/2000/01/rdf-schema#Class"));
-				
-                  m.add(cl,m.getProperty("http://www.w3.org/2000/01/rdf-schema#label"),nextLine[0]);
+				// create categories
+				 cat = m.createResource(ns+"Category" + i,m.getResource("http://www.w3.org/2000/01/rdf-schema#Class"));
+                 m.add(cat,m.getProperty("http://www.w3.org/2000/01/rdf-schema#label"),nextLine[0]);
+     			 m.add(cat, m.getProperty("http://www.w3.org/2000/01/rdf-schema#subClassOf"), classDrug);
 			       
         
 			} else {
-				cl = m.getResource(created.get(nextLine[0]));
+				cat = m.getResource(created.get(nextLine[0]));
                                 
 			}
 
-			
-			// create drug as subclass of category
-			Resource r = m.createResource(ns+"Drug" + i, m.getResource("http://www.w3.org/2000/01/rdf-schema#Class")); 
-			m.add(r, m.getProperty("http://www.w3.org/2000/01/rdf-schema#subClassOf"), cl); 
+			// create drug as instance of category
+			Resource drug = m.createResource(ns+"Drug" + i, cat); 
 
 			// for each column
 			for (int j = 1; j < nextLine.length; j++)
 				// create the triple
-				m.add(r, m.getProperty(properties[j]), nextLine[j]);
+				m.add(drug, m.getProperty(properties[j]), nextLine[j]);
 
 			i++;
 		}
-        // print turtle file
-      //  m.write(System.out, "N-TRIPLES");
-      m.write(System.out, "TURTLE");
-        
+		 m.write(System.out, "TURTLE");
         // uncomment these to print all statements
 //        Iterator<Statement> it = m.listStatements();
 //        while (it.hasNext())
@@ -83,12 +82,22 @@ public class Converter {
         
         reader.close();
         
-        // save to file
+        // save to RDF
+        try {
+                FileOutputStream foutRdf = new FileOutputStream(
+               		"output.rdf");
+               m.write(foutRdf, "RDF/XML");
+        } catch (Exception e) {
+            System.out.println("Exception caught" + e.getMessage());
+            e.printStackTrace();
+        }
+             
+        // save to TURTLE
         try {
                 FileOutputStream fout = new FileOutputStream(
-                                "output.nt");
+                		"output.nt");
                 m.write(fout, "N-TRIPLES");
-        } catch (IOException e) {
+        } catch (Exception e) {
                 System.out.println("Exception caught" + e.getMessage());
                 e.printStackTrace();
         }

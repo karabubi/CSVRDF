@@ -1,18 +1,7 @@
-<http://aksw.org/ns/drugs/Class65>
-        a       <http://www.w3.org/2000/01/rdf-schema#Class> ;
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "Botulinum toxin" .
-
-<http://aksw.org/ns/drugs/Class23>
-        a       <http://www.w3.org/2000/01/rdf-schema#Class> ;
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "Anti-epilepsy drugs (AEDs)" .
-
 <http://aksw.org/ns/drugs/Drug79>
-        a       <http://aksw.org/ns/drugs/Class76> ;
+        a       <http://aksw.org/ns/drugs/Category76> ;
         <http://www.w3.org/2000/01/rdf-schema#label>
                 "Dantrolene" ;
-        <>      "" ;
         <http://aksw.org/ns/drugs/brandName>
                 "Dantriumï¿½" ;
         <http://aksw.org/ns/drugs/genericEquivalency>
@@ -21,10 +10,9 @@
                 "N" .
 
 <http://aksw.org/ns/drugs/Drug134>
-        a       <http://aksw.org/ns/drugs/Class130> ;
+        a       <http://aksw.org/ns/drugs/Category130> ;
         <http://www.w3.org/2000/01/rdf-schema#label>
                 "Pantoprazole" ;
-        <>      "" ;
         <http://aksw.org/ns/drugs/brandName>
                 "Protonixï¿½" ;
         <http://aksw.org/ns/drugs/genericEquivalency>
@@ -33,10 +21,9 @@
                 "N" .
 
 <http://aksw.org/ns/drugs/Drug58>
-        a       <http://aksw.org/ns/drugs/Class52> ;
+        a       <http://aksw.org/ns/drugs/Category52> ;
         <http://www.w3.org/2000/01/rdf-schema#label>
                 "Flurazepam" ;
-        <>      "" ;
         <http://aksw.org/ns/drugs/brandName>
                 "Dalmane" ;
         <http://aksw.org/ns/drugs/genericEquivalency>
@@ -45,10 +32,9 @@
                 "N" .
 
 <http://aksw.org/ns/drugs/Drug113>
-        a       <http://aksw.org/ns/drugs/Class102> ;
+        a       <http://aksw.org/ns/drugs/Category102> ;
         <http://www.w3.org/2000/01/rdf-schema#label>
                 "Meperidine" ;
-        <>      "" ;
         <http://aksw.org/ns/drugs/brandName>
                 "Demerolï¿½" ;
         <http://aksw.org/ns/drugs/genericEquivalency>
@@ -57,10 +43,9 @@
                 "N" .
 
 <http://aksw.org/ns/drugs/Drug37>
-        a       <http://aksw.org/ns/drugs/Class30> ;
+        a       <http://aksw.org/ns/drugs/Category30> ;
         <http://www.w3.org/2000/01/rdf-schema#label>
                 "Terazosin" ;
-        <>      "" ;
         <http://aksw.org/ns/drugs/brandName>
                 "Hytrin" ;
         <http://aksw.org/ns/drugs/genericEquivalency>
@@ -68,16 +53,10 @@
         <http://aksw.org/ns/drugs/status>
                 "N" .
 
-<http://aksw.org/ns/drugs/Class143>
-        a       <http://www.w3.org/2000/01/rdf-schema#Class> ;
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "Topical analgesics" .
-
 <http://aksw.org/ns/drugs/Drug16>
-        a       <http://aksw.org/ns/drugs/Class9> ;
+        a       <http://aksw.org/ns/drugs/Category9> ;
         <http://www.w3.org/2000/01/rdf-schema#label>
                 "Miglitol" ;
-        <>      "" ;
         <http://aksw.org/ns/drugs/brandName>
                 "Glyset" ;
         <http://aksw.org/ns/drugs/genericEquivalency>
@@ -85,21 +64,17 @@
         <http://aksw.org/ns/drugs/status>
                 "N" .
 
-<http://aksw.org/ns/drugs/Class73>
+<http://aksw.org/ns/drugs/Category83>
         a       <http://www.w3.org/2000/01/rdf-schema#Class> ;
         <http://www.w3.org/2000/01/rdf-schema#label>
-                "Dopamine agonists" .
-
-<http://aksw.org/ns/drugs/Class52>
-        a       <http://www.w3.org/2000/01/rdf-schema#Class> ;
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "Benzodiazepines" .
+                "Muscle relaxants (Antispasmodics)" ;
+        <http://www.w3.org/2000/01/rdf-schema#subClassOf>
+                <http://aksw.org/ns/drugs/Drug> .
 
 <http://aksw.org/ns/drugs/Drug87>
-        a       <http://aksw.org/ns/drugs/Class87> ;
+        a       <http://aksw.org/ns/drugs/Category87> ;
         <http://www.w3.org/2000/01/rdf-schema#label>
                 "Diclofenac" ;
-        <>      "" ;
         <http://aksw.org/ns/drugs/brandName>
                 "Voltarenï¿½" ;
         <http://aksw.org/ns/drugs/genericEquivalency>
@@ -108,10 +83,9 @@
                 "N" .
 
 <http://aksw.org/ns/drugs/Drug142>
-        a       <http://aksw.org/ns/drugs/Class141> ;
+        a       <http://aksw.org/ns/drugs/Category141> ;
         <http://www.w3.org/2000/01/rdf-schema#label>
                 "Modafinil" ;
-        <>      "" ;
         <http://aksw.org/ns/drugs/brandName>
                 "Provigilï¿½" ;
         <http://aksw.org/ns/drugs/genericEquivalency>
@@ -120,10 +94,9 @@
                 "N" .
 
 <http://aksw.org/ns/drugs/Drug66>
-        a       <http://aksw.org/ns/drugs/Class65> ;
+        a       <http://aksw.org/ns/drugs/Category65> ;
         <http://www.w3.org/2000/01/rdf-schema#label>
                 "Botulinum toxin" ;
-        <>      "" ;
         <http://aksw.org/ns/drugs/brandName>
                 "Dysport" ;
         <http://aksw.org/ns/drugs/genericEquivalency>
@@ -132,10 +105,9 @@
                 "N" .
 
 <http://aksw.org/ns/drugs/Drug121>
-        a       <http://aksw.org/ns/drugs/Class102> ;
+        a       <http://aksw.org/ns/drugs/Category102> ;
         <http://www.w3.org/2000/01/rdf-schema#label>
                 "Oxymorphone" ;
-        <>      "" ;
         <http://aksw.org/ns/drugs/brandName>
                 "Opanaï¿½" ;
         <http://aksw.org/ns/drugs/genericEquivalency>
@@ -144,10 +116,9 @@
                 "N" .
 
 <http://aksw.org/ns/drugs/Drug45>
-        a       <http://aksw.org/ns/drugs/Class39> ;
+        a       <http://aksw.org/ns/drugs/Category39> ;
         <http://www.w3.org/2000/01/rdf-schema#label>
                 "Omalizumab" ;
-        <>      "" ;
         <http://aksw.org/ns/drugs/brandName>
                 "Xolairï¿½" ;
         <http://aksw.org/ns/drugs/genericEquivalency>
@@ -156,10 +127,9 @@
                 "N" .
 
 <http://aksw.org/ns/drugs/Drug100>
-        a       <http://aksw.org/ns/drugs/Class87> ;
+        a       <http://aksw.org/ns/drugs/Category87> ;
         <http://www.w3.org/2000/01/rdf-schema#label>
                 "Naproxen ER" ;
-        <>      "" ;
         <http://aksw.org/ns/drugs/brandName>
                 "Naprelanï¿½" ;
         <http://aksw.org/ns/drugs/genericEquivalency>
@@ -168,10 +138,9 @@
                 "N" .
 
 <http://aksw.org/ns/drugs/Drug24>
-        a       <http://aksw.org/ns/drugs/Class23> ;
+        a       <http://aksw.org/ns/drugs/Category23> ;
         <http://www.w3.org/2000/01/rdf-schema#label>
                 "Lamotrigine" ;
-        <>      "" ;
         <http://aksw.org/ns/drugs/brandName>
                 "Lamictalï¿½" ;
         <http://aksw.org/ns/drugs/genericEquivalency>
@@ -179,16 +148,10 @@
         <http://aksw.org/ns/drugs/status>
                 "N" .
 
-<http://aksw.org/ns/drugs/Class130>
-        a       <http://www.w3.org/2000/01/rdf-schema#Class> ;
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "PPI (Proton Pump Inhibitor)" .
-
 <http://aksw.org/ns/drugs/Drug3>
-        a       <http://aksw.org/ns/drugs/Class1> ;
+        a       <http://aksw.org/ns/drugs/Category1> ;
         <http://www.w3.org/2000/01/rdf-schema#label>
                 "Escitalopram" ;
-        <>      "" ;
         <http://aksw.org/ns/drugs/brandName>
                 "Lexaproï¿½" ;
         <http://aksw.org/ns/drugs/genericEquivalency>
@@ -196,16 +159,17 @@
         <http://aksw.org/ns/drugs/status>
                 "N (for pain)" .
 
-<http://aksw.org/ns/drugs/Class39>
+<http://aksw.org/ns/drugs/Category141>
         a       <http://www.w3.org/2000/01/rdf-schema#Class> ;
         <http://www.w3.org/2000/01/rdf-schema#label>
-                "Asthma medications" .
+                "Stimulants (adjunctive pain medication)" ;
+        <http://www.w3.org/2000/01/rdf-schema#subClassOf>
+                <http://aksw.org/ns/drugs/Drug> .
 
 <http://aksw.org/ns/drugs/Drug95>
-        a       <http://aksw.org/ns/drugs/Class87> ;
+        a       <http://aksw.org/ns/drugs/Category87> ;
         <http://www.w3.org/2000/01/rdf-schema#label>
                 "Diclofenac/ misoprostol" ;
-        <>      "" ;
         <http://aksw.org/ns/drugs/brandName>
                 "Arthrotecï¿½" ;
         <http://aksw.org/ns/drugs/genericEquivalency>
@@ -214,10 +178,9 @@
                 "N" .
 
 <http://aksw.org/ns/drugs/Drug150>
-        a       <http://aksw.org/ns/drugs/Class148> ;
+        a       <http://aksw.org/ns/drugs/Category148> ;
         <http://www.w3.org/2000/01/rdf-schema#label>
                 "Infliximab" ;
-        <>      "" ;
         <http://aksw.org/ns/drugs/brandName>
                 "Remicadeï¿½" ;
         <http://aksw.org/ns/drugs/genericEquivalency>
@@ -226,10 +189,9 @@
                 "N" .
 
 <http://aksw.org/ns/drugs/Drug74>
-        a       <http://aksw.org/ns/drugs/Class73> ;
+        a       <http://aksw.org/ns/drugs/Category73> ;
         <http://www.w3.org/2000/01/rdf-schema#label>
                 "Ropinirole" ;
-        <>      "" ;
         <http://aksw.org/ns/drugs/brandName>
                 "Requipï¿½" ;
         <http://aksw.org/ns/drugs/genericEquivalency>
@@ -238,10 +200,9 @@
                 "N" .
 
 <http://aksw.org/ns/drugs/Drug129>
-        a       <http://aksw.org/ns/drugs/Class129> ;
+        a       <http://aksw.org/ns/drugs/Category129> ;
         <http://www.w3.org/2000/01/rdf-schema#label>
                 "Ziconotide (morphine pump)" ;
-        <>      "" ;
         <http://aksw.org/ns/drugs/brandName>
                 "Prialtï¿½" ;
         <http://aksw.org/ns/drugs/genericEquivalency>
@@ -250,10 +211,9 @@
                 "N" .
 
 <http://aksw.org/ns/drugs/Drug53>
-        a       <http://aksw.org/ns/drugs/Class52> ;
+        a       <http://aksw.org/ns/drugs/Category52> ;
         <http://www.w3.org/2000/01/rdf-schema#label>
                 "Chlordiazepoxide" ;
-        <>      "" ;
         <http://aksw.org/ns/drugs/brandName>
                 "Librium" ;
         <http://aksw.org/ns/drugs/genericEquivalency>
@@ -262,10 +222,9 @@
                 "N" .
 
 <http://aksw.org/ns/drugs/Drug108>
-        a       <http://aksw.org/ns/drugs/Class102> ;
+        a       <http://aksw.org/ns/drugs/Category102> ;
         <http://www.w3.org/2000/01/rdf-schema#label>
                 "Fentanyl nasal spray" ;
-        <>      "" ;
         <http://aksw.org/ns/drugs/brandName>
                 "Lazanda" ;
         <http://aksw.org/ns/drugs/genericEquivalency>
@@ -274,10 +233,9 @@
                 "N" .
 
 <http://aksw.org/ns/drugs/Drug32>
-        a       <http://aksw.org/ns/drugs/Class30> ;
+        a       <http://aksw.org/ns/drugs/Category30> ;
         <http://www.w3.org/2000/01/rdf-schema#label>
                 "Doxazosin" ;
-        <>      "" ;
         <http://aksw.org/ns/drugs/brandName>
                 "Cardura" ;
         <http://aksw.org/ns/drugs/genericEquivalency>
@@ -286,10 +244,9 @@
                 "N" .
 
 <http://aksw.org/ns/drugs/Drug11>
-        a       <http://aksw.org/ns/drugs/Class9> ;
+        a       <http://aksw.org/ns/drugs/Category9> ;
         <http://www.w3.org/2000/01/rdf-schema#label>
                 "Glimepiride" ;
-        <>      "" ;
         <http://aksw.org/ns/drugs/brandName>
                 "Amaryl" ;
         <http://aksw.org/ns/drugs/genericEquivalency>
@@ -298,22 +255,20 @@
                 "N" .
 
 <http://aksw.org/ns/drugs/Drug82>
-        a       <http://aksw.org/ns/drugs/Class76> ;
+        a       <http://aksw.org/ns/drugs/Category76> ;
         <http://www.w3.org/2000/01/rdf-schema#label>
                 "Orphenadrine" ;
-        <>      "N" , " Orphenate\",Yes\"" , " Mio-Relï¿½" ;
         <http://aksw.org/ns/drugs/brandName>
-                "Norflexï¿½\"" ;
+                "\"Norflexï¿½, Banflexï¿½, Antiflexï¿½, Mio-Relï¿½, Orphenate\"" ;
         <http://aksw.org/ns/drugs/genericEquivalency>
-                " Banflexï¿½" ;
+                "Yes" ;
         <http://aksw.org/ns/drugs/status>
-                " Antiflexï¿½" .
+                "N" .
 
 <http://aksw.org/ns/drugs/Drug137>
-        a       <http://aksw.org/ns/drugs/Class136> ;
+        a       <http://aksw.org/ns/drugs/Category136> ;
         <http://www.w3.org/2000/01/rdf-schema#label>
                 "Promethazine" ;
-        <>      "" ;
         <http://aksw.org/ns/drugs/brandName>
                 "Phenergan" ;
         <http://aksw.org/ns/drugs/genericEquivalency>
@@ -322,10 +277,9 @@
                 "N (for insomnia)" .
 
 <http://aksw.org/ns/drugs/Drug61>
-        a       <http://aksw.org/ns/drugs/Class52> ;
+        a       <http://aksw.org/ns/drugs/Category52> ;
         <http://www.w3.org/2000/01/rdf-schema#label>
                 "Oxazepam" ;
-        <>      "" ;
         <http://aksw.org/ns/drugs/brandName>
                 "Serax" ;
         <http://aksw.org/ns/drugs/genericEquivalency>
@@ -334,10 +288,9 @@
                 "N" .
 
 <http://aksw.org/ns/drugs/Drug116>
-        a       <http://aksw.org/ns/drugs/Class102> ;
+        a       <http://aksw.org/ns/drugs/Category102> ;
         <http://www.w3.org/2000/01/rdf-schema#label>
                 "Morphine ER" ;
-        <>      "" ;
         <http://aksw.org/ns/drugs/brandName>
                 "Kadianï¿½" ;
         <http://aksw.org/ns/drugs/genericEquivalency>
@@ -346,10 +299,9 @@
                 "N" .
 
 <http://aksw.org/ns/drugs/Drug40>
-        a       <http://aksw.org/ns/drugs/Class39> ;
+        a       <http://aksw.org/ns/drugs/Category39> ;
         <http://www.w3.org/2000/01/rdf-schema#label>
                 "Cromolyn" ;
-        <>      "" ;
         <http://aksw.org/ns/drugs/brandName>
                 "Cromolyn" ;
         <http://aksw.org/ns/drugs/genericEquivalency>
@@ -358,10 +310,9 @@
                 "N" .
 
 <http://aksw.org/ns/drugs/Drug19>
-        a       <http://aksw.org/ns/drugs/Class9> ;
+        a       <http://aksw.org/ns/drugs/Category9> ;
         <http://www.w3.org/2000/01/rdf-schema#label>
                 "Repaglinide" ;
-        <>      "" ;
         <http://aksw.org/ns/drugs/brandName>
                 "Prandin" ;
         <http://aksw.org/ns/drugs/genericEquivalency>
@@ -369,16 +320,38 @@
         <http://aksw.org/ns/drugs/status>
                 "N" .
 
-<http://aksw.org/ns/drugs/Class76>
+<http://aksw.org/ns/drugs/Category86>
         a       <http://www.w3.org/2000/01/rdf-schema#Class> ;
         <http://www.w3.org/2000/01/rdf-schema#label>
-                "Muscle relaxants" .
+                "Muscle relaxants (Antispasticity/ Antispasmodics)" ;
+        <http://www.w3.org/2000/01/rdf-schema#subClassOf>
+                <http://aksw.org/ns/drugs/Drug> .
+
+<http://aksw.org/ns/drugs/Category65>
+        a       <http://www.w3.org/2000/01/rdf-schema#Class> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Botulinum toxin" ;
+        <http://www.w3.org/2000/01/rdf-schema#subClassOf>
+                <http://aksw.org/ns/drugs/Drug> .
+
+<http://aksw.org/ns/drugs/Category23>
+        a       <http://www.w3.org/2000/01/rdf-schema#Class> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Anti-epilepsy drugs (AEDs)" ;
+        <http://www.w3.org/2000/01/rdf-schema#subClassOf>
+                <http://aksw.org/ns/drugs/Drug> .
+
+<http://aksw.org/ns/drugs/Category136>
+        a       <http://www.w3.org/2000/01/rdf-schema#Class> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Sedative-hypnotics" ;
+        <http://www.w3.org/2000/01/rdf-schema#subClassOf>
+                <http://aksw.org/ns/drugs/Drug> .
 
 <http://aksw.org/ns/drugs/Drug90>
-        a       <http://aksw.org/ns/drugs/Class87> ;
+        a       <http://aksw.org/ns/drugs/Category87> ;
         <http://www.w3.org/2000/01/rdf-schema#label>
                 "Diclofenac Potassium" ;
-        <>      "" ;
         <http://aksw.org/ns/drugs/brandName>
                 "Zipsor" ;
         <http://aksw.org/ns/drugs/genericEquivalency>
@@ -387,10 +360,9 @@
                 "N" .
 
 <http://aksw.org/ns/drugs/Drug145>
-        a       <http://aksw.org/ns/drugs/Class143> ;
+        a       <http://aksw.org/ns/drugs/Category143> ;
         <http://www.w3.org/2000/01/rdf-schema#label>
                 "Dimethylsulfoxide" ;
-        <>      "" ;
         <http://aksw.org/ns/drugs/brandName>
                 "DMSO" ;
         <http://aksw.org/ns/drugs/genericEquivalency>
@@ -399,10 +371,9 @@
                 "N" .
 
 <http://aksw.org/ns/drugs/Drug69>
-        a       <http://aksw.org/ns/drugs/Class69> ;
+        a       <http://aksw.org/ns/drugs/Category69> ;
         <http://www.w3.org/2000/01/rdf-schema#label>
                 "Marijuana/dronabinol" ;
-        <>      "" ;
         <http://aksw.org/ns/drugs/brandName>
                 "Marinolï¿½" ;
         <http://aksw.org/ns/drugs/genericEquivalency>
@@ -411,10 +382,9 @@
                 "N" .
 
 <http://aksw.org/ns/drugs/Drug124>
-        a       <http://aksw.org/ns/drugs/Class102> ;
+        a       <http://aksw.org/ns/drugs/Category102> ;
         <http://www.w3.org/2000/01/rdf-schema#label>
                 "Propoxyphene hcl" ;
-        <>      "" ;
         <http://aksw.org/ns/drugs/brandName>
                 "Darvonï¿½" ;
         <http://aksw.org/ns/drugs/genericEquivalency>
@@ -423,10 +393,9 @@
                 "N" .
 
 <http://aksw.org/ns/drugs/Drug48>
-        a       <http://aksw.org/ns/drugs/Class39> ;
+        a       <http://aksw.org/ns/drugs/Category39> ;
         <http://www.w3.org/2000/01/rdf-schema#label>
                 "Zafirlukast" ;
-        <>      "" ;
         <http://aksw.org/ns/drugs/brandName>
                 "Accolateï¿½" ;
         <http://aksw.org/ns/drugs/genericEquivalency>
@@ -435,10 +404,9 @@
                 "N" .
 
 <http://aksw.org/ns/drugs/Drug103>
-        a       <http://aksw.org/ns/drugs/Class102> ;
+        a       <http://aksw.org/ns/drugs/Category102> ;
         <http://www.w3.org/2000/01/rdf-schema#label>
                 "Buprenorphine (transdermal)" ;
-        <>      "" ;
         <http://aksw.org/ns/drugs/brandName>
                 "Butransï¿½" ;
         <http://aksw.org/ns/drugs/genericEquivalency>
@@ -447,10 +415,9 @@
                 "N" .
 
 <http://aksw.org/ns/drugs/Drug27>
-        a       <http://aksw.org/ns/drugs/Class23> ;
+        a       <http://aksw.org/ns/drugs/Category23> ;
         <http://www.w3.org/2000/01/rdf-schema#label>
                 "Tiagabine" ;
-        <>      "" ;
         <http://aksw.org/ns/drugs/brandName>
                 "Gabitrilï¿½" ;
         <http://aksw.org/ns/drugs/genericEquivalency>
@@ -458,11 +425,17 @@
         <http://aksw.org/ns/drugs/status>
                 "N" .
 
+<http://aksw.org/ns/drugs/Category73>
+        a       <http://www.w3.org/2000/01/rdf-schema#Class> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Dopamine agonists" ;
+        <http://www.w3.org/2000/01/rdf-schema#subClassOf>
+                <http://aksw.org/ns/drugs/Drug> .
+
 <http://aksw.org/ns/drugs/Drug6>
-        a       <http://aksw.org/ns/drugs/Class1> ;
+        a       <http://aksw.org/ns/drugs/Category1> ;
         <http://www.w3.org/2000/01/rdf-schema#label>
                 "Milnacipran" ;
-        <>      "" ;
         <http://aksw.org/ns/drugs/brandName>
                 "Savella/Ixelï¿½" ;
         <http://aksw.org/ns/drugs/genericEquivalency>
@@ -470,11 +443,17 @@
         <http://aksw.org/ns/drugs/status>
                 "N" .
 
+<http://aksw.org/ns/drugs/Category52>
+        a       <http://www.w3.org/2000/01/rdf-schema#Class> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Benzodiazepines" ;
+        <http://www.w3.org/2000/01/rdf-schema#subClassOf>
+                <http://aksw.org/ns/drugs/Drug> .
+
 <http://aksw.org/ns/drugs/Drug98>
-        a       <http://aksw.org/ns/drugs/Class87> ;
+        a       <http://aksw.org/ns/drugs/Category87> ;
         <http://www.w3.org/2000/01/rdf-schema#label>
                 "Ketorolac" ;
-        <>      "" ;
         <http://aksw.org/ns/drugs/brandName>
                 "Toradolï¿½" ;
         <http://aksw.org/ns/drugs/genericEquivalency>
@@ -482,11 +461,17 @@
         <http://aksw.org/ns/drugs/status>
                 "N (for oral form)" .
 
+<http://aksw.org/ns/drugs/Category102>
+        a       <http://www.w3.org/2000/01/rdf-schema#Class> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Opioids" ;
+        <http://www.w3.org/2000/01/rdf-schema#subClassOf>
+                <http://aksw.org/ns/drugs/Drug> .
+
 <http://aksw.org/ns/drugs/Drug77>
-        a       <http://aksw.org/ns/drugs/Class76> ;
+        a       <http://aksw.org/ns/drugs/Category76> ;
         <http://www.w3.org/2000/01/rdf-schema#label>
                 "Carisoprodol" ;
-        <>      "" ;
         <http://aksw.org/ns/drugs/brandName>
                 "Somaï¿½" ;
         <http://aksw.org/ns/drugs/genericEquivalency>
@@ -495,10 +480,9 @@
                 "N" .
 
 <http://aksw.org/ns/drugs/Drug132>
-        a       <http://aksw.org/ns/drugs/Class130> ;
+        a       <http://aksw.org/ns/drugs/Category130> ;
         <http://www.w3.org/2000/01/rdf-schema#label>
                 "Esomeprazole/Naproxen" ;
-        <>      "" ;
         <http://aksw.org/ns/drugs/brandName>
                 "Vimovo" ;
         <http://aksw.org/ns/drugs/genericEquivalency>
@@ -507,10 +491,9 @@
                 "N" .
 
 <http://aksw.org/ns/drugs/Drug56>
-        a       <http://aksw.org/ns/drugs/Class52> ;
+        a       <http://aksw.org/ns/drugs/Category52> ;
         <http://www.w3.org/2000/01/rdf-schema#label>
                 "Diazepam" ;
-        <>      "" ;
         <http://aksw.org/ns/drugs/brandName>
                 "Valium" ;
         <http://aksw.org/ns/drugs/genericEquivalency>
@@ -519,10 +502,9 @@
                 "N" .
 
 <http://aksw.org/ns/drugs/Drug111>
-        a       <http://aksw.org/ns/drugs/Class102> ;
+        a       <http://aksw.org/ns/drugs/Category102> ;
         <http://www.w3.org/2000/01/rdf-schema#label>
                 "Hydrocodone/ibuprofen" ;
-        <>      "" ;
         <http://aksw.org/ns/drugs/brandName>
                 "Vicoprofenï¿½" ;
         <http://aksw.org/ns/drugs/genericEquivalency>
@@ -531,10 +513,9 @@
                 "N" .
 
 <http://aksw.org/ns/drugs/Drug35>
-        a       <http://aksw.org/ns/drugs/Class30> ;
+        a       <http://aksw.org/ns/drugs/Category30> ;
         <http://www.w3.org/2000/01/rdf-schema#label>
                 "Prazosin" ;
-        <>      "" ;
         <http://aksw.org/ns/drugs/brandName>
                 "Minipress" ;
         <http://aksw.org/ns/drugs/genericEquivalency>
@@ -542,16 +523,10 @@
         <http://aksw.org/ns/drugs/status>
                 "N" .
 
-<http://aksw.org/ns/drugs/Class141>
-        a       <http://www.w3.org/2000/01/rdf-schema#Class> ;
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "Stimulants (adjunctive pain medication)" .
-
 <http://aksw.org/ns/drugs/Drug14>
-        a       <http://aksw.org/ns/drugs/Class9> ;
+        a       <http://aksw.org/ns/drugs/Category9> ;
         <http://www.w3.org/2000/01/rdf-schema#label>
                 "Insulin" ;
-        <>      "" ;
         <http://aksw.org/ns/drugs/brandName>
                 "Humulin" ;
         <http://aksw.org/ns/drugs/genericEquivalency>
@@ -559,16 +534,17 @@
         <http://aksw.org/ns/drugs/status>
                 "N" .
 
-<http://aksw.org/ns/drugs/Class50>
+<http://aksw.org/ns/drugs/Category39>
         a       <http://www.w3.org/2000/01/rdf-schema#Class> ;
         <http://www.w3.org/2000/01/rdf-schema#label>
-                "Atypical antipsychotics" .
+                "Asthma medications" ;
+        <http://www.w3.org/2000/01/rdf-schema#subClassOf>
+                <http://aksw.org/ns/drugs/Drug> .
 
 <http://aksw.org/ns/drugs/Drug85>
-        a       <http://aksw.org/ns/drugs/Class85> ;
+        a       <http://aksw.org/ns/drugs/Category85> ;
         <http://www.w3.org/2000/01/rdf-schema#label>
                 "Dantrolene" ;
-        <>      "" ;
         <http://aksw.org/ns/drugs/brandName>
                 "Dantriumï¿½" ;
         <http://aksw.org/ns/drugs/genericEquivalency>
@@ -577,10 +553,9 @@
                 "N" .
 
 <http://aksw.org/ns/drugs/Drug140>
-        a       <http://aksw.org/ns/drugs/Class136> ;
+        a       <http://aksw.org/ns/drugs/Category136> ;
         <http://www.w3.org/2000/01/rdf-schema#label>
                 "Zolpidem ER" ;
-        <>      "" ;
         <http://aksw.org/ns/drugs/brandName>
                 "Ambien CR" ;
         <http://aksw.org/ns/drugs/genericEquivalency>
@@ -589,10 +564,9 @@
                 "N" .
 
 <http://aksw.org/ns/drugs/Drug64>
-        a       <http://aksw.org/ns/drugs/Class52> ;
+        a       <http://aksw.org/ns/drugs/Category52> ;
         <http://www.w3.org/2000/01/rdf-schema#label>
                 "Triazolam" ;
-        <>      "" ;
         <http://aksw.org/ns/drugs/brandName>
                 "Halcion " ;
         <http://aksw.org/ns/drugs/genericEquivalency>
@@ -601,10 +575,9 @@
                 "N" .
 
 <http://aksw.org/ns/drugs/Drug119>
-        a       <http://aksw.org/ns/drugs/Class102> ;
+        a       <http://aksw.org/ns/drugs/Category102> ;
         <http://www.w3.org/2000/01/rdf-schema#label>
                 "Oxycodone/aspirin" ;
-        <>      "" ;
         <http://aksw.org/ns/drugs/brandName>
                 "Percodanï¿½" ;
         <http://aksw.org/ns/drugs/genericEquivalency>
@@ -613,10 +586,9 @@
                 "N" .
 
 <http://aksw.org/ns/drugs/Drug43>
-        a       <http://aksw.org/ns/drugs/Class39> ;
+        a       <http://aksw.org/ns/drugs/Category39> ;
         <http://www.w3.org/2000/01/rdf-schema#label>
                 "Ipratropium" ;
-        <>      "" ;
         <http://aksw.org/ns/drugs/brandName>
                 "Atroventï¿½" ;
         <http://aksw.org/ns/drugs/genericEquivalency>
@@ -625,10 +597,9 @@
                 "N" .
 
 <http://aksw.org/ns/drugs/Drug22>
-        a       <http://aksw.org/ns/drugs/Class9> ;
+        a       <http://aksw.org/ns/drugs/Category9> ;
         <http://www.w3.org/2000/01/rdf-schema#label>
                 "Sitagliptin" ;
-        <>      "" ;
         <http://aksw.org/ns/drugs/brandName>
                 "Januvia" ;
         <http://aksw.org/ns/drugs/genericEquivalency>
@@ -637,10 +608,9 @@
                 "N" .
 
 <http://aksw.org/ns/drugs/Drug1>
-        a       <http://aksw.org/ns/drugs/Class1> ;
+        a       <http://aksw.org/ns/drugs/Category1> ;
         <http://www.w3.org/2000/01/rdf-schema#label>
                 "Bupropion" ;
-        <>      "" ;
         <http://aksw.org/ns/drugs/brandName>
                 "Wellbutrinï¿½" ;
         <http://aksw.org/ns/drugs/genericEquivalency>
@@ -649,10 +619,9 @@
                 "N (for pain)" .
 
 <http://aksw.org/ns/drugs/Drug93>
-        a       <http://aksw.org/ns/drugs/Class87> ;
+        a       <http://aksw.org/ns/drugs/Category87> ;
         <http://www.w3.org/2000/01/rdf-schema#label>
                 "Diclofenac Sodium Gel" ;
-        <>      "" ;
         <http://aksw.org/ns/drugs/brandName>
                 "Voltarenï¿½ Gel" ;
         <http://aksw.org/ns/drugs/genericEquivalency>
@@ -661,10 +630,9 @@
                 "N" .
 
 <http://aksw.org/ns/drugs/Drug148>
-        a       <http://aksw.org/ns/drugs/Class148> ;
+        a       <http://aksw.org/ns/drugs/Category148> ;
         <http://www.w3.org/2000/01/rdf-schema#label>
                 "Adalimumab" ;
-        <>      "" ;
         <http://aksw.org/ns/drugs/brandName>
                 "Humiraï¿½" ;
         <http://aksw.org/ns/drugs/genericEquivalency>
@@ -673,22 +641,20 @@
                 "N" .
 
 <http://aksw.org/ns/drugs/Drug72>
-        a       <http://aksw.org/ns/drugs/Class72> ;
+        a       <http://aksw.org/ns/drugs/Category72> ;
         <http://www.w3.org/2000/01/rdf-schema#label>
-                "Clonidine\"" ;
-        <>      "" ;
+                "\"Clonidine, intrathecal\"" ;
         <http://aksw.org/ns/drugs/brandName>
-                " intrathecal\",Duraclonï¿½\"" ;
+                "Duraclonï¿½" ;
         <http://aksw.org/ns/drugs/genericEquivalency>
                 "Yes " ;
         <http://aksw.org/ns/drugs/status>
                 "N" .
 
 <http://aksw.org/ns/drugs/Drug127>
-        a       <http://aksw.org/ns/drugs/Class102> ;
+        a       <http://aksw.org/ns/drugs/Category102> ;
         <http://www.w3.org/2000/01/rdf-schema#label>
                 "Tapentadol" ;
-        <>      "" ;
         <http://aksw.org/ns/drugs/brandName>
                 "Nucyntaï¿½" ;
         <http://aksw.org/ns/drugs/genericEquivalency>
@@ -697,10 +663,9 @@
                 "N" .
 
 <http://aksw.org/ns/drugs/Drug51>
-        a       <http://aksw.org/ns/drugs/Class50> ;
+        a       <http://aksw.org/ns/drugs/Category50> ;
         <http://www.w3.org/2000/01/rdf-schema#label>
                 "Risperidone" ;
-        <>      "" ;
         <http://aksw.org/ns/drugs/brandName>
                 "Risperdal" ;
         <http://aksw.org/ns/drugs/genericEquivalency>
@@ -709,10 +674,9 @@
                 "N" .
 
 <http://aksw.org/ns/drugs/Drug106>
-        a       <http://aksw.org/ns/drugs/Class102> ;
+        a       <http://aksw.org/ns/drugs/Category102> ;
         <http://www.w3.org/2000/01/rdf-schema#label>
                 "Fentanyl buccal film" ;
-        <>      "" ;
         <http://aksw.org/ns/drugs/brandName>
                 "Onsolisï¿½" ;
         <http://aksw.org/ns/drugs/genericEquivalency>
@@ -721,10 +685,9 @@
                 "N" .
 
 <http://aksw.org/ns/drugs/Drug30>
-        a       <http://aksw.org/ns/drugs/Class30> ;
+        a       <http://aksw.org/ns/drugs/Category30> ;
         <http://www.w3.org/2000/01/rdf-schema#label>
                 "Aliskiren" ;
-        <>      "" ;
         <http://aksw.org/ns/drugs/brandName>
                 "Tekturna" ;
         <http://aksw.org/ns/drugs/genericEquivalency>
@@ -732,16 +695,17 @@
         <http://aksw.org/ns/drugs/status>
                 "N" .
 
-<http://aksw.org/ns/drugs/Class136>
+<http://aksw.org/ns/drugs/Category76>
         a       <http://www.w3.org/2000/01/rdf-schema#Class> ;
         <http://www.w3.org/2000/01/rdf-schema#label>
-                "Sedative-hypnotics" .
+                "Muscle relaxants" ;
+        <http://www.w3.org/2000/01/rdf-schema#subClassOf>
+                <http://aksw.org/ns/drugs/Drug> .
 
 <http://aksw.org/ns/drugs/Drug9>
-        a       <http://aksw.org/ns/drugs/Class9> ;
+        a       <http://aksw.org/ns/drugs/Category9> ;
         <http://www.w3.org/2000/01/rdf-schema#label>
                 "Acarbose" ;
-        <>      "" ;
         <http://aksw.org/ns/drugs/brandName>
                 "Precose" ;
         <http://aksw.org/ns/drugs/genericEquivalency>
@@ -749,16 +713,10 @@
         <http://aksw.org/ns/drugs/status>
                 "N" .
 
-<http://aksw.org/ns/drugs/Class87>
-        a       <http://www.w3.org/2000/01/rdf-schema#Class> ;
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "NSAIDs " .
-
 <http://aksw.org/ns/drugs/Drug80>
-        a       <http://aksw.org/ns/drugs/Class76> ;
+        a       <http://aksw.org/ns/drugs/Category76> ;
         <http://www.w3.org/2000/01/rdf-schema#label>
                 "Diazepam" ;
-        <>      "" ;
         <http://aksw.org/ns/drugs/brandName>
                 "Valium" ;
         <http://aksw.org/ns/drugs/genericEquivalency>
@@ -767,10 +725,9 @@
                 "N" .
 
 <http://aksw.org/ns/drugs/Drug135>
-        a       <http://aksw.org/ns/drugs/Class130> ;
+        a       <http://aksw.org/ns/drugs/Category130> ;
         <http://www.w3.org/2000/01/rdf-schema#label>
                 "Rabeprazole" ;
-        <>      "" ;
         <http://aksw.org/ns/drugs/brandName>
                 "Aciphexï¿½" ;
         <http://aksw.org/ns/drugs/genericEquivalency>
@@ -779,10 +736,9 @@
                 "N" .
 
 <http://aksw.org/ns/drugs/Drug59>
-        a       <http://aksw.org/ns/drugs/Class52> ;
+        a       <http://aksw.org/ns/drugs/Category52> ;
         <http://www.w3.org/2000/01/rdf-schema#label>
                 "Lorazepam" ;
-        <>      "" ;
         <http://aksw.org/ns/drugs/brandName>
                 "Ativan" ;
         <http://aksw.org/ns/drugs/genericEquivalency>
@@ -791,10 +747,9 @@
                 "N" .
 
 <http://aksw.org/ns/drugs/Drug114>
-        a       <http://aksw.org/ns/drugs/Class102> ;
+        a       <http://aksw.org/ns/drugs/Category102> ;
         <http://www.w3.org/2000/01/rdf-schema#label>
                 "Methadone" ;
-        <>      "" ;
         <http://aksw.org/ns/drugs/brandName>
                 "Methadoseï¿½" ;
         <http://aksw.org/ns/drugs/genericEquivalency>
@@ -803,10 +758,9 @@
                 "N" .
 
 <http://aksw.org/ns/drugs/Drug38>
-        a       <http://aksw.org/ns/drugs/Class38> ;
+        a       <http://aksw.org/ns/drugs/Category38> ;
         <http://www.w3.org/2000/01/rdf-schema#label>
                 "Linezolid" ;
-        <>      "" ;
         <http://aksw.org/ns/drugs/brandName>
                 "Zyvox" ;
         <http://aksw.org/ns/drugs/genericEquivalency>
@@ -815,10 +769,9 @@
                 "N" .
 
 <http://aksw.org/ns/drugs/Drug17>
-        a       <http://aksw.org/ns/drugs/Class9> ;
+        a       <http://aksw.org/ns/drugs/Category9> ;
         <http://www.w3.org/2000/01/rdf-schema#label>
                 "Nateglinide" ;
-        <>      "" ;
         <http://aksw.org/ns/drugs/brandName>
                 "Starlix" ;
         <http://aksw.org/ns/drugs/genericEquivalency>
@@ -826,16 +779,10 @@
         <http://aksw.org/ns/drugs/status>
                 "N" .
 
-<http://aksw.org/ns/drugs/Class102>
-        a       <http://www.w3.org/2000/01/rdf-schema#Class> ;
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "Opioids" .
-
 <http://aksw.org/ns/drugs/Drug88>
-        a       <http://aksw.org/ns/drugs/Class87> ;
+        a       <http://aksw.org/ns/drugs/Category87> ;
         <http://www.w3.org/2000/01/rdf-schema#label>
                 "Diclofenac Epolamine" ;
-        <>      "" ;
         <http://aksw.org/ns/drugs/brandName>
                 "Flector patch" ;
         <http://aksw.org/ns/drugs/genericEquivalency>
@@ -844,22 +791,20 @@
                 "N" .
 
 <http://aksw.org/ns/drugs/Drug143>
-        a       <http://aksw.org/ns/drugs/Class143> ;
+        a       <http://aksw.org/ns/drugs/Category143> ;
         <http://www.w3.org/2000/01/rdf-schema#label>
-                "Capsaicin\"" ;
-        <>      "" ;
+                "\"Capsaicin, topical\"" ;
         <http://aksw.org/ns/drugs/brandName>
-                " topical\",Qutenza\"" ;
+                "Qutenza" ;
         <http://aksw.org/ns/drugs/genericEquivalency>
                 "No" ;
         <http://aksw.org/ns/drugs/status>
                 "N" .
 
 <http://aksw.org/ns/drugs/Drug67>
-        a       <http://aksw.org/ns/drugs/Class65> ;
+        a       <http://aksw.org/ns/drugs/Category65> ;
         <http://www.w3.org/2000/01/rdf-schema#label>
                 "Botulinum toxin" ;
-        <>      "" ;
         <http://aksw.org/ns/drugs/brandName>
                 "Myoblocï¿½" ;
         <http://aksw.org/ns/drugs/genericEquivalency>
@@ -868,10 +813,9 @@
                 "N" .
 
 <http://aksw.org/ns/drugs/Drug122>
-        a       <http://aksw.org/ns/drugs/Class102> ;
+        a       <http://aksw.org/ns/drugs/Category102> ;
         <http://www.w3.org/2000/01/rdf-schema#label>
                 "Pentazocine lactate" ;
-        <>      "" ;
         <http://aksw.org/ns/drugs/brandName>
                 "Talwin" ;
         <http://aksw.org/ns/drugs/genericEquivalency>
@@ -880,10 +824,9 @@
                 "N" .
 
 <http://aksw.org/ns/drugs/Drug46>
-        a       <http://aksw.org/ns/drugs/Class39> ;
+        a       <http://aksw.org/ns/drugs/Category39> ;
         <http://www.w3.org/2000/01/rdf-schema#label>
                 "Salmeterol" ;
-        <>      "" ;
         <http://aksw.org/ns/drugs/brandName>
                 "Sereventï¿½" ;
         <http://aksw.org/ns/drugs/genericEquivalency>
@@ -892,10 +835,9 @@
                 "N" .
 
 <http://aksw.org/ns/drugs/Drug101>
-        a       <http://aksw.org/ns/drugs/Class87> ;
+        a       <http://aksw.org/ns/drugs/Category87> ;
         <http://www.w3.org/2000/01/rdf-schema#label>
                 "Piroxicam" ;
-        <>      "" ;
         <http://aksw.org/ns/drugs/brandName>
                 "Feldeneï¿½" ;
         <http://aksw.org/ns/drugs/genericEquivalency>
@@ -904,10 +846,9 @@
                 "N" .
 
 <http://aksw.org/ns/drugs/Drug25>
-        a       <http://aksw.org/ns/drugs/Class23> ;
+        a       <http://aksw.org/ns/drugs/Category23> ;
         <http://www.w3.org/2000/01/rdf-schema#label>
                 "Levetiracetam" ;
-        <>      "" ;
         <http://aksw.org/ns/drugs/brandName>
                 "Keppraï¿½" ;
         <http://aksw.org/ns/drugs/genericEquivalency>
@@ -916,10 +857,9 @@
                 "N" .
 
 <http://aksw.org/ns/drugs/Drug4>
-        a       <http://aksw.org/ns/drugs/Class1> ;
+        a       <http://aksw.org/ns/drugs/Category1> ;
         <http://www.w3.org/2000/01/rdf-schema#label>
                 "Fluoxetine" ;
-        <>      "" ;
         <http://aksw.org/ns/drugs/brandName>
                 "Prozacï¿½" ;
         <http://aksw.org/ns/drugs/genericEquivalency>
@@ -927,11 +867,17 @@
         <http://aksw.org/ns/drugs/status>
                 "N (for pain)" .
 
+<http://aksw.org/ns/drugs/Category50>
+        a       <http://www.w3.org/2000/01/rdf-schema#Class> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Atypical antipsychotics" ;
+        <http://www.w3.org/2000/01/rdf-schema#subClassOf>
+                <http://aksw.org/ns/drugs/Drug> .
+
 <http://aksw.org/ns/drugs/Drug96>
-        a       <http://aksw.org/ns/drugs/Class87> ;
+        a       <http://aksw.org/ns/drugs/Category87> ;
         <http://www.w3.org/2000/01/rdf-schema#label>
                 "Indomethacin" ;
-        <>      "" ;
         <http://aksw.org/ns/drugs/brandName>
                 "Indocinï¿½" ;
         <http://aksw.org/ns/drugs/genericEquivalency>
@@ -940,10 +886,9 @@
                 "N" .
 
 <http://aksw.org/ns/drugs/Drug75>
-        a       <http://aksw.org/ns/drugs/Class75> ;
+        a       <http://aksw.org/ns/drugs/Category75> ;
         <http://www.w3.org/2000/01/rdf-schema#label>
                 "Colchicine" ;
-        <>      "" ;
         <http://aksw.org/ns/drugs/brandName>
                 "Colchicine" ;
         <http://aksw.org/ns/drugs/genericEquivalency>
@@ -952,10 +897,9 @@
                 "N" .
 
 <http://aksw.org/ns/drugs/Drug130>
-        a       <http://aksw.org/ns/drugs/Class130> ;
+        a       <http://aksw.org/ns/drugs/Category130> ;
         <http://www.w3.org/2000/01/rdf-schema#label>
                 "Dexlansoprazole " ;
-        <>      "" ;
         <http://aksw.org/ns/drugs/brandName>
                 "Dexilantï¿½" ;
         <http://aksw.org/ns/drugs/genericEquivalency>
@@ -964,10 +908,9 @@
                 "N" .
 
 <http://aksw.org/ns/drugs/Drug54>
-        a       <http://aksw.org/ns/drugs/Class52> ;
+        a       <http://aksw.org/ns/drugs/Category52> ;
         <http://www.w3.org/2000/01/rdf-schema#label>
                 "Clonazepam" ;
-        <>      "" ;
         <http://aksw.org/ns/drugs/brandName>
                 "Klonopin" ;
         <http://aksw.org/ns/drugs/genericEquivalency>
@@ -976,10 +919,9 @@
                 "N" .
 
 <http://aksw.org/ns/drugs/Drug109>
-        a       <http://aksw.org/ns/drugs/Class102> ;
+        a       <http://aksw.org/ns/drugs/Category102> ;
         <http://www.w3.org/2000/01/rdf-schema#label>
                 "Fentanyl sublingual spray" ;
-        <>      "" ;
         <http://aksw.org/ns/drugs/brandName>
                 "Subsysï¿½" ;
         <http://aksw.org/ns/drugs/genericEquivalency>
@@ -988,10 +930,9 @@
                 "N" .
 
 <http://aksw.org/ns/drugs/Drug33>
-        a       <http://aksw.org/ns/drugs/Class30> ;
+        a       <http://aksw.org/ns/drugs/Category30> ;
         <http://www.w3.org/2000/01/rdf-schema#label>
                 "Hydralazine" ;
-        <>      "" ;
         <http://aksw.org/ns/drugs/brandName>
                 "Apresoline" ;
         <http://aksw.org/ns/drugs/genericEquivalency>
@@ -1000,10 +941,9 @@
                 "N" .
 
 <http://aksw.org/ns/drugs/Drug12>
-        a       <http://aksw.org/ns/drugs/Class9> ;
+        a       <http://aksw.org/ns/drugs/Category9> ;
         <http://www.w3.org/2000/01/rdf-schema#label>
                 "Glipizide" ;
-        <>      "" ;
         <http://aksw.org/ns/drugs/brandName>
                 "Glucotrol" ;
         <http://aksw.org/ns/drugs/genericEquivalency>
@@ -1011,16 +951,17 @@
         <http://aksw.org/ns/drugs/status>
                 "N" .
 
-<http://aksw.org/ns/drugs/Class69>
+<http://aksw.org/ns/drugs/Category129>
         a       <http://www.w3.org/2000/01/rdf-schema#Class> ;
         <http://www.w3.org/2000/01/rdf-schema#label>
-                "Cannabinoids" .
+                "Opioids & related entities" ;
+        <http://www.w3.org/2000/01/rdf-schema#subClassOf>
+                <http://aksw.org/ns/drugs/Drug> .
 
 <http://aksw.org/ns/drugs/Drug83>
-        a       <http://aksw.org/ns/drugs/Class83> ;
+        a       <http://aksw.org/ns/drugs/Category83> ;
         <http://www.w3.org/2000/01/rdf-schema#label>
                 "Carisoprodol" ;
-        <>      "" ;
         <http://aksw.org/ns/drugs/brandName>
                 "Somaï¿½" ;
         <http://aksw.org/ns/drugs/genericEquivalency>
@@ -1029,10 +970,9 @@
                 "N" .
 
 <http://aksw.org/ns/drugs/Drug138>
-        a       <http://aksw.org/ns/drugs/Class136> ;
+        a       <http://aksw.org/ns/drugs/Category136> ;
         <http://www.w3.org/2000/01/rdf-schema#label>
                 "Trazodone" ;
-        <>      "" ;
         <http://aksw.org/ns/drugs/brandName>
                 "Desyrel" ;
         <http://aksw.org/ns/drugs/genericEquivalency>
@@ -1041,10 +981,9 @@
                 "N (for insomnia)" .
 
 <http://aksw.org/ns/drugs/Drug62>
-        a       <http://aksw.org/ns/drugs/Class52> ;
+        a       <http://aksw.org/ns/drugs/Category52> ;
         <http://www.w3.org/2000/01/rdf-schema#label>
                 "Quazepam" ;
-        <>      "" ;
         <http://aksw.org/ns/drugs/brandName>
                 "Doral" ;
         <http://aksw.org/ns/drugs/genericEquivalency>
@@ -1053,10 +992,9 @@
                 "N" .
 
 <http://aksw.org/ns/drugs/Drug117>
-        a       <http://aksw.org/ns/drugs/Class102> ;
+        a       <http://aksw.org/ns/drugs/Category102> ;
         <http://www.w3.org/2000/01/rdf-schema#label>
                 "Oxycodone" ;
-        <>      "" ;
         <http://aksw.org/ns/drugs/brandName>
                 "Oxecta" ;
         <http://aksw.org/ns/drugs/genericEquivalency>
@@ -1065,10 +1003,9 @@
                 "N" .
 
 <http://aksw.org/ns/drugs/Drug41>
-        a       <http://aksw.org/ns/drugs/Class39> ;
+        a       <http://aksw.org/ns/drugs/Category39> ;
         <http://www.w3.org/2000/01/rdf-schema#label>
                 "Formoterol" ;
-        <>      "" ;
         <http://aksw.org/ns/drugs/brandName>
                 "Foradilï¿½" ;
         <http://aksw.org/ns/drugs/genericEquivalency>
@@ -1077,10 +1014,9 @@
                 "N" .
 
 <http://aksw.org/ns/drugs/Drug20>
-        a       <http://aksw.org/ns/drugs/Class9> ;
+        a       <http://aksw.org/ns/drugs/Category9> ;
         <http://www.w3.org/2000/01/rdf-schema#label>
                 "Rosiglitazone" ;
-        <>      "" ;
         <http://aksw.org/ns/drugs/brandName>
                 "Avandia" ;
         <http://aksw.org/ns/drugs/genericEquivalency>
@@ -1088,11 +1024,22 @@
         <http://aksw.org/ns/drugs/status>
                 "N" .
 
+<http://aksw.org/ns/drugs/Drug>
+        a       <http://www.w3.org/2000/01/rdf-schema#Class> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Drug" .
+
+<http://aksw.org/ns/drugs/Category87>
+        a       <http://www.w3.org/2000/01/rdf-schema#Class> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "NSAIDs " ;
+        <http://www.w3.org/2000/01/rdf-schema#subClassOf>
+                <http://aksw.org/ns/drugs/Drug> .
+
 <http://aksw.org/ns/drugs/Drug91>
-        a       <http://aksw.org/ns/drugs/Class87> ;
+        a       <http://aksw.org/ns/drugs/Category87> ;
         <http://www.w3.org/2000/01/rdf-schema#label>
                 "Diclofenac Sodium" ;
-        <>      "" ;
         <http://aksw.org/ns/drugs/brandName>
                 "Voltarenï¿½" ;
         <http://aksw.org/ns/drugs/genericEquivalency>
@@ -1101,22 +1048,20 @@
                 "N" .
 
 <http://aksw.org/ns/drugs/Drug146>
-        a       <http://aksw.org/ns/drugs/Class143> ;
+        a       <http://aksw.org/ns/drugs/Category143> ;
         <http://www.w3.org/2000/01/rdf-schema#label>
-                "Ketamine\"" ;
-        <>      "" ;
+                "\"Ketamine, topical\"" ;
         <http://aksw.org/ns/drugs/brandName>
-                " topical\",Ketamine\"" ;
+                "Ketamine" ;
         <http://aksw.org/ns/drugs/genericEquivalency>
                 "Yes" ;
         <http://aksw.org/ns/drugs/status>
                 "N" .
 
 <http://aksw.org/ns/drugs/Drug70>
-        a       <http://aksw.org/ns/drugs/Class69> ;
+        a       <http://aksw.org/ns/drugs/Category69> ;
         <http://www.w3.org/2000/01/rdf-schema#label>
                 "Nabilone" ;
-        <>      "" ;
         <http://aksw.org/ns/drugs/brandName>
                 "Cesametï¿½" ;
         <http://aksw.org/ns/drugs/genericEquivalency>
@@ -1125,10 +1070,9 @@
                 "N" .
 
 <http://aksw.org/ns/drugs/Drug125>
-        a       <http://aksw.org/ns/drugs/Class102> ;
+        a       <http://aksw.org/ns/drugs/Category102> ;
         <http://www.w3.org/2000/01/rdf-schema#label>
                 "Propoxyphene napsylate" ;
-        <>      "" ;
         <http://aksw.org/ns/drugs/brandName>
                 "Darvon-Nï¿½" ;
         <http://aksw.org/ns/drugs/genericEquivalency>
@@ -1137,10 +1081,9 @@
                 "N" .
 
 <http://aksw.org/ns/drugs/Drug49>
-        a       <http://aksw.org/ns/drugs/Class39> ;
+        a       <http://aksw.org/ns/drugs/Category39> ;
         <http://www.w3.org/2000/01/rdf-schema#label>
                 "Zileuton" ;
-        <>      "" ;
         <http://aksw.org/ns/drugs/brandName>
                 "Zyfloï¿½" ;
         <http://aksw.org/ns/drugs/genericEquivalency>
@@ -1149,10 +1092,9 @@
                 "N" .
 
 <http://aksw.org/ns/drugs/Drug104>
-        a       <http://aksw.org/ns/drugs/Class102> ;
+        a       <http://aksw.org/ns/drugs/Category102> ;
         <http://www.w3.org/2000/01/rdf-schema#label>
                 "Butalbital (a barbiturate)" ;
-        <>      "" ;
         <http://aksw.org/ns/drugs/brandName>
                 "Fioricetï¿½" ;
         <http://aksw.org/ns/drugs/genericEquivalency>
@@ -1161,10 +1103,9 @@
                 "N" .
 
 <http://aksw.org/ns/drugs/Drug28>
-        a       <http://aksw.org/ns/drugs/Class23> ;
+        a       <http://aksw.org/ns/drugs/Category23> ;
         <http://www.w3.org/2000/01/rdf-schema#label>
                 "Topiramate" ;
-        <>      "" ;
         <http://aksw.org/ns/drugs/brandName>
                 "Topamaxï¿½" ;
         <http://aksw.org/ns/drugs/genericEquivalency>
@@ -1173,10 +1114,9 @@
                 "N" .
 
 <http://aksw.org/ns/drugs/Drug7>
-        a       <http://aksw.org/ns/drugs/Class1> ;
+        a       <http://aksw.org/ns/drugs/Category1> ;
         <http://www.w3.org/2000/01/rdf-schema#label>
                 "Paroxetine " ;
-        <>      "" ;
         <http://aksw.org/ns/drugs/brandName>
                 "Paxil" ;
         <http://aksw.org/ns/drugs/genericEquivalency>
@@ -1184,16 +1124,10 @@
         <http://aksw.org/ns/drugs/status>
                 "N" .
 
-<http://aksw.org/ns/drugs/Class85>
-        a       <http://www.w3.org/2000/01/rdf-schema#Class> ;
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "Muscle relaxants (Antispasticity drugs)" .
-
 <http://aksw.org/ns/drugs/Drug99>
-        a       <http://aksw.org/ns/drugs/Class87> ;
+        a       <http://aksw.org/ns/drugs/Category87> ;
         <http://www.w3.org/2000/01/rdf-schema#label>
                 "Ketorolac nasal spray" ;
-        <>      "" ;
         <http://aksw.org/ns/drugs/brandName>
                 "Sprix" ;
         <http://aksw.org/ns/drugs/genericEquivalency>
@@ -1202,10 +1136,9 @@
                 "N" .
 
 <http://aksw.org/ns/drugs/Drug78>
-        a       <http://aksw.org/ns/drugs/Class76> ;
+        a       <http://aksw.org/ns/drugs/Category76> ;
         <http://www.w3.org/2000/01/rdf-schema#label>
                 "Cyclobenzaprine ER" ;
-        <>      "" ;
         <http://aksw.org/ns/drugs/brandName>
                 "Amrixï¿½" ;
         <http://aksw.org/ns/drugs/genericEquivalency>
@@ -1214,10 +1147,9 @@
                 "N" .
 
 <http://aksw.org/ns/drugs/Drug133>
-        a       <http://aksw.org/ns/drugs/Class130> ;
+        a       <http://aksw.org/ns/drugs/Category130> ;
         <http://www.w3.org/2000/01/rdf-schema#label>
                 "Famotidine (H2 blocker)/ Ibuprofen" ;
-        <>      "" ;
         <http://aksw.org/ns/drugs/brandName>
                 "Duexisï¿½" ;
         <http://aksw.org/ns/drugs/genericEquivalency>
@@ -1226,10 +1158,9 @@
                 "N" .
 
 <http://aksw.org/ns/drugs/Drug57>
-        a       <http://aksw.org/ns/drugs/Class52> ;
+        a       <http://aksw.org/ns/drugs/Category52> ;
         <http://www.w3.org/2000/01/rdf-schema#label>
                 "Estazolam" ;
-        <>      "" ;
         <http://aksw.org/ns/drugs/brandName>
                 "ProSom" ;
         <http://aksw.org/ns/drugs/genericEquivalency>
@@ -1238,10 +1169,9 @@
                 "N" .
 
 <http://aksw.org/ns/drugs/Drug112>
-        a       <http://aksw.org/ns/drugs/Class102> ;
+        a       <http://aksw.org/ns/drugs/Category102> ;
         <http://www.w3.org/2000/01/rdf-schema#label>
                 "Hydromorphone ER" ;
-        <>      "" ;
         <http://aksw.org/ns/drugs/brandName>
                 "Exalgo" ;
         <http://aksw.org/ns/drugs/genericEquivalency>
@@ -1250,10 +1180,9 @@
                 "N" .
 
 <http://aksw.org/ns/drugs/Drug36>
-        a       <http://aksw.org/ns/drugs/Class30> ;
+        a       <http://aksw.org/ns/drugs/Category30> ;
         <http://www.w3.org/2000/01/rdf-schema#label>
                 "Spironolactone" ;
-        <>      "" ;
         <http://aksw.org/ns/drugs/brandName>
                 "Aldactone" ;
         <http://aksw.org/ns/drugs/genericEquivalency>
@@ -1262,10 +1191,9 @@
                 "N" .
 
 <http://aksw.org/ns/drugs/Drug15>
-        a       <http://aksw.org/ns/drugs/Class9> ;
+        a       <http://aksw.org/ns/drugs/Category9> ;
         <http://www.w3.org/2000/01/rdf-schema#label>
                 "Insulin" ;
-        <>      "" ;
         <http://aksw.org/ns/drugs/brandName>
                 "Novolin" ;
         <http://aksw.org/ns/drugs/genericEquivalency>
@@ -1273,26 +1201,10 @@
         <http://aksw.org/ns/drugs/status>
                 "N" .
 
-<http://aksw.org/ns/drugs/Class72>
-        a       <http://www.w3.org/2000/01/rdf-schema#Class> ;
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "Central adrenergic agonists" .
-
-<http://aksw.org/ns/drugs/Class30>
-        a       <http://www.w3.org/2000/01/rdf-schema#Class> ;
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "Antihypertensives" .
-
-<http://aksw.org/ns/drugs/Class1>
-        a       <http://www.w3.org/2000/01/rdf-schema#Class> ;
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "Antidepressants" .
-
 <http://aksw.org/ns/drugs/Drug86>
-        a       <http://aksw.org/ns/drugs/Class86> ;
+        a       <http://aksw.org/ns/drugs/Category86> ;
         <http://www.w3.org/2000/01/rdf-schema#label>
                 "Benzodiazepines" ;
-        <>      "" ;
         <http://aksw.org/ns/drugs/brandName>
                 "N/A" ;
         <http://aksw.org/ns/drugs/genericEquivalency>
@@ -1301,10 +1213,9 @@
                 "N" .
 
 <http://aksw.org/ns/drugs/Drug141>
-        a       <http://aksw.org/ns/drugs/Class141> ;
+        a       <http://aksw.org/ns/drugs/Category141> ;
         <http://www.w3.org/2000/01/rdf-schema#label>
                 "Armodafinil" ;
-        <>      "" ;
         <http://aksw.org/ns/drugs/brandName>
                 "Nuvigil" ;
         <http://aksw.org/ns/drugs/genericEquivalency>
@@ -1313,10 +1224,9 @@
                 "N" .
 
 <http://aksw.org/ns/drugs/Drug65>
-        a       <http://aksw.org/ns/drugs/Class65> ;
+        a       <http://aksw.org/ns/drugs/Category65> ;
         <http://www.w3.org/2000/01/rdf-schema#label>
                 "Botulinum toxin" ;
-        <>      "" ;
         <http://aksw.org/ns/drugs/brandName>
                 "Botoxï¿½" ;
         <http://aksw.org/ns/drugs/genericEquivalency>
@@ -1325,10 +1235,9 @@
                 "N" .
 
 <http://aksw.org/ns/drugs/Drug120>
-        a       <http://aksw.org/ns/drugs/Class102> ;
+        a       <http://aksw.org/ns/drugs/Category102> ;
         <http://www.w3.org/2000/01/rdf-schema#label>
                 "Oxycodone/ibuprofen" ;
-        <>      "" ;
         <http://aksw.org/ns/drugs/brandName>
                 "Combunox" ;
         <http://aksw.org/ns/drugs/genericEquivalency>
@@ -1337,10 +1246,9 @@
                 "N" .
 
 <http://aksw.org/ns/drugs/Drug44>
-        a       <http://aksw.org/ns/drugs/Class39> ;
+        a       <http://aksw.org/ns/drugs/Category39> ;
         <http://www.w3.org/2000/01/rdf-schema#label>
                 "Montelukast" ;
-        <>      "" ;
         <http://aksw.org/ns/drugs/brandName>
                 "Singulairï¿½" ;
         <http://aksw.org/ns/drugs/genericEquivalency>
@@ -1349,10 +1257,9 @@
                 "N" .
 
 <http://aksw.org/ns/drugs/Drug23>
-        a       <http://aksw.org/ns/drugs/Class23> ;
+        a       <http://aksw.org/ns/drugs/Category23> ;
         <http://www.w3.org/2000/01/rdf-schema#label>
                 "Lacosamide" ;
-        <>      "" ;
         <http://aksw.org/ns/drugs/brandName>
                 "Vimpatï¿½" ;
         <http://aksw.org/ns/drugs/genericEquivalency>
@@ -1360,16 +1267,17 @@
         <http://aksw.org/ns/drugs/status>
                 "N" .
 
-<http://aksw.org/ns/drugs/Class129>
+<http://aksw.org/ns/drugs/Category69>
         a       <http://www.w3.org/2000/01/rdf-schema#Class> ;
         <http://www.w3.org/2000/01/rdf-schema#label>
-                "Opioids & related entities" .
+                "Cannabinoids" ;
+        <http://www.w3.org/2000/01/rdf-schema#subClassOf>
+                <http://aksw.org/ns/drugs/Drug> .
 
 <http://aksw.org/ns/drugs/Drug2>
-        a       <http://aksw.org/ns/drugs/Class1> ;
+        a       <http://aksw.org/ns/drugs/Category1> ;
         <http://www.w3.org/2000/01/rdf-schema#label>
                 "Citalopram" ;
-        <>      "" ;
         <http://aksw.org/ns/drugs/brandName>
                 "Celexa" ;
         <http://aksw.org/ns/drugs/genericEquivalency>
@@ -1377,21 +1285,10 @@
         <http://aksw.org/ns/drugs/status>
                 "N" .
 
-<http://aksw.org/ns/drugs/Class38>
-        a       <http://www.w3.org/2000/01/rdf-schema#Class> ;
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "Anti-infectives" .
-
-<http://aksw.org/ns/drugs/Class9>
-        a       <http://www.w3.org/2000/01/rdf-schema#Class> ;
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "Antidiabetics" .
-
 <http://aksw.org/ns/drugs/Drug94>
-        a       <http://aksw.org/ns/drugs/Class87> ;
+        a       <http://aksw.org/ns/drugs/Category87> ;
         <http://www.w3.org/2000/01/rdf-schema#label>
                 "Diclofenac Sodium topical" ;
-        <>      "" ;
         <http://aksw.org/ns/drugs/brandName>
                 "Pennsaidï¿½" ;
         <http://aksw.org/ns/drugs/genericEquivalency>
@@ -1400,10 +1297,9 @@
                 "N" .
 
 <http://aksw.org/ns/drugs/Drug149>
-        a       <http://aksw.org/ns/drugs/Class148> ;
+        a       <http://aksw.org/ns/drugs/Category148> ;
         <http://www.w3.org/2000/01/rdf-schema#label>
                 "Etanercept" ;
-        <>      "" ;
         <http://aksw.org/ns/drugs/brandName>
                 "Enbrelï¿½" ;
         <http://aksw.org/ns/drugs/genericEquivalency>
@@ -1412,10 +1308,9 @@
                 "N" .
 
 <http://aksw.org/ns/drugs/Drug73>
-        a       <http://aksw.org/ns/drugs/Class73> ;
+        a       <http://aksw.org/ns/drugs/Category73> ;
         <http://www.w3.org/2000/01/rdf-schema#label>
                 "Pramipexole" ;
-        <>      "" ;
         <http://aksw.org/ns/drugs/brandName>
                 "Mirapexï¿½" ;
         <http://aksw.org/ns/drugs/genericEquivalency>
@@ -1424,10 +1319,9 @@
                 "N" .
 
 <http://aksw.org/ns/drugs/Drug128>
-        a       <http://aksw.org/ns/drugs/Class102> ;
+        a       <http://aksw.org/ns/drugs/Category102> ;
         <http://www.w3.org/2000/01/rdf-schema#label>
                 "Tramadol ER" ;
-        <>      "" ;
         <http://aksw.org/ns/drugs/brandName>
                 "ConZip" ;
         <http://aksw.org/ns/drugs/genericEquivalency>
@@ -1436,10 +1330,9 @@
                 "N" .
 
 <http://aksw.org/ns/drugs/Drug52>
-        a       <http://aksw.org/ns/drugs/Class52> ;
+        a       <http://aksw.org/ns/drugs/Category52> ;
         <http://www.w3.org/2000/01/rdf-schema#label>
                 "Alprazolam" ;
-        <>      "" ;
         <http://aksw.org/ns/drugs/brandName>
                 "Xanax" ;
         <http://aksw.org/ns/drugs/genericEquivalency>
@@ -1448,10 +1341,9 @@
                 "N" .
 
 <http://aksw.org/ns/drugs/Drug107>
-        a       <http://aksw.org/ns/drugs/Class102> ;
+        a       <http://aksw.org/ns/drugs/Category102> ;
         <http://www.w3.org/2000/01/rdf-schema#label>
                 "Fentanyl lollipop" ;
-        <>      "" ;
         <http://aksw.org/ns/drugs/brandName>
                 "Actiqï¿½" ;
         <http://aksw.org/ns/drugs/genericEquivalency>
@@ -1460,10 +1352,9 @@
                 "N" .
 
 <http://aksw.org/ns/drugs/Drug31>
-        a       <http://aksw.org/ns/drugs/Class30> ;
+        a       <http://aksw.org/ns/drugs/Category30> ;
         <http://www.w3.org/2000/01/rdf-schema#label>
                 "Clonidine" ;
-        <>      "" ;
         <http://aksw.org/ns/drugs/brandName>
                 "Catapres" ;
         <http://aksw.org/ns/drugs/genericEquivalency>
@@ -1472,10 +1363,9 @@
                 "N" .
 
 <http://aksw.org/ns/drugs/Drug10>
-        a       <http://aksw.org/ns/drugs/Class9> ;
+        a       <http://aksw.org/ns/drugs/Category9> ;
         <http://www.w3.org/2000/01/rdf-schema#label>
                 "Exenatide" ;
-        <>      "" ;
         <http://aksw.org/ns/drugs/brandName>
                 "Byetta" ;
         <http://aksw.org/ns/drugs/genericEquivalency>
@@ -1483,11 +1373,17 @@
         <http://aksw.org/ns/drugs/status>
                 "N" .
 
+<http://aksw.org/ns/drugs/Category148>
+        a       <http://www.w3.org/2000/01/rdf-schema#Class> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Tumor necrosis factor (TNF) modifiers" ;
+        <http://www.w3.org/2000/01/rdf-schema#subClassOf>
+                <http://aksw.org/ns/drugs/Drug> .
+
 <http://aksw.org/ns/drugs/Drug81>
-        a       <http://aksw.org/ns/drugs/Class76> ;
+        a       <http://aksw.org/ns/drugs/Category76> ;
         <http://www.w3.org/2000/01/rdf-schema#label>
                 "Meprobamate" ;
-        <>      "" ;
         <http://aksw.org/ns/drugs/brandName>
                 "Miltown" ;
         <http://aksw.org/ns/drugs/genericEquivalency>
@@ -1496,10 +1392,9 @@
                 "N" .
 
 <http://aksw.org/ns/drugs/Drug136>
-        a       <http://aksw.org/ns/drugs/Class136> ;
+        a       <http://aksw.org/ns/drugs/Category136> ;
         <http://www.w3.org/2000/01/rdf-schema#label>
                 "Diphenhydramine" ;
-        <>      "" ;
         <http://aksw.org/ns/drugs/brandName>
                 "Benadryl" ;
         <http://aksw.org/ns/drugs/genericEquivalency>
@@ -1508,10 +1403,9 @@
                 "N (for insomnia)" .
 
 <http://aksw.org/ns/drugs/Drug60>
-        a       <http://aksw.org/ns/drugs/Class52> ;
+        a       <http://aksw.org/ns/drugs/Category52> ;
         <http://www.w3.org/2000/01/rdf-schema#label>
                 "Midazolam" ;
-        <>      "" ;
         <http://aksw.org/ns/drugs/brandName>
                 "Versed" ;
         <http://aksw.org/ns/drugs/genericEquivalency>
@@ -1520,10 +1414,9 @@
                 "N" .
 
 <http://aksw.org/ns/drugs/Drug115>
-        a       <http://aksw.org/ns/drugs/Class102> ;
+        a       <http://aksw.org/ns/drugs/Category102> ;
         <http://www.w3.org/2000/01/rdf-schema#label>
                 "Morphine ER" ;
-        <>      "" ;
         <http://aksw.org/ns/drugs/brandName>
                 "Avinzaï¿½" ;
         <http://aksw.org/ns/drugs/genericEquivalency>
@@ -1531,11 +1424,17 @@
         <http://aksw.org/ns/drugs/status>
                 "N" .
 
+<http://aksw.org/ns/drugs/Category1>
+        a       <http://www.w3.org/2000/01/rdf-schema#Class> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Antidepressants" ;
+        <http://www.w3.org/2000/01/rdf-schema#subClassOf>
+                <http://aksw.org/ns/drugs/Drug> .
+
 <http://aksw.org/ns/drugs/Drug39>
-        a       <http://aksw.org/ns/drugs/Class39> ;
+        a       <http://aksw.org/ns/drugs/Category39> ;
         <http://www.w3.org/2000/01/rdf-schema#label>
                 "Albuterol oral tablet" ;
-        <>      "" ;
         <http://aksw.org/ns/drugs/brandName>
                 "Albuterol" ;
         <http://aksw.org/ns/drugs/genericEquivalency>
@@ -1544,10 +1443,9 @@
                 "N" .
 
 <http://aksw.org/ns/drugs/Drug18>
-        a       <http://aksw.org/ns/drugs/Class9> ;
+        a       <http://aksw.org/ns/drugs/Category9> ;
         <http://www.w3.org/2000/01/rdf-schema#label>
                 "Pioglitazone" ;
-        <>      "" ;
         <http://aksw.org/ns/drugs/brandName>
                 "Actos" ;
         <http://aksw.org/ns/drugs/genericEquivalency>
@@ -1555,16 +1453,17 @@
         <http://aksw.org/ns/drugs/status>
                 "N" .
 
-<http://aksw.org/ns/drugs/Class75>
+<http://aksw.org/ns/drugs/Category85>
         a       <http://www.w3.org/2000/01/rdf-schema#Class> ;
         <http://www.w3.org/2000/01/rdf-schema#label>
-                "Gout medications" .
+                "Muscle relaxants (Antispasticity drugs)" ;
+        <http://www.w3.org/2000/01/rdf-schema#subClassOf>
+                <http://aksw.org/ns/drugs/Drug> .
 
 <http://aksw.org/ns/drugs/Drug89>
-        a       <http://aksw.org/ns/drugs/Class87> ;
+        a       <http://aksw.org/ns/drugs/Category87> ;
         <http://www.w3.org/2000/01/rdf-schema#label>
                 "Diclofenac Potassium" ;
-        <>      "" ;
         <http://aksw.org/ns/drugs/brandName>
                 "Cataflamï¿½" ;
         <http://aksw.org/ns/drugs/genericEquivalency>
@@ -1573,10 +1472,9 @@
                 "N" .
 
 <http://aksw.org/ns/drugs/Drug144>
-        a       <http://aksw.org/ns/drugs/Class143> ;
+        a       <http://aksw.org/ns/drugs/Category143> ;
         <http://www.w3.org/2000/01/rdf-schema#label>
                 "Diclofenac Sodium Gel" ;
-        <>      "" ;
         <http://aksw.org/ns/drugs/brandName>
                 "Voltarenï¿½ Gel" ;
         <http://aksw.org/ns/drugs/genericEquivalency>
@@ -1585,10 +1483,9 @@
                 "N" .
 
 <http://aksw.org/ns/drugs/Drug68>
-        a       <http://aksw.org/ns/drugs/Class65> ;
+        a       <http://aksw.org/ns/drugs/Category65> ;
         <http://www.w3.org/2000/01/rdf-schema#label>
                 "Botulinum toxin" ;
-        <>      "" ;
         <http://aksw.org/ns/drugs/brandName>
                 "Xeomin" ;
         <http://aksw.org/ns/drugs/genericEquivalency>
@@ -1597,10 +1494,9 @@
                 "N" .
 
 <http://aksw.org/ns/drugs/Drug123>
-        a       <http://aksw.org/ns/drugs/Class102> ;
+        a       <http://aksw.org/ns/drugs/Category102> ;
         <http://www.w3.org/2000/01/rdf-schema#label>
                 "Pentazocine/Naloxone" ;
-        <>      "" ;
         <http://aksw.org/ns/drugs/brandName>
                 "Talwin NX" ;
         <http://aksw.org/ns/drugs/genericEquivalency>
@@ -1608,11 +1504,17 @@
         <http://aksw.org/ns/drugs/status>
                 "N" .
 
+<http://aksw.org/ns/drugs/Category9>
+        a       <http://www.w3.org/2000/01/rdf-schema#Class> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Antidiabetics" ;
+        <http://www.w3.org/2000/01/rdf-schema#subClassOf>
+                <http://aksw.org/ns/drugs/Drug> .
+
 <http://aksw.org/ns/drugs/Drug47>
-        a       <http://aksw.org/ns/drugs/Class39> ;
+        a       <http://aksw.org/ns/drugs/Category39> ;
         <http://www.w3.org/2000/01/rdf-schema#label>
                 "Theophylline" ;
-        <>      "" ;
         <http://aksw.org/ns/drugs/brandName>
                 "Slo-Bidï¿½" ;
         <http://aksw.org/ns/drugs/genericEquivalency>
@@ -1621,10 +1523,9 @@
                 "N" .
 
 <http://aksw.org/ns/drugs/Drug102>
-        a       <http://aksw.org/ns/drugs/Class102> ;
+        a       <http://aksw.org/ns/drugs/Category102> ;
         <http://www.w3.org/2000/01/rdf-schema#label>
                 "Buprenorphine" ;
-        <>      "" ;
         <http://aksw.org/ns/drugs/brandName>
                 "Suboxoneï¿½" ;
         <http://aksw.org/ns/drugs/genericEquivalency>
@@ -1633,10 +1534,9 @@
                 "N (for pain)" .
 
 <http://aksw.org/ns/drugs/Drug26>
-        a       <http://aksw.org/ns/drugs/Class23> ;
+        a       <http://aksw.org/ns/drugs/Category23> ;
         <http://www.w3.org/2000/01/rdf-schema#label>
                 "Phenytoin" ;
-        <>      "" ;
         <http://aksw.org/ns/drugs/brandName>
                 "Dilantinï¿½" ;
         <http://aksw.org/ns/drugs/genericEquivalency>
@@ -1644,11 +1544,17 @@
         <http://aksw.org/ns/drugs/status>
                 "N" .
 
+<http://aksw.org/ns/drugs/Category72>
+        a       <http://www.w3.org/2000/01/rdf-schema#Class> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Central adrenergic agonists" ;
+        <http://www.w3.org/2000/01/rdf-schema#subClassOf>
+                <http://aksw.org/ns/drugs/Drug> .
+
 <http://aksw.org/ns/drugs/Drug5>
-        a       <http://aksw.org/ns/drugs/Class1> ;
+        a       <http://aksw.org/ns/drugs/Category1> ;
         <http://www.w3.org/2000/01/rdf-schema#label>
                 "Fluvoxamine " ;
-        <>      "" ;
         <http://aksw.org/ns/drugs/brandName>
                 "Luvox " ;
         <http://aksw.org/ns/drugs/genericEquivalency>
@@ -1656,16 +1562,24 @@
         <http://aksw.org/ns/drugs/status>
                 "N" .
 
-<http://aksw.org/ns/drugs/Class83>
+<http://aksw.org/ns/drugs/Category30>
         a       <http://www.w3.org/2000/01/rdf-schema#Class> ;
         <http://www.w3.org/2000/01/rdf-schema#label>
-                "Muscle relaxants (Antispasmodics)" .
+                "Antihypertensives" ;
+        <http://www.w3.org/2000/01/rdf-schema#subClassOf>
+                <http://aksw.org/ns/drugs/Drug> .
+
+<http://aksw.org/ns/drugs/Category143>
+        a       <http://www.w3.org/2000/01/rdf-schema#Class> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Topical analgesics" ;
+        <http://www.w3.org/2000/01/rdf-schema#subClassOf>
+                <http://aksw.org/ns/drugs/Drug> .
 
 <http://aksw.org/ns/drugs/Drug97>
-        a       <http://aksw.org/ns/drugs/Class87> ;
+        a       <http://aksw.org/ns/drugs/Category87> ;
         <http://www.w3.org/2000/01/rdf-schema#label>
                 "Indomethacin ER" ;
-        <>      "" ;
         <http://aksw.org/ns/drugs/brandName>
                 "Indocin SRï¿½" ;
         <http://aksw.org/ns/drugs/genericEquivalency>
@@ -1674,10 +1588,9 @@
                 "N" .
 
 <http://aksw.org/ns/drugs/Drug76>
-        a       <http://aksw.org/ns/drugs/Class76> ;
+        a       <http://aksw.org/ns/drugs/Category76> ;
         <http://www.w3.org/2000/01/rdf-schema#label>
                 "Benzodiazepines" ;
-        <>      "" ;
         <http://aksw.org/ns/drugs/brandName>
                 "N/A" ;
         <http://aksw.org/ns/drugs/genericEquivalency>
@@ -1686,10 +1599,9 @@
                 "N" .
 
 <http://aksw.org/ns/drugs/Drug131>
-        a       <http://aksw.org/ns/drugs/Class130> ;
+        a       <http://aksw.org/ns/drugs/Category130> ;
         <http://www.w3.org/2000/01/rdf-schema#label>
                 "Esomeprazole" ;
-        <>      "" ;
         <http://aksw.org/ns/drugs/brandName>
                 "Nexiumï¿½" ;
         <http://aksw.org/ns/drugs/genericEquivalency>
@@ -1698,10 +1610,9 @@
                 "N" .
 
 <http://aksw.org/ns/drugs/Drug55>
-        a       <http://aksw.org/ns/drugs/Class52> ;
+        a       <http://aksw.org/ns/drugs/Category52> ;
         <http://www.w3.org/2000/01/rdf-schema#label>
                 "Clorazepate" ;
-        <>      "" ;
         <http://aksw.org/ns/drugs/brandName>
                 "Tranxene" ;
         <http://aksw.org/ns/drugs/genericEquivalency>
@@ -1710,10 +1621,9 @@
                 "N" .
 
 <http://aksw.org/ns/drugs/Drug110>
-        a       <http://aksw.org/ns/drugs/Class102> ;
+        a       <http://aksw.org/ns/drugs/Category102> ;
         <http://www.w3.org/2000/01/rdf-schema#label>
                 "Fentanyl transmucosal" ;
-        <>      "" ;
         <http://aksw.org/ns/drugs/brandName>
                 "Abstral" ;
         <http://aksw.org/ns/drugs/genericEquivalency>
@@ -1722,10 +1632,9 @@
                 "N" .
 
 <http://aksw.org/ns/drugs/Drug34>
-        a       <http://aksw.org/ns/drugs/Class30> ;
+        a       <http://aksw.org/ns/drugs/Category30> ;
         <http://www.w3.org/2000/01/rdf-schema#label>
                 "Minoxidil" ;
-        <>      "" ;
         <http://aksw.org/ns/drugs/brandName>
                 "Loniten" ;
         <http://aksw.org/ns/drugs/genericEquivalency>
@@ -1734,10 +1643,9 @@
                 "N" .
 
 <http://aksw.org/ns/drugs/Drug13>
-        a       <http://aksw.org/ns/drugs/Class9> ;
+        a       <http://aksw.org/ns/drugs/Category9> ;
         <http://www.w3.org/2000/01/rdf-schema#label>
                 "Glyburide" ;
-        <>      "" ;
         <http://aksw.org/ns/drugs/brandName>
                 "Glynase" ;
         <http://aksw.org/ns/drugs/genericEquivalency>
@@ -1745,23 +1653,35 @@
         <http://aksw.org/ns/drugs/status>
                 "N" .
 
+<http://aksw.org/ns/drugs/Category38>
+        a       <http://www.w3.org/2000/01/rdf-schema#Class> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Anti-infectives" ;
+        <http://www.w3.org/2000/01/rdf-schema#subClassOf>
+                <http://aksw.org/ns/drugs/Drug> .
+
+<http://aksw.org/ns/drugs/Category130>
+        a       <http://www.w3.org/2000/01/rdf-schema#Class> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "PPI (Proton Pump Inhibitor)" ;
+        <http://www.w3.org/2000/01/rdf-schema#subClassOf>
+                <http://aksw.org/ns/drugs/Drug> .
+
 <http://aksw.org/ns/drugs/Drug84>
-        a       <http://aksw.org/ns/drugs/Class83> ;
+        a       <http://aksw.org/ns/drugs/Category83> ;
         <http://www.w3.org/2000/01/rdf-schema#label>
                 "Orphenadrine" ;
-        <>      "N" , " Orphenate\",Yes\"" , " Mio-Relï¿½" ;
         <http://aksw.org/ns/drugs/brandName>
-                "Norflexï¿½\"" ;
+                "\"Norflexï¿½, Banflexï¿½, Antiflexï¿½, Mio-Relï¿½, Orphenate\"" ;
         <http://aksw.org/ns/drugs/genericEquivalency>
-                " Banflexï¿½" ;
+                "Yes" ;
         <http://aksw.org/ns/drugs/status>
-                " Antiflexï¿½" .
+                "N" .
 
 <http://aksw.org/ns/drugs/Drug139>
-        a       <http://aksw.org/ns/drugs/Class136> ;
+        a       <http://aksw.org/ns/drugs/Category136> ;
         <http://www.w3.org/2000/01/rdf-schema#label>
                 "Zolpidem" ;
-        <>      "" ;
         <http://aksw.org/ns/drugs/brandName>
                 "Edluar SL" ;
         <http://aksw.org/ns/drugs/genericEquivalency>
@@ -1770,10 +1690,9 @@
                 "N" .
 
 <http://aksw.org/ns/drugs/Drug63>
-        a       <http://aksw.org/ns/drugs/Class52> ;
+        a       <http://aksw.org/ns/drugs/Category52> ;
         <http://www.w3.org/2000/01/rdf-schema#label>
                 "Temazepam" ;
-        <>      "" ;
         <http://aksw.org/ns/drugs/brandName>
                 "Restoril" ;
         <http://aksw.org/ns/drugs/genericEquivalency>
@@ -1782,10 +1701,9 @@
                 "N" .
 
 <http://aksw.org/ns/drugs/Drug118>
-        a       <http://aksw.org/ns/drugs/Class102> ;
+        a       <http://aksw.org/ns/drugs/Category102> ;
         <http://www.w3.org/2000/01/rdf-schema#label>
                 "Oxycodone ER" ;
-        <>      "" ;
         <http://aksw.org/ns/drugs/brandName>
                 "OxyContinï¿½" ;
         <http://aksw.org/ns/drugs/genericEquivalency>
@@ -1794,10 +1712,9 @@
                 "N" .
 
 <http://aksw.org/ns/drugs/Drug42>
-        a       <http://aksw.org/ns/drugs/Class39> ;
+        a       <http://aksw.org/ns/drugs/Category39> ;
         <http://www.w3.org/2000/01/rdf-schema#label>
                 "Indacaterol" ;
-        <>      "" ;
         <http://aksw.org/ns/drugs/brandName>
                 "Arcaptaï¿½" ;
         <http://aksw.org/ns/drugs/genericEquivalency>
@@ -1806,10 +1723,9 @@
                 "N" .
 
 <http://aksw.org/ns/drugs/Drug21>
-        a       <http://aksw.org/ns/drugs/Class9> ;
+        a       <http://aksw.org/ns/drugs/Category9> ;
         <http://www.w3.org/2000/01/rdf-schema#label>
                 "Saxagliptin" ;
-        <>      "" ;
         <http://aksw.org/ns/drugs/brandName>
                 "Onglyza" ;
         <http://aksw.org/ns/drugs/genericEquivalency>
@@ -1817,16 +1733,10 @@
         <http://aksw.org/ns/drugs/status>
                 "N" .
 
-<http://aksw.org/ns/drugs/Class148>
-        a       <http://www.w3.org/2000/01/rdf-schema#Class> ;
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "Tumor necrosis factor (TNF) modifiers" .
-
 <http://aksw.org/ns/drugs/Drug92>
-        a       <http://aksw.org/ns/drugs/Class87> ;
+        a       <http://aksw.org/ns/drugs/Category87> ;
         <http://www.w3.org/2000/01/rdf-schema#label>
                 "Diclofenac Sodium ER" ;
-        <>      "" ;
         <http://aksw.org/ns/drugs/brandName>
                 "Voltaren-XRï¿½" ;
         <http://aksw.org/ns/drugs/genericEquivalency>
@@ -1835,10 +1745,9 @@
                 "N" .
 
 <http://aksw.org/ns/drugs/Drug147>
-        a       <http://aksw.org/ns/drugs/Class143> ;
+        a       <http://aksw.org/ns/drugs/Category143> ;
         <http://www.w3.org/2000/01/rdf-schema#label>
                 "Lidocaine patch" ;
-        <>      "" ;
         <http://aksw.org/ns/drugs/brandName>
                 "Lidodermï¿½" ;
         <http://aksw.org/ns/drugs/genericEquivalency>
@@ -1847,10 +1756,9 @@
                 "N" .
 
 <http://aksw.org/ns/drugs/Drug71>
-        a       <http://aksw.org/ns/drugs/Class69> ;
+        a       <http://aksw.org/ns/drugs/Category69> ;
         <http://www.w3.org/2000/01/rdf-schema#label>
                 "Tetrahydrocannabinol" ;
-        <>      "" ;
         <http://aksw.org/ns/drugs/brandName>
                 "THC/ dronabinol" ;
         <http://aksw.org/ns/drugs/genericEquivalency>
@@ -1859,10 +1767,9 @@
                 "N" .
 
 <http://aksw.org/ns/drugs/Drug126>
-        a       <http://aksw.org/ns/drugs/Class102> ;
+        a       <http://aksw.org/ns/drugs/Category102> ;
         <http://www.w3.org/2000/01/rdf-schema#label>
                 "Propoxyphene/acetamin." ;
-        <>      "" ;
         <http://aksw.org/ns/drugs/brandName>
                 "Darvocetï¿½" ;
         <http://aksw.org/ns/drugs/genericEquivalency>
@@ -1871,10 +1778,9 @@
                 "N" .
 
 <http://aksw.org/ns/drugs/Drug50>
-        a       <http://aksw.org/ns/drugs/Class50> ;
+        a       <http://aksw.org/ns/drugs/Category50> ;
         <http://www.w3.org/2000/01/rdf-schema#label>
                 "Quetiapine" ;
-        <>      "" ;
         <http://aksw.org/ns/drugs/brandName>
                 "Seroquel" ;
         <http://aksw.org/ns/drugs/genericEquivalency>
@@ -1883,10 +1789,9 @@
                 "N" .
 
 <http://aksw.org/ns/drugs/Drug105>
-        a       <http://aksw.org/ns/drugs/Class102> ;
+        a       <http://aksw.org/ns/drugs/Category102> ;
         <http://www.w3.org/2000/01/rdf-schema#label>
                 "Fentanyl buccal" ;
-        <>      "" ;
         <http://aksw.org/ns/drugs/brandName>
                 "Fentoraï¿½" ;
         <http://aksw.org/ns/drugs/genericEquivalency>
@@ -1895,10 +1800,9 @@
                 "N" .
 
 <http://aksw.org/ns/drugs/Drug29>
-        a       <http://aksw.org/ns/drugs/Class23> ;
+        a       <http://aksw.org/ns/drugs/Category23> ;
         <http://www.w3.org/2000/01/rdf-schema#label>
                 "Zonisamide" ;
-        <>      "" ;
         <http://aksw.org/ns/drugs/brandName>
                 "Zonegranï¿½" ;
         <http://aksw.org/ns/drugs/genericEquivalency>
@@ -1906,19 +1810,20 @@
         <http://aksw.org/ns/drugs/status>
                 "N" .
 
+<http://aksw.org/ns/drugs/Category75>
+        a       <http://www.w3.org/2000/01/rdf-schema#Class> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Gout medications" ;
+        <http://www.w3.org/2000/01/rdf-schema#subClassOf>
+                <http://aksw.org/ns/drugs/Drug> .
+
 <http://aksw.org/ns/drugs/Drug8>
-        a       <http://aksw.org/ns/drugs/Class1> ;
+        a       <http://aksw.org/ns/drugs/Category1> ;
         <http://www.w3.org/2000/01/rdf-schema#label>
                 "Sertraline" ;
-        <>      "" ;
         <http://aksw.org/ns/drugs/brandName>
                 "Zoloftï¿½" ;
         <http://aksw.org/ns/drugs/genericEquivalency>
                 "Yes" ;
         <http://aksw.org/ns/drugs/status>
                 "N (for pain)" .
-
-<http://aksw.org/ns/drugs/Class86>
-        a       <http://www.w3.org/2000/01/rdf-schema#Class> ;
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "Muscle relaxants (Antispasticity/ Antispasmodics)" .

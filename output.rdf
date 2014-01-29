@@ -1,1156 +1,1184 @@
 <rdf:RDF
     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-    xmlns:j.0="http://aksw.org/Saleh/resource/"
-    xmlns:j.1="http://aksw.org/Saleh/property/"
+    xmlns:j.0="http://aksw.org/ns/drugs/"
     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" > 
-  <rdf:Description rdf:about="http://aksw.org/Saleh/resource/Drug136">
-    <j.1:status>N (for insomnia)</j.1:status>
-    <j.1:genericEquivalency>Y-OTC</j.1:genericEquivalency>
-    <j.1:brandName>Benadryl</j.1:brandName>
-    <rdfs:label>Diphenhydramine</rdfs:label>
-    <rdf:type rdf:resource="http://aksw.org/Saleh/resource/Class136"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://aksw.org/Saleh/resource/Drug30">
-    <j.1:status>N</j.1:status>
-    <j.1:genericEquivalency>No</j.1:genericEquivalency>
-    <j.1:brandName>Tekturna</j.1:brandName>
-    <rdfs:label>Aliskiren</rdfs:label>
-    <rdf:type rdf:resource="http://aksw.org/Saleh/resource/Class30"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://aksw.org/Saleh/resource/Drug57">
-    <j.1:status>N</j.1:status>
-    <j.1:genericEquivalency>Yes</j.1:genericEquivalency>
-    <j.1:brandName>ProSom</j.1:brandName>
-    <rdfs:label>Estazolam</rdfs:label>
-    <rdf:type rdf:resource="http://aksw.org/Saleh/resource/Class52"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://aksw.org/Saleh/resource/Drug43">
-    <j.1:status>N</j.1:status>
-    <j.1:genericEquivalency>Yes</j.1:genericEquivalency>
-    <j.1:brandName>Atroventï¿½</j.1:brandName>
-    <rdfs:label>Ipratropium</rdfs:label>
-    <rdf:type rdf:resource="http://aksw.org/Saleh/resource/Class39"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://aksw.org/Saleh/resource/Drug145">
-    <j.1:status>N</j.1:status>
-    <j.1:genericEquivalency>Yes</j.1:genericEquivalency>
-    <j.1:brandName>DMSO</j.1:brandName>
-    <rdfs:label>Dimethylsulfoxide</rdfs:label>
-    <rdf:type rdf:resource="http://aksw.org/Saleh/resource/Class143"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://aksw.org/Saleh/resource/Drug63">
-    <j.1:status>N</j.1:status>
-    <j.1:genericEquivalency>Yes</j.1:genericEquivalency>
-    <j.1:brandName>Restoril</j.1:brandName>
-    <rdfs:label>Temazepam</rdfs:label>
-    <rdf:type rdf:resource="http://aksw.org/Saleh/resource/Class52"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://aksw.org/Saleh/resource/Drug20">
-    <j.1:status>N</j.1:status>
-    <j.1:genericEquivalency>No</j.1:genericEquivalency>
-    <j.1:brandName>Avandia</j.1:brandName>
-    <rdfs:label>Rosiglitazone</rdfs:label>
-    <rdf:type rdf:resource="http://aksw.org/Saleh/resource/Class9"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://aksw.org/Saleh/resource/Drug126">
-    <j.1:status>N</j.1:status>
-    <j.1:genericEquivalency>Yes</j.1:genericEquivalency>
-    <j.1:brandName>Darvocetï¿½</j.1:brandName>
+  <rdf:Description rdf:about="http://aksw.org/ns/drugs/Drug126">
+    <j.0:status>N</j.0:status>
+    <j.0:genericEquivalency>Yes</j.0:genericEquivalency>
+    <j.0:brandName>Darvocetï¿½</j.0:brandName>
     <rdfs:label>Propoxyphene/acetamin.</rdfs:label>
-    <rdf:type rdf:resource="http://aksw.org/Saleh/resource/Class102"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://aksw.org/Saleh/resource/Drug77">
-    <j.1:status>N</j.1:status>
-    <j.1:genericEquivalency>Yes</j.1:genericEquivalency>
-    <j.1:brandName>Somaï¿½</j.1:brandName>
-    <rdfs:label>Carisoprodol</rdfs:label>
-    <rdf:type rdf:resource="http://aksw.org/Saleh/resource/Class76"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://aksw.org/Saleh/resource/Drug106">
-    <j.1:status>N</j.1:status>
-    <j.1:genericEquivalency>No</j.1:genericEquivalency>
-    <j.1:brandName>Onsolisï¿½</j.1:brandName>
-    <rdfs:label>Fentanyl buccal film</rdfs:label>
-    <rdf:type rdf:resource="http://aksw.org/Saleh/resource/Class102"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://aksw.org/Saleh/resource/Drug82">
-    <j.1:status>N</j.1:status>
-    <j.1:genericEquivalency>Yes</j.1:genericEquivalency>
-    <j.1:brandName>"Norflexï¿½, Banflexï¿½, Antiflexï¿½, Mio-Relï¿½, Orphenate"</j.1:brandName>
-    <rdfs:label>Orphenadrine</rdfs:label>
-    <rdf:type rdf:resource="http://aksw.org/Saleh/resource/Class76"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://aksw.org/Saleh/resource/Drug80">
-    <j.1:status>N</j.1:status>
-    <j.1:genericEquivalency>Yes</j.1:genericEquivalency>
-    <j.1:brandName>Valium</j.1:brandName>
-    <rdfs:label>Diazepam</rdfs:label>
-    <rdf:type rdf:resource="http://aksw.org/Saleh/resource/Class76"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://aksw.org/Saleh/resource/Drug10">
-    <j.1:status>N</j.1:status>
-    <j.1:genericEquivalency>No</j.1:genericEquivalency>
-    <j.1:brandName>Byetta</j.1:brandName>
-    <rdfs:label>Exenatide</rdfs:label>
-    <rdf:type rdf:resource="http://aksw.org/Saleh/resource/Class9"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://aksw.org/Saleh/resource/Drug150">
-    <j.1:status>N</j.1:status>
-    <j.1:genericEquivalency>No</j.1:genericEquivalency>
-    <j.1:brandName>Remicadeï¿½</j.1:brandName>
-    <rdfs:label>Infliximab</rdfs:label>
-    <rdf:type rdf:resource="http://aksw.org/Saleh/resource/Class148"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://aksw.org/Saleh/resource/Drug96">
-    <j.1:status>N</j.1:status>
-    <j.1:genericEquivalency>Yes</j.1:genericEquivalency>
-    <j.1:brandName>Indocinï¿½</j.1:brandName>
-    <rdfs:label>Indomethacin</rdfs:label>
-    <rdf:type rdf:resource="http://aksw.org/Saleh/resource/Class87"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://aksw.org/Saleh/resource/Drug116">
-    <j.1:status>N</j.1:status>
-    <j.1:genericEquivalency>Yes</j.1:genericEquivalency>
-    <j.1:brandName>Kadianï¿½</j.1:brandName>
-    <rdfs:label>Morphine ER</rdfs:label>
-    <rdf:type rdf:resource="http://aksw.org/Saleh/resource/Class102"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://aksw.org/Saleh/resource/Drug7">
-    <j.1:status>N</j.1:status>
-    <j.1:genericEquivalency>Yes</j.1:genericEquivalency>
-    <j.1:brandName>Paxil</j.1:brandName>
-    <rdfs:label>Paroxetine </rdfs:label>
-    <rdf:type rdf:resource="http://aksw.org/Saleh/resource/Class1"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://aksw.org/Saleh/resource/Class141">
-    <rdfs:label>Stimulants (adjunctive pain medication)</rdfs:label>
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://aksw.org/Saleh/resource/Drug39">
-    <j.1:status>N</j.1:status>
-    <j.1:genericEquivalency>Yes</j.1:genericEquivalency>
-    <j.1:brandName>Albuterol</j.1:brandName>
-    <rdfs:label>Albuterol oral tablet</rdfs:label>
-    <rdf:type rdf:resource="http://aksw.org/Saleh/resource/Class39"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://aksw.org/Saleh/resource/Drug31">
-    <j.1:status>N</j.1:status>
-    <j.1:genericEquivalency>Yes</j.1:genericEquivalency>
-    <j.1:brandName>Catapres</j.1:brandName>
-    <rdfs:label>Clonidine</rdfs:label>
-    <rdf:type rdf:resource="http://aksw.org/Saleh/resource/Class30"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://aksw.org/Saleh/resource/Drug21">
-    <j.1:status>N</j.1:status>
-    <j.1:genericEquivalency>No</j.1:genericEquivalency>
-    <j.1:brandName>Onglyza</j.1:brandName>
-    <rdfs:label>Saxagliptin</rdfs:label>
-    <rdf:type rdf:resource="http://aksw.org/Saleh/resource/Class9"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://aksw.org/Saleh/resource/Drug135">
-    <j.1:status>N</j.1:status>
-    <j.1:genericEquivalency>No</j.1:genericEquivalency>
-    <j.1:brandName>Aciphexï¿½</j.1:brandName>
-    <rdfs:label>Rabeprazole</rdfs:label>
-    <rdf:type rdf:resource="http://aksw.org/Saleh/resource/Class130"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://aksw.org/Saleh/resource/Drug42">
-    <j.1:status>N</j.1:status>
-    <j.1:genericEquivalency>No</j.1:genericEquivalency>
-    <j.1:brandName>Arcaptaï¿½</j.1:brandName>
-    <rdfs:label>Indacaterol</rdfs:label>
-    <rdf:type rdf:resource="http://aksw.org/Saleh/resource/Class39"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://aksw.org/Saleh/resource/Class87">
-    <rdfs:label>NSAIDs </rdfs:label>
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://aksw.org/Saleh/resource/Drug56">
-    <j.1:status>N</j.1:status>
-    <j.1:genericEquivalency>Yes</j.1:genericEquivalency>
-    <j.1:brandName>Valium</j.1:brandName>
-    <rdfs:label>Diazepam</rdfs:label>
-    <rdf:type rdf:resource="http://aksw.org/Saleh/resource/Class52"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://aksw.org/Saleh/resource/Drug146">
-    <j.1:status>N</j.1:status>
-    <j.1:genericEquivalency>Yes</j.1:genericEquivalency>
-    <j.1:brandName>Ketamine</j.1:brandName>
-    <rdfs:label>"Ketamine, topical"</rdfs:label>
-    <rdf:type rdf:resource="http://aksw.org/Saleh/resource/Class143"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://aksw.org/Saleh/resource/Drug76">
-    <j.1:status>N</j.1:status>
-    <j.1:genericEquivalency>Yes</j.1:genericEquivalency>
-    <j.1:brandName>N/A</j.1:brandName>
-    <rdfs:label>Benzodiazepines</rdfs:label>
-    <rdf:type rdf:resource="http://aksw.org/Saleh/resource/Class76"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://aksw.org/Saleh/resource/Class73">
-    <rdfs:label>Dopamine agonists</rdfs:label>
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://aksw.org/Saleh/resource/Drug62">
-    <j.1:status>N</j.1:status>
-    <j.1:genericEquivalency>No</j.1:genericEquivalency>
-    <j.1:brandName>Doral</j.1:brandName>
-    <rdfs:label>Quazepam</rdfs:label>
-    <rdf:type rdf:resource="http://aksw.org/Saleh/resource/Class52"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://aksw.org/Saleh/resource/Class1">
-    <rdfs:label>Antidepressants</rdfs:label>
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://aksw.org/Saleh/resource/Drug125">
-    <j.1:status>N</j.1:status>
-    <j.1:genericEquivalency>No</j.1:genericEquivalency>
-    <j.1:brandName>Darvon-Nï¿½</j.1:brandName>
-    <rdfs:label>Propoxyphene napsylate</rdfs:label>
-    <rdf:type rdf:resource="http://aksw.org/Saleh/resource/Class102"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://aksw.org/Saleh/resource/Drug29">
-    <j.1:status>N</j.1:status>
-    <j.1:genericEquivalency>Yes</j.1:genericEquivalency>
-    <j.1:brandName>Zonegranï¿½</j.1:brandName>
-    <rdfs:label>Zonisamide</rdfs:label>
-    <rdf:type rdf:resource="http://aksw.org/Saleh/resource/Class23"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://aksw.org/Saleh/resource/Class130">
-    <rdfs:label>PPI (Proton Pump Inhibitor)</rdfs:label>
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://aksw.org/Saleh/resource/Drug28">
-    <j.1:status>N</j.1:status>
-    <j.1:genericEquivalency>Yes</j.1:genericEquivalency>
-    <j.1:brandName>Topamaxï¿½</j.1:brandName>
-    <rdfs:label>Topiramate</rdfs:label>
-    <rdf:type rdf:resource="http://aksw.org/Saleh/resource/Class23"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://aksw.org/Saleh/resource/Drug81">
-    <j.1:status>N</j.1:status>
-    <j.1:genericEquivalency>Yes</j.1:genericEquivalency>
-    <j.1:brandName>Miltown</j.1:brandName>
-    <rdfs:label>Meprobamate</rdfs:label>
-    <rdf:type rdf:resource="http://aksw.org/Saleh/resource/Class76"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://aksw.org/Saleh/resource/Class69">
-    <rdfs:label>Cannabinoids</rdfs:label>
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://aksw.org/Saleh/resource/Drug105">
-    <j.1:status>N</j.1:status>
-    <j.1:genericEquivalency>No</j.1:genericEquivalency>
-    <j.1:brandName>Fentoraï¿½</j.1:brandName>
-    <rdfs:label>Fentanyl buccal</rdfs:label>
-    <rdf:type rdf:resource="http://aksw.org/Saleh/resource/Class102"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://aksw.org/Saleh/resource/Drug83">
-    <j.1:status>N</j.1:status>
-    <j.1:genericEquivalency>Yes</j.1:genericEquivalency>
-    <j.1:brandName>Somaï¿½</j.1:brandName>
-    <rdfs:label>Carisoprodol</rdfs:label>
-    <rdf:type rdf:resource="http://aksw.org/Saleh/resource/Class83"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://aksw.org/Saleh/resource/Class148">
-    <rdfs:label>Tumor necrosis factor (TNF) modifiers</rdfs:label>
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://aksw.org/Saleh/resource/Drug11">
-    <j.1:status>N</j.1:status>
-    <j.1:genericEquivalency>Yes</j.1:genericEquivalency>
-    <j.1:brandName>Amaryl</j.1:brandName>
-    <rdfs:label>Glimepiride</rdfs:label>
-    <rdf:type rdf:resource="http://aksw.org/Saleh/resource/Class9"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://aksw.org/Saleh/resource/Class9">
-    <rdfs:label>Antidiabetics</rdfs:label>
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://aksw.org/Saleh/resource/Drug115">
-    <j.1:status>N</j.1:status>
-    <j.1:genericEquivalency>No</j.1:genericEquivalency>
-    <j.1:brandName>Avinzaï¿½</j.1:brandName>
-    <rdfs:label>Morphine ER</rdfs:label>
-    <rdf:type rdf:resource="http://aksw.org/Saleh/resource/Class102"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://aksw.org/Saleh/resource/Drug97">
-    <j.1:status>N</j.1:status>
-    <j.1:genericEquivalency>Yes</j.1:genericEquivalency>
-    <j.1:brandName>Indocin SRï¿½</j.1:brandName>
-    <rdfs:label>Indomethacin ER</rdfs:label>
-    <rdf:type rdf:resource="http://aksw.org/Saleh/resource/Class87"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://aksw.org/Saleh/resource/Drug6">
-    <j.1:status>N</j.1:status>
-    <j.1:genericEquivalency>No</j.1:genericEquivalency>
-    <j.1:brandName>Savella/Ixelï¿½</j.1:brandName>
-    <rdfs:label>Milnacipran</rdfs:label>
-    <rdf:type rdf:resource="http://aksw.org/Saleh/resource/Class1"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://aksw.org/Saleh/resource/Drug19">
-    <j.1:status>N</j.1:status>
-    <j.1:genericEquivalency>No</j.1:genericEquivalency>
-    <j.1:brandName>Prandin</j.1:brandName>
-    <rdfs:label>Repaglinide</rdfs:label>
-    <rdf:type rdf:resource="http://aksw.org/Saleh/resource/Class9"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://aksw.org/Saleh/resource/Drug38">
-    <j.1:status>N</j.1:status>
-    <j.1:genericEquivalency>No</j.1:genericEquivalency>
-    <j.1:brandName>Zyvox</j.1:brandName>
-    <rdfs:label>Linezolid</rdfs:label>
-    <rdf:type rdf:resource="http://aksw.org/Saleh/resource/Class38"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://aksw.org/Saleh/resource/Drug55">
-    <j.1:status>N</j.1:status>
-    <j.1:genericEquivalency>Yes</j.1:genericEquivalency>
-    <j.1:brandName>Tranxene</j.1:brandName>
-    <rdfs:label>Clorazepate</rdfs:label>
-    <rdf:type rdf:resource="http://aksw.org/Saleh/resource/Class52"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://aksw.org/Saleh/resource/Drug110">
-    <j.1:status>N</j.1:status>
-    <j.1:genericEquivalency>No</j.1:genericEquivalency>
-    <j.1:brandName>Abstral</j.1:brandName>
-    <rdfs:label>Fentanyl transmucosal</rdfs:label>
-    <rdf:type rdf:resource="http://aksw.org/Saleh/resource/Class102"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://aksw.org/Saleh/resource/Class86">
-    <rdfs:label>Muscle relaxants (Antispasticity/ Antispasmodics)</rdfs:label>
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://aksw.org/Saleh/resource/Drug75">
-    <j.1:status>N</j.1:status>
-    <j.1:genericEquivalency>Yes</j.1:genericEquivalency>
-    <j.1:brandName>Colchicine</j.1:brandName>
-    <rdfs:label>Colchicine</rdfs:label>
-    <rdf:type rdf:resource="http://aksw.org/Saleh/resource/Class75"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://aksw.org/Saleh/resource/Class143">
-    <rdfs:label>Topical analgesics</rdfs:label>
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://aksw.org/Saleh/resource/Drug138">
-    <j.1:status>N (for insomnia)</j.1:status>
-    <j.1:genericEquivalency>Yes</j.1:genericEquivalency>
-    <j.1:brandName>Desyrel</j.1:brandName>
-    <rdfs:label>Trazodone</rdfs:label>
-    <rdf:type rdf:resource="http://aksw.org/Saleh/resource/Class136"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://aksw.org/Saleh/resource/Drug65">
-    <j.1:status>N</j.1:status>
-    <j.1:genericEquivalency>No</j.1:genericEquivalency>
-    <j.1:brandName>Botoxï¿½</j.1:brandName>
-    <rdfs:label>Botulinum toxin</rdfs:label>
-    <rdf:type rdf:resource="http://aksw.org/Saleh/resource/Class65"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://aksw.org/Saleh/resource/Drug32">
-    <j.1:status>N</j.1:status>
-    <j.1:genericEquivalency>Yes</j.1:genericEquivalency>
-    <j.1:brandName>Cardura</j.1:brandName>
-    <rdfs:label>Doxazosin</rdfs:label>
-    <rdf:type rdf:resource="http://aksw.org/Saleh/resource/Class30"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://aksw.org/Saleh/resource/Drug124">
-    <j.1:status>N</j.1:status>
-    <j.1:genericEquivalency>Yes</j.1:genericEquivalency>
-    <j.1:brandName>Darvonï¿½</j.1:brandName>
-    <rdfs:label>Propoxyphene hcl</rdfs:label>
-    <rdf:type rdf:resource="http://aksw.org/Saleh/resource/Class102"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://aksw.org/Saleh/resource/Drug143">
-    <j.1:status>N</j.1:status>
-    <j.1:genericEquivalency>No</j.1:genericEquivalency>
-    <j.1:brandName>Qutenza</j.1:brandName>
-    <rdfs:label>"Capsaicin, topical"</rdfs:label>
-    <rdf:type rdf:resource="http://aksw.org/Saleh/resource/Class143"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://aksw.org/Saleh/resource/Class65">
-    <rdfs:label>Botulinum toxin</rdfs:label>
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://aksw.org/Saleh/resource/Drug45">
-    <j.1:status>N</j.1:status>
-    <j.1:genericEquivalency>No</j.1:genericEquivalency>
-    <j.1:brandName>Xolairï¿½</j.1:brandName>
-    <rdfs:label>Omalizumab</rdfs:label>
-    <rdf:type rdf:resource="http://aksw.org/Saleh/resource/Class39"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://aksw.org/Saleh/resource/Class76">
-    <rdfs:label>Muscle relaxants</rdfs:label>
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://aksw.org/Saleh/resource/Drug84">
-    <j.1:status>N</j.1:status>
-    <j.1:genericEquivalency>Yes</j.1:genericEquivalency>
-    <j.1:brandName>"Norflexï¿½, Banflexï¿½, Antiflexï¿½, Mio-Relï¿½, Orphenate"</j.1:brandName>
-    <rdfs:label>Orphenadrine</rdfs:label>
-    <rdf:type rdf:resource="http://aksw.org/Saleh/resource/Class83"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://aksw.org/Saleh/resource/Drug104">
-    <j.1:status>N</j.1:status>
-    <j.1:genericEquivalency>Yes</j.1:genericEquivalency>
-    <j.1:brandName>Fioricetï¿½</j.1:brandName>
-    <rdfs:label>Butalbital (a barbiturate)</rdfs:label>
-    <rdf:type rdf:resource="http://aksw.org/Saleh/resource/Class102"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://aksw.org/Saleh/resource/Drug12">
-    <j.1:status>N</j.1:status>
-    <j.1:genericEquivalency>Yes</j.1:genericEquivalency>
-    <j.1:brandName>Glucotrol</j.1:brandName>
-    <rdfs:label>Glipizide</rdfs:label>
-    <rdf:type rdf:resource="http://aksw.org/Saleh/resource/Class9"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://aksw.org/Saleh/resource/Drug27">
-    <j.1:status>N</j.1:status>
-    <j.1:genericEquivalency>No</j.1:genericEquivalency>
-    <j.1:brandName>Gabitrilï¿½</j.1:brandName>
-    <rdfs:label>Tiagabine</rdfs:label>
-    <rdf:type rdf:resource="http://aksw.org/Saleh/resource/Class23"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://aksw.org/Saleh/resource/Drug118">
-    <j.1:status>N</j.1:status>
-    <j.1:genericEquivalency>No</j.1:genericEquivalency>
-    <j.1:brandName>OxyContinï¿½</j.1:brandName>
-    <rdfs:label>Oxycodone ER</rdfs:label>
-    <rdf:type rdf:resource="http://aksw.org/Saleh/resource/Class102"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://aksw.org/Saleh/resource/Drug9">
-    <j.1:status>N</j.1:status>
-    <j.1:genericEquivalency>Yes</j.1:genericEquivalency>
-    <j.1:brandName>Precose</j.1:brandName>
-    <rdfs:label>Acarbose</rdfs:label>
-    <rdf:type rdf:resource="http://aksw.org/Saleh/resource/Class9"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://aksw.org/Saleh/resource/Drug130">
-    <j.1:status>N</j.1:status>
-    <j.1:genericEquivalency>No</j.1:genericEquivalency>
-    <j.1:brandName>Dexilantï¿½</j.1:brandName>
-    <rdfs:label>Dexlansoprazole </rdfs:label>
-    <rdf:type rdf:resource="http://aksw.org/Saleh/resource/Class130"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://aksw.org/Saleh/resource/Drug94">
-    <j.1:status>N</j.1:status>
-    <j.1:genericEquivalency>Yes</j.1:genericEquivalency>
-    <j.1:brandName>Pennsaidï¿½</j.1:brandName>
-    <rdfs:label>Diclofenac Sodium topical</rdfs:label>
-    <rdf:type rdf:resource="http://aksw.org/Saleh/resource/Class87"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://aksw.org/Saleh/resource/Drug54">
-    <j.1:status>N</j.1:status>
-    <j.1:genericEquivalency>Yes</j.1:genericEquivalency>
-    <j.1:brandName>Klonopin</j.1:brandName>
-    <rdfs:label>Clonazepam</rdfs:label>
-    <rdf:type rdf:resource="http://aksw.org/Saleh/resource/Class52"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://aksw.org/Saleh/resource/Drug123">
-    <j.1:status>N</j.1:status>
-    <j.1:genericEquivalency>Yes</j.1:genericEquivalency>
-    <j.1:brandName>Talwin NX</j.1:brandName>
-    <rdfs:label>Pentazocine/Naloxone</rdfs:label>
-    <rdf:type rdf:resource="http://aksw.org/Saleh/resource/Class102"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://aksw.org/Saleh/resource/Drug1">
-    <j.1:status>N (for pain)</j.1:status>
-    <j.1:genericEquivalency>Yes</j.1:genericEquivalency>
-    <j.1:brandName>Wellbutrinï¿½</j.1:brandName>
-    <rdfs:label>Bupropion</rdfs:label>
-    <rdf:type rdf:resource="http://aksw.org/Saleh/resource/Class1"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://aksw.org/Saleh/resource/Drug137">
-    <j.1:status>N (for insomnia)</j.1:status>
-    <j.1:genericEquivalency>Yes</j.1:genericEquivalency>
-    <j.1:brandName>Phenergan</j.1:brandName>
-    <rdfs:label>Promethazine</rdfs:label>
-    <rdf:type rdf:resource="http://aksw.org/Saleh/resource/Class136"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://aksw.org/Saleh/resource/Drug74">
-    <j.1:status>N</j.1:status>
-    <j.1:genericEquivalency>Yes</j.1:genericEquivalency>
-    <j.1:brandName>Requipï¿½</j.1:brandName>
-    <rdfs:label>Ropinirole</rdfs:label>
-    <rdf:type rdf:resource="http://aksw.org/Saleh/resource/Class73"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://aksw.org/Saleh/resource/Class85">
-    <rdfs:label>Muscle relaxants (Antispasticity drugs)</rdfs:label>
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://aksw.org/Saleh/resource/Class75">
-    <rdfs:label>Gout medications</rdfs:label>
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://aksw.org/Saleh/resource/Drug33">
-    <j.1:status>N</j.1:status>
-    <j.1:genericEquivalency>Yes</j.1:genericEquivalency>
-    <j.1:brandName>Apresoline</j.1:brandName>
-    <rdfs:label>Hydralazine</rdfs:label>
-    <rdf:type rdf:resource="http://aksw.org/Saleh/resource/Class30"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://aksw.org/Saleh/resource/Drug64">
-    <j.1:status>N</j.1:status>
-    <j.1:genericEquivalency>Yes</j.1:genericEquivalency>
-    <j.1:brandName>Halcion </j.1:brandName>
-    <rdfs:label>Triazolam</rdfs:label>
-    <rdf:type rdf:resource="http://aksw.org/Saleh/resource/Class52"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://aksw.org/Saleh/resource/Drug144">
-    <j.1:status>N</j.1:status>
-    <j.1:genericEquivalency>No</j.1:genericEquivalency>
-    <j.1:brandName>Voltarenï¿½ Gel</j.1:brandName>
-    <rdfs:label>Diclofenac Sodium Gel</rdfs:label>
-    <rdf:type rdf:resource="http://aksw.org/Saleh/resource/Class143"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://aksw.org/Saleh/resource/Drug44">
-    <j.1:status>N</j.1:status>
-    <j.1:genericEquivalency>No</j.1:genericEquivalency>
-    <j.1:brandName>Singulairï¿½</j.1:brandName>
-    <rdfs:label>Montelukast</rdfs:label>
-    <rdf:type rdf:resource="http://aksw.org/Saleh/resource/Class39"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://aksw.org/Saleh/resource/Drug85">
-    <j.1:status>N</j.1:status>
-    <j.1:genericEquivalency>Yes</j.1:genericEquivalency>
-    <j.1:brandName>Dantriumï¿½</j.1:brandName>
-    <rdfs:label>Dantrolene</rdfs:label>
-    <rdf:type rdf:resource="http://aksw.org/Saleh/resource/Class85"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://aksw.org/Saleh/resource/Drug13">
-    <j.1:status>N</j.1:status>
-    <j.1:genericEquivalency>Yes</j.1:genericEquivalency>
-    <j.1:brandName>Glynase</j.1:brandName>
-    <rdfs:label>Glyburide</rdfs:label>
-    <rdf:type rdf:resource="http://aksw.org/Saleh/resource/Class9"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://aksw.org/Saleh/resource/Drug103">
-    <j.1:status>N</j.1:status>
-    <j.1:genericEquivalency>No</j.1:genericEquivalency>
-    <j.1:brandName>Butransï¿½</j.1:brandName>
-    <rdfs:label>Buprenorphine (transdermal)</rdfs:label>
-    <rdf:type rdf:resource="http://aksw.org/Saleh/resource/Class102"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://aksw.org/Saleh/resource/Drug26">
-    <j.1:status>N</j.1:status>
-    <j.1:genericEquivalency>Yes</j.1:genericEquivalency>
-    <j.1:brandName>Dilantinï¿½</j.1:brandName>
-    <rdfs:label>Phenytoin</rdfs:label>
-    <rdf:type rdf:resource="http://aksw.org/Saleh/resource/Class23"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://aksw.org/Saleh/resource/Drug117">
-    <j.1:status>N</j.1:status>
-    <j.1:genericEquivalency>No</j.1:genericEquivalency>
-    <j.1:brandName>Oxecta</j.1:brandName>
-    <rdfs:label>Oxycodone</rdfs:label>
-    <rdf:type rdf:resource="http://aksw.org/Saleh/resource/Class102"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://aksw.org/Saleh/resource/Drug8">
-    <j.1:status>N (for pain)</j.1:status>
-    <j.1:genericEquivalency>Yes</j.1:genericEquivalency>
-    <j.1:brandName>Zoloftï¿½</j.1:brandName>
+    <rdf:type rdf:resource="http://aksw.org/ns/drugs/Category102"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aksw.org/ns/drugs/Drug8">
+    <j.0:status>N (for pain)</j.0:status>
+    <j.0:genericEquivalency>Yes</j.0:genericEquivalency>
+    <j.0:brandName>Zoloftï¿½</j.0:brandName>
     <rdfs:label>Sertraline</rdfs:label>
-    <rdf:type rdf:resource="http://aksw.org/Saleh/resource/Class1"/>
+    <rdf:type rdf:resource="http://aksw.org/ns/drugs/Category1"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://aksw.org/Saleh/resource/Class136">
-    <rdfs:label>Sedative-hypnotics</rdfs:label>
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+  <rdf:Description rdf:about="http://aksw.org/ns/drugs/Drug55">
+    <j.0:status>N</j.0:status>
+    <j.0:genericEquivalency>Yes</j.0:genericEquivalency>
+    <j.0:brandName>Tranxene</j.0:brandName>
+    <rdfs:label>Clorazepate</rdfs:label>
+    <rdf:type rdf:resource="http://aksw.org/ns/drugs/Category52"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://aksw.org/Saleh/resource/Drug95">
-    <j.1:status>N</j.1:status>
-    <j.1:genericEquivalency>No</j.1:genericEquivalency>
-    <j.1:brandName>Arthrotecï¿½</j.1:brandName>
-    <rdfs:label>Diclofenac/ misoprostol</rdfs:label>
-    <rdf:type rdf:resource="http://aksw.org/Saleh/resource/Class87"/>
+  <rdf:Description rdf:about="http://aksw.org/ns/drugs/Drug105">
+    <j.0:status>N</j.0:status>
+    <j.0:genericEquivalency>No</j.0:genericEquivalency>
+    <j.0:brandName>Fentoraï¿½</j.0:brandName>
+    <rdfs:label>Fentanyl buccal</rdfs:label>
+    <rdf:type rdf:resource="http://aksw.org/ns/drugs/Category102"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://aksw.org/Saleh/resource/Drug119">
-    <j.1:status>N</j.1:status>
-    <j.1:genericEquivalency>Yes</j.1:genericEquivalency>
-    <j.1:brandName>Percodanï¿½</j.1:brandName>
-    <rdfs:label>Oxycodone/aspirin</rdfs:label>
-    <rdf:type rdf:resource="http://aksw.org/Saleh/resource/Class102"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://aksw.org/Saleh/resource/Drug47">
-    <j.1:status>N</j.1:status>
-    <j.1:genericEquivalency>Yes</j.1:genericEquivalency>
-    <j.1:brandName>Slo-Bidï¿½</j.1:brandName>
-    <rdfs:label>Theophylline</rdfs:label>
-    <rdf:type rdf:resource="http://aksw.org/Saleh/resource/Class39"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://aksw.org/Saleh/resource/Drug34">
-    <j.1:status>N</j.1:status>
-    <j.1:genericEquivalency>Yes</j.1:genericEquivalency>
-    <j.1:brandName>Loniten</j.1:brandName>
-    <rdfs:label>Minoxidil</rdfs:label>
-    <rdf:type rdf:resource="http://aksw.org/Saleh/resource/Class30"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://aksw.org/Saleh/resource/Drug141">
-    <j.1:status>N</j.1:status>
-    <j.1:genericEquivalency>No</j.1:genericEquivalency>
-    <j.1:brandName>Nuvigil</j.1:brandName>
-    <rdfs:label>Armodafinil</rdfs:label>
-    <rdf:type rdf:resource="http://aksw.org/Saleh/resource/Class141"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://aksw.org/Saleh/resource/Drug2">
-    <j.1:status>N</j.1:status>
-    <j.1:genericEquivalency>Yes</j.1:genericEquivalency>
-    <j.1:brandName>Celexa</j.1:brandName>
-    <rdfs:label>Citalopram</rdfs:label>
-    <rdf:type rdf:resource="http://aksw.org/Saleh/resource/Class1"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://aksw.org/Saleh/resource/Drug73">
-    <j.1:status>N</j.1:status>
-    <j.1:genericEquivalency>Yes</j.1:genericEquivalency>
-    <j.1:brandName>Mirapexï¿½</j.1:brandName>
-    <rdfs:label>Pramipexole</rdfs:label>
-    <rdf:type rdf:resource="http://aksw.org/Saleh/resource/Class73"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://aksw.org/Saleh/resource/Drug24">
-    <j.1:status>N</j.1:status>
-    <j.1:genericEquivalency>Yes</j.1:genericEquivalency>
-    <j.1:brandName>Lamictalï¿½</j.1:brandName>
-    <rdfs:label>Lamotrigine</rdfs:label>
-    <rdf:type rdf:resource="http://aksw.org/Saleh/resource/Class23"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://aksw.org/Saleh/resource/Drug91">
-    <j.1:status>N</j.1:status>
-    <j.1:genericEquivalency>Yes</j.1:genericEquivalency>
-    <j.1:brandName>Voltarenï¿½</j.1:brandName>
-    <rdfs:label>Diclofenac Sodium</rdfs:label>
-    <rdf:type rdf:resource="http://aksw.org/Saleh/resource/Class87"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://aksw.org/Saleh/resource/Drug15">
-    <j.1:status>N</j.1:status>
-    <j.1:genericEquivalency>No</j.1:genericEquivalency>
-    <j.1:brandName>Novolin</j.1:brandName>
-    <rdfs:label>Insulin</rdfs:label>
-    <rdf:type rdf:resource="http://aksw.org/Saleh/resource/Class9"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://aksw.org/Saleh/resource/Class102">
-    <rdfs:label>Opioids</rdfs:label>
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://aksw.org/Saleh/resource/Drug109">
-    <j.1:status>N</j.1:status>
-    <j.1:genericEquivalency>No</j.1:genericEquivalency>
-    <j.1:brandName>Subsysï¿½</j.1:brandName>
-    <rdfs:label>Fentanyl sublingual spray</rdfs:label>
-    <rdf:type rdf:resource="http://aksw.org/Saleh/resource/Class102"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://aksw.org/Saleh/resource/Drug53">
-    <j.1:status>N</j.1:status>
-    <j.1:genericEquivalency>Yes</j.1:genericEquivalency>
-    <j.1:brandName>Librium</j.1:brandName>
-    <rdfs:label>Chlordiazepoxide</rdfs:label>
-    <rdf:type rdf:resource="http://aksw.org/Saleh/resource/Class52"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://aksw.org/Saleh/resource/Class30">
-    <rdfs:label>Antihypertensives</rdfs:label>
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://aksw.org/Saleh/resource/Drug132">
-    <j.1:status>N</j.1:status>
-    <j.1:genericEquivalency>No</j.1:genericEquivalency>
-    <j.1:brandName>Vimovo</j.1:brandName>
-    <rdfs:label>Esomeprazole/Naproxen</rdfs:label>
-    <rdf:type rdf:resource="http://aksw.org/Saleh/resource/Class130"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://aksw.org/Saleh/resource/Drug122">
-    <j.1:status>N</j.1:status>
-    <j.1:genericEquivalency>Yes</j.1:genericEquivalency>
-    <j.1:brandName>Talwin</j.1:brandName>
-    <rdfs:label>Pentazocine lactate</rdfs:label>
-    <rdf:type rdf:resource="http://aksw.org/Saleh/resource/Class102"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://aksw.org/Saleh/resource/Class39">
-    <rdfs:label>Asthma medications</rdfs:label>
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://aksw.org/Saleh/resource/Drug67">
-    <j.1:status>N</j.1:status>
-    <j.1:genericEquivalency>No</j.1:genericEquivalency>
-    <j.1:brandName>Myoblocï¿½</j.1:brandName>
-    <rdfs:label>Botulinum toxin</rdfs:label>
-    <rdf:type rdf:resource="http://aksw.org/Saleh/resource/Class65"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://aksw.org/Saleh/resource/Drug149">
-    <j.1:status>N</j.1:status>
-    <j.1:genericEquivalency>No</j.1:genericEquivalency>
-    <j.1:brandName>Enbrelï¿½</j.1:brandName>
-    <rdfs:label>Etanercept</rdfs:label>
-    <rdf:type rdf:resource="http://aksw.org/Saleh/resource/Class148"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://aksw.org/Saleh/resource/Drug102">
-    <j.1:status>N (for pain)</j.1:status>
-    <j.1:genericEquivalency>No</j.1:genericEquivalency>
-    <j.1:brandName>Suboxoneï¿½</j.1:brandName>
-    <rdfs:label>Buprenorphine</rdfs:label>
-    <rdf:type rdf:resource="http://aksw.org/Saleh/resource/Class102"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://aksw.org/Saleh/resource/Drug112">
-    <j.1:status>N</j.1:status>
-    <j.1:genericEquivalency>No</j.1:genericEquivalency>
-    <j.1:brandName>Exalgo</j.1:brandName>
-    <rdfs:label>Hydromorphone ER</rdfs:label>
-    <rdf:type rdf:resource="http://aksw.org/Saleh/resource/Class102"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://aksw.org/Saleh/resource/Drug86">
-    <j.1:status>N</j.1:status>
-    <j.1:genericEquivalency>Yes</j.1:genericEquivalency>
-    <j.1:brandName>N/A</j.1:brandName>
-    <rdfs:label>Benzodiazepines</rdfs:label>
-    <rdf:type rdf:resource="http://aksw.org/Saleh/resource/Class86"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://aksw.org/Saleh/resource/Class50">
-    <rdfs:label>Atypical antipsychotics</rdfs:label>
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://aksw.org/Saleh/resource/Class23">
-    <rdfs:label>Anti-epilepsy drugs (AEDs)</rdfs:label>
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://aksw.org/Saleh/resource/Drug46">
-    <j.1:status>N</j.1:status>
-    <j.1:genericEquivalency>No</j.1:genericEquivalency>
-    <j.1:brandName>Sereventï¿½</j.1:brandName>
-    <rdfs:label>Salmeterol</rdfs:label>
-    <rdf:type rdf:resource="http://aksw.org/Saleh/resource/Class39"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://aksw.org/Saleh/resource/Drug142">
-    <j.1:status>N</j.1:status>
-    <j.1:genericEquivalency>No</j.1:genericEquivalency>
-    <j.1:brandName>Provigilï¿½</j.1:brandName>
-    <rdfs:label>Modafinil</rdfs:label>
-    <rdf:type rdf:resource="http://aksw.org/Saleh/resource/Class141"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://aksw.org/Saleh/resource/Drug129">
-    <j.1:status>N</j.1:status>
-    <j.1:genericEquivalency>No</j.1:genericEquivalency>
-    <j.1:brandName>Prialtï¿½</j.1:brandName>
-    <rdfs:label>Ziconotide (morphine pump)</rdfs:label>
-    <rdf:type rdf:resource="http://aksw.org/Saleh/resource/Class129"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://aksw.org/Saleh/resource/Drug35">
-    <j.1:status>N</j.1:status>
-    <j.1:genericEquivalency>Yes</j.1:genericEquivalency>
-    <j.1:brandName>Minipress</j.1:brandName>
-    <rdfs:label>Prazosin</rdfs:label>
-    <rdf:type rdf:resource="http://aksw.org/Saleh/resource/Class30"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://aksw.org/Saleh/resource/Drug3">
-    <j.1:status>N (for pain)</j.1:status>
-    <j.1:genericEquivalency>No</j.1:genericEquivalency>
-    <j.1:brandName>Lexaproï¿½</j.1:brandName>
-    <rdfs:label>Escitalopram</rdfs:label>
-    <rdf:type rdf:resource="http://aksw.org/Saleh/resource/Class1"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://aksw.org/Saleh/resource/Class83">
-    <rdfs:label>Muscle relaxants (Antispasmodics)</rdfs:label>
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://aksw.org/Saleh/resource/Drug72">
-    <j.1:status>N</j.1:status>
-    <j.1:genericEquivalency>Yes </j.1:genericEquivalency>
-    <j.1:brandName>Duraclonï¿½</j.1:brandName>
-    <rdfs:label>"Clonidine, intrathecal"</rdfs:label>
-    <rdf:type rdf:resource="http://aksw.org/Saleh/resource/Class72"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://aksw.org/Saleh/resource/Drug139">
-    <j.1:status>N</j.1:status>
-    <j.1:genericEquivalency>No</j.1:genericEquivalency>
-    <j.1:brandName>Edluar SL</j.1:brandName>
-    <rdfs:label>Zolpidem</rdfs:label>
-    <rdf:type rdf:resource="http://aksw.org/Saleh/resource/Class136"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://aksw.org/Saleh/resource/Drug25">
-    <j.1:status>N</j.1:status>
-    <j.1:genericEquivalency>Yes</j.1:genericEquivalency>
-    <j.1:brandName>Keppraï¿½</j.1:brandName>
-    <rdfs:label>Levetiracetam</rdfs:label>
-    <rdf:type rdf:resource="http://aksw.org/Saleh/resource/Class23"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://aksw.org/Saleh/resource/Drug90">
-    <j.1:status>N</j.1:status>
-    <j.1:genericEquivalency>No</j.1:genericEquivalency>
-    <j.1:brandName>Zipsor</j.1:brandName>
-    <rdfs:label>Diclofenac Potassium</rdfs:label>
-    <rdf:type rdf:resource="http://aksw.org/Saleh/resource/Class87"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://aksw.org/Saleh/resource/Drug14">
-    <j.1:status>N</j.1:status>
-    <j.1:genericEquivalency>No</j.1:genericEquivalency>
-    <j.1:brandName>Humulin</j.1:brandName>
-    <rdfs:label>Insulin</rdfs:label>
-    <rdf:type rdf:resource="http://aksw.org/Saleh/resource/Class9"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://aksw.org/Saleh/resource/Drug101">
-    <j.1:status>N</j.1:status>
-    <j.1:genericEquivalency>Yes</j.1:genericEquivalency>
-    <j.1:brandName>Feldeneï¿½</j.1:brandName>
-    <rdfs:label>Piroxicam</rdfs:label>
-    <rdf:type rdf:resource="http://aksw.org/Saleh/resource/Class87"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://aksw.org/Saleh/resource/Drug52">
-    <j.1:status>N</j.1:status>
-    <j.1:genericEquivalency>Yes</j.1:genericEquivalency>
-    <j.1:brandName>Xanax</j.1:brandName>
-    <rdfs:label>Alprazolam</rdfs:label>
-    <rdf:type rdf:resource="http://aksw.org/Saleh/resource/Class52"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://aksw.org/Saleh/resource/Drug87">
-    <j.1:status>N</j.1:status>
-    <j.1:genericEquivalency>Yes</j.1:genericEquivalency>
-    <j.1:brandName>Voltarenï¿½</j.1:brandName>
-    <rdfs:label>Diclofenac</rdfs:label>
-    <rdf:type rdf:resource="http://aksw.org/Saleh/resource/Class87"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://aksw.org/Saleh/resource/Drug131">
-    <j.1:status>N</j.1:status>
-    <j.1:genericEquivalency>No</j.1:genericEquivalency>
-    <j.1:brandName>Nexiumï¿½</j.1:brandName>
-    <rdfs:label>Esomeprazole</rdfs:label>
-    <rdf:type rdf:resource="http://aksw.org/Saleh/resource/Class130"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://aksw.org/Saleh/resource/Drug121">
-    <j.1:status>N</j.1:status>
-    <j.1:genericEquivalency>Yes</j.1:genericEquivalency>
-    <j.1:brandName>Opanaï¿½</j.1:brandName>
-    <rdfs:label>Oxymorphone</rdfs:label>
-    <rdf:type rdf:resource="http://aksw.org/Saleh/resource/Class102"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://aksw.org/Saleh/resource/Drug66">
-    <j.1:status>N</j.1:status>
-    <j.1:genericEquivalency>No</j.1:genericEquivalency>
-    <j.1:brandName>Dysport</j.1:brandName>
-    <rdfs:label>Botulinum toxin</rdfs:label>
-    <rdf:type rdf:resource="http://aksw.org/Saleh/resource/Class65"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://aksw.org/Saleh/resource/Class38">
-    <rdfs:label>Anti-infectives</rdfs:label>
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://aksw.org/Saleh/resource/Drug111">
-    <j.1:status>N</j.1:status>
-    <j.1:genericEquivalency>Yes</j.1:genericEquivalency>
-    <j.1:brandName>Vicoprofenï¿½</j.1:brandName>
-    <rdfs:label>Hydrocodone/ibuprofen</rdfs:label>
-    <rdf:type rdf:resource="http://aksw.org/Saleh/resource/Class102"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://aksw.org/Saleh/resource/Drug4">
-    <j.1:status>N (for pain)</j.1:status>
-    <j.1:genericEquivalency>Yes</j.1:genericEquivalency>
-    <j.1:brandName>Prozacï¿½</j.1:brandName>
-    <rdfs:label>Fluoxetine</rdfs:label>
-    <rdf:type rdf:resource="http://aksw.org/Saleh/resource/Class1"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://aksw.org/Saleh/resource/Class72">
+  <rdf:Description rdf:about="http://aksw.org/ns/drugs/Category72">
+    <rdfs:subClassOf rdf:resource="http://aksw.org/ns/drugs/Drug"/>
     <rdfs:label>Central adrenergic agonists</rdfs:label>
     <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://aksw.org/Saleh/resource/Drug49">
-    <j.1:status>N</j.1:status>
-    <j.1:genericEquivalency>No</j.1:genericEquivalency>
-    <j.1:brandName>Zyfloï¿½</j.1:brandName>
-    <rdfs:label>Zileuton</rdfs:label>
-    <rdf:type rdf:resource="http://aksw.org/Saleh/resource/Class39"/>
+  <rdf:Description rdf:about="http://aksw.org/ns/drugs/Drug48">
+    <j.0:status>N</j.0:status>
+    <j.0:genericEquivalency>Yes</j.0:genericEquivalency>
+    <j.0:brandName>Accolateï¿½</j.0:brandName>
+    <rdfs:label>Zafirlukast</rdfs:label>
+    <rdf:type rdf:resource="http://aksw.org/ns/drugs/Category39"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://aksw.org/Saleh/resource/Drug61">
-    <j.1:status>N</j.1:status>
-    <j.1:genericEquivalency>Yes</j.1:genericEquivalency>
-    <j.1:brandName>Serax</j.1:brandName>
-    <rdfs:label>Oxazepam</rdfs:label>
-    <rdf:type rdf:resource="http://aksw.org/Saleh/resource/Class52"/>
+  <rdf:Description rdf:about="http://aksw.org/ns/drugs/Drug119">
+    <j.0:status>N</j.0:status>
+    <j.0:genericEquivalency>Yes</j.0:genericEquivalency>
+    <j.0:brandName>Percodanï¿½</j.0:brandName>
+    <rdfs:label>Oxycodone/aspirin</rdfs:label>
+    <rdf:type rdf:resource="http://aksw.org/ns/drugs/Category102"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://aksw.org/Saleh/resource/Drug128">
-    <j.1:status>N</j.1:status>
-    <j.1:genericEquivalency>No</j.1:genericEquivalency>
-    <j.1:brandName>ConZip</j.1:brandName>
-    <rdfs:label>Tramadol ER</rdfs:label>
-    <rdf:type rdf:resource="http://aksw.org/Saleh/resource/Class102"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://aksw.org/Saleh/resource/Drug36">
-    <j.1:status>N</j.1:status>
-    <j.1:genericEquivalency>Yes</j.1:genericEquivalency>
-    <j.1:brandName>Aldactone</j.1:brandName>
-    <rdfs:label>Spironolactone</rdfs:label>
-    <rdf:type rdf:resource="http://aksw.org/Saleh/resource/Class30"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://aksw.org/Saleh/resource/Drug71">
-    <j.1:status>N</j.1:status>
-    <j.1:genericEquivalency>No</j.1:genericEquivalency>
-    <j.1:brandName>THC/ dronabinol</j.1:brandName>
-    <rdfs:label>Tetrahydrocannabinol</rdfs:label>
-    <rdf:type rdf:resource="http://aksw.org/Saleh/resource/Class69"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://aksw.org/Saleh/resource/Drug107">
-    <j.1:status>N</j.1:status>
-    <j.1:genericEquivalency>Yes</j.1:genericEquivalency>
-    <j.1:brandName>Actiqï¿½</j.1:brandName>
-    <rdfs:label>Fentanyl lollipop</rdfs:label>
-    <rdf:type rdf:resource="http://aksw.org/Saleh/resource/Class102"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://aksw.org/Saleh/resource/Drug17">
-    <j.1:status>N</j.1:status>
-    <j.1:genericEquivalency>Yes</j.1:genericEquivalency>
-    <j.1:brandName>Starlix</j.1:brandName>
-    <rdfs:label>Nateglinide</rdfs:label>
-    <rdf:type rdf:resource="http://aksw.org/Saleh/resource/Class9"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://aksw.org/Saleh/resource/Drug93">
-    <j.1:status>N</j.1:status>
-    <j.1:genericEquivalency>No</j.1:genericEquivalency>
-    <j.1:brandName>Voltarenï¿½ Gel</j.1:brandName>
-    <rdfs:label>Diclofenac Sodium Gel</rdfs:label>
-    <rdf:type rdf:resource="http://aksw.org/Saleh/resource/Class87"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://aksw.org/Saleh/resource/Drug59">
-    <j.1:status>N</j.1:status>
-    <j.1:genericEquivalency>Yes</j.1:genericEquivalency>
-    <j.1:brandName>Ativan</j.1:brandName>
-    <rdfs:label>Lorazepam</rdfs:label>
-    <rdf:type rdf:resource="http://aksw.org/Saleh/resource/Class52"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://aksw.org/Saleh/resource/Drug22">
-    <j.1:status>N</j.1:status>
-    <j.1:genericEquivalency>No</j.1:genericEquivalency>
-    <j.1:brandName>Januvia</j.1:brandName>
-    <rdfs:label>Sitagliptin</rdfs:label>
-    <rdf:type rdf:resource="http://aksw.org/Saleh/resource/Class9"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://aksw.org/Saleh/resource/Drug134">
-    <j.1:status>N</j.1:status>
-    <j.1:genericEquivalency>Yes</j.1:genericEquivalency>
-    <j.1:brandName>Protonixï¿½</j.1:brandName>
-    <rdfs:label>Pantoprazole</rdfs:label>
-    <rdf:type rdf:resource="http://aksw.org/Saleh/resource/Class130"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://aksw.org/Saleh/resource/Drug79">
-    <j.1:status>N</j.1:status>
-    <j.1:genericEquivalency>Yes</j.1:genericEquivalency>
-    <j.1:brandName>Dantriumï¿½</j.1:brandName>
-    <rdfs:label>Dantrolene</rdfs:label>
-    <rdf:type rdf:resource="http://aksw.org/Saleh/resource/Class76"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://aksw.org/Saleh/resource/Drug114">
-    <j.1:status>N</j.1:status>
-    <j.1:genericEquivalency>Yes</j.1:genericEquivalency>
-    <j.1:brandName>Methadoseï¿½</j.1:brandName>
-    <rdfs:label>Methadone</rdfs:label>
-    <rdf:type rdf:resource="http://aksw.org/Saleh/resource/Class102"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://aksw.org/Saleh/resource/Drug18">
-    <j.1:status>N</j.1:status>
-    <j.1:genericEquivalency>No</j.1:genericEquivalency>
-    <j.1:brandName>Actos</j.1:brandName>
-    <rdfs:label>Pioglitazone</rdfs:label>
-    <rdf:type rdf:resource="http://aksw.org/Saleh/resource/Class9"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://aksw.org/Saleh/resource/Drug88">
-    <j.1:status>N</j.1:status>
-    <j.1:genericEquivalency>No</j.1:genericEquivalency>
-    <j.1:brandName>Flector patch</j.1:brandName>
-    <rdfs:label>Diclofenac Epolamine</rdfs:label>
-    <rdf:type rdf:resource="http://aksw.org/Saleh/resource/Class87"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://aksw.org/Saleh/resource/Drug51">
-    <j.1:status>N</j.1:status>
-    <j.1:genericEquivalency>Yes</j.1:genericEquivalency>
-    <j.1:brandName>Risperdal</j.1:brandName>
-    <rdfs:label>Risperidone</rdfs:label>
-    <rdf:type rdf:resource="http://aksw.org/Saleh/resource/Class50"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://aksw.org/Saleh/resource/Drug100">
-    <j.1:status>N</j.1:status>
-    <j.1:genericEquivalency>No</j.1:genericEquivalency>
-    <j.1:brandName>Naprelanï¿½</j.1:brandName>
-    <rdfs:label>Naproxen ER</rdfs:label>
-    <rdf:type rdf:resource="http://aksw.org/Saleh/resource/Class87"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://aksw.org/Saleh/resource/Drug41">
-    <j.1:status>N</j.1:status>
-    <j.1:genericEquivalency>No</j.1:genericEquivalency>
-    <j.1:brandName>Foradilï¿½</j.1:brandName>
+  <rdf:Description rdf:about="http://aksw.org/ns/drugs/Drug41">
+    <j.0:status>N</j.0:status>
+    <j.0:genericEquivalency>No</j.0:genericEquivalency>
+    <j.0:brandName>Foradilï¿½</j.0:brandName>
     <rdfs:label>Formoterol</rdfs:label>
-    <rdf:type rdf:resource="http://aksw.org/Saleh/resource/Class39"/>
+    <rdf:type rdf:resource="http://aksw.org/ns/drugs/Category39"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://aksw.org/Saleh/resource/Drug69">
-    <j.1:status>N</j.1:status>
-    <j.1:genericEquivalency>Yes</j.1:genericEquivalency>
-    <j.1:brandName>Marinolï¿½</j.1:brandName>
-    <rdfs:label>Marijuana/dronabinol</rdfs:label>
-    <rdf:type rdf:resource="http://aksw.org/Saleh/resource/Class69"/>
+  <rdf:Description rdf:about="http://aksw.org/ns/drugs/Drug4">
+    <j.0:status>N (for pain)</j.0:status>
+    <j.0:genericEquivalency>Yes</j.0:genericEquivalency>
+    <j.0:brandName>Prozacï¿½</j.0:brandName>
+    <rdfs:label>Fluoxetine</rdfs:label>
+    <rdf:type rdf:resource="http://aksw.org/ns/drugs/Category1"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://aksw.org/Saleh/resource/Drug98">
-    <j.1:status>N (for oral form)</j.1:status>
-    <j.1:genericEquivalency>Yes</j.1:genericEquivalency>
-    <j.1:brandName>Toradolï¿½</j.1:brandName>
-    <rdfs:label>Ketorolac</rdfs:label>
-    <rdf:type rdf:resource="http://aksw.org/Saleh/resource/Class87"/>
+  <rdf:Description rdf:about="http://aksw.org/ns/drugs/Drug88">
+    <j.0:status>N</j.0:status>
+    <j.0:genericEquivalency>No</j.0:genericEquivalency>
+    <j.0:brandName>Flector patch</j.0:brandName>
+    <rdfs:label>Diclofenac Epolamine</rdfs:label>
+    <rdf:type rdf:resource="http://aksw.org/ns/drugs/Category87"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://aksw.org/Saleh/resource/Class52">
+  <rdf:Description rdf:about="http://aksw.org/ns/drugs/Drug75">
+    <j.0:status>N</j.0:status>
+    <j.0:genericEquivalency>Yes</j.0:genericEquivalency>
+    <j.0:brandName>Colchicine</j.0:brandName>
+    <rdfs:label>Colchicine</rdfs:label>
+    <rdf:type rdf:resource="http://aksw.org/ns/drugs/Category75"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aksw.org/ns/drugs/Category38">
+    <rdfs:subClassOf rdf:resource="http://aksw.org/ns/drugs/Drug"/>
+    <rdfs:label>Anti-infectives</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aksw.org/ns/drugs/Category52">
+    <rdfs:subClassOf rdf:resource="http://aksw.org/ns/drugs/Drug"/>
     <rdfs:label>Benzodiazepines</rdfs:label>
     <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://aksw.org/Saleh/resource/Drug147">
-    <j.1:status>N</j.1:status>
-    <j.1:genericEquivalency>No</j.1:genericEquivalency>
-    <j.1:brandName>Lidodermï¿½</j.1:brandName>
-    <rdfs:label>Lidocaine patch</rdfs:label>
-    <rdf:type rdf:resource="http://aksw.org/Saleh/resource/Class143"/>
+  <rdf:Description rdf:about="http://aksw.org/ns/drugs/Drug61">
+    <j.0:status>N</j.0:status>
+    <j.0:genericEquivalency>Yes</j.0:genericEquivalency>
+    <j.0:brandName>Serax</j.0:brandName>
+    <rdfs:label>Oxazepam</rdfs:label>
+    <rdf:type rdf:resource="http://aksw.org/ns/drugs/Category52"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://aksw.org/Saleh/resource/Drug120">
-    <j.1:status>N</j.1:status>
-    <j.1:genericEquivalency>Yes</j.1:genericEquivalency>
-    <j.1:brandName>Combunox</j.1:brandName>
-    <rdfs:label>Oxycodone/ibuprofen</rdfs:label>
-    <rdf:type rdf:resource="http://aksw.org/Saleh/resource/Class102"/>
+  <rdf:Description rdf:about="http://aksw.org/ns/drugs/Drug13">
+    <j.0:status>N</j.0:status>
+    <j.0:genericEquivalency>Yes</j.0:genericEquivalency>
+    <j.0:brandName>Glynase</j.0:brandName>
+    <rdfs:label>Glyburide</rdfs:label>
+    <rdf:type rdf:resource="http://aksw.org/ns/drugs/Category9"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://aksw.org/Saleh/resource/Drug140">
-    <j.1:status>N</j.1:status>
-    <j.1:genericEquivalency>Yes</j.1:genericEquivalency>
-    <j.1:brandName>Ambien CR</j.1:brandName>
-    <rdfs:label>Zolpidem ER</rdfs:label>
-    <rdf:type rdf:resource="http://aksw.org/Saleh/resource/Class136"/>
+  <rdf:Description rdf:about="http://aksw.org/ns/drugs/Drug111">
+    <j.0:status>N</j.0:status>
+    <j.0:genericEquivalency>Yes</j.0:genericEquivalency>
+    <j.0:brandName>Vicoprofenï¿½</j.0:brandName>
+    <rdfs:label>Hydrocodone/ibuprofen</rdfs:label>
+    <rdf:type rdf:resource="http://aksw.org/ns/drugs/Category102"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://aksw.org/Saleh/resource/Drug5">
-    <j.1:status>N</j.1:status>
-    <j.1:genericEquivalency>Yes</j.1:genericEquivalency>
-    <j.1:brandName>Luvox </j.1:brandName>
+  <rdf:Description rdf:about="http://aksw.org/ns/drugs/Drug22">
+    <j.0:status>N</j.0:status>
+    <j.0:genericEquivalency>No</j.0:genericEquivalency>
+    <j.0:brandName>Januvia</j.0:brandName>
+    <rdfs:label>Sitagliptin</rdfs:label>
+    <rdf:type rdf:resource="http://aksw.org/ns/drugs/Category9"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aksw.org/ns/drugs/Drug69">
+    <j.0:status>N</j.0:status>
+    <j.0:genericEquivalency>Yes</j.0:genericEquivalency>
+    <j.0:brandName>Marinolï¿½</j.0:brandName>
+    <rdfs:label>Marijuana/dronabinol</rdfs:label>
+    <rdf:type rdf:resource="http://aksw.org/ns/drugs/Category69"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aksw.org/ns/drugs/Drug80">
+    <j.0:status>N</j.0:status>
+    <j.0:genericEquivalency>Yes</j.0:genericEquivalency>
+    <j.0:brandName>Valium</j.0:brandName>
+    <rdfs:label>Diazepam</rdfs:label>
+    <rdf:type rdf:resource="http://aksw.org/ns/drugs/Category76"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aksw.org/ns/drugs/Drug150">
+    <j.0:status>N</j.0:status>
+    <j.0:genericEquivalency>No</j.0:genericEquivalency>
+    <j.0:brandName>Remicadeï¿½</j.0:brandName>
+    <rdfs:label>Infliximab</rdfs:label>
+    <rdf:type rdf:resource="http://aksw.org/ns/drugs/Category148"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aksw.org/ns/drugs/Drug32">
+    <j.0:status>N</j.0:status>
+    <j.0:genericEquivalency>Yes</j.0:genericEquivalency>
+    <j.0:brandName>Cardura</j.0:brandName>
+    <rdfs:label>Doxazosin</rdfs:label>
+    <rdf:type rdf:resource="http://aksw.org/ns/drugs/Category30"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aksw.org/ns/drugs/Drug94">
+    <j.0:status>N</j.0:status>
+    <j.0:genericEquivalency>Yes</j.0:genericEquivalency>
+    <j.0:brandName>Pennsaidï¿½</j.0:brandName>
+    <rdfs:label>Diclofenac Sodium topical</rdfs:label>
+    <rdf:type rdf:resource="http://aksw.org/ns/drugs/Category87"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aksw.org/ns/drugs/Drug146">
+    <j.0:status>N</j.0:status>
+    <j.0:genericEquivalency>Yes</j.0:genericEquivalency>
+    <j.0:brandName>Ketamine</j.0:brandName>
+    <rdfs:label>"Ketamine, topical"</rdfs:label>
+    <rdf:type rdf:resource="http://aksw.org/ns/drugs/Category143"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aksw.org/ns/drugs/Drug">
+    <rdfs:label>Drug</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aksw.org/ns/drugs/Category69">
+    <rdfs:subClassOf rdf:resource="http://aksw.org/ns/drugs/Drug"/>
+    <rdfs:label>Cannabinoids</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aksw.org/ns/drugs/Drug131">
+    <j.0:status>N</j.0:status>
+    <j.0:genericEquivalency>No</j.0:genericEquivalency>
+    <j.0:brandName>Nexiumï¿½</j.0:brandName>
+    <rdfs:label>Esomeprazole</rdfs:label>
+    <rdf:type rdf:resource="http://aksw.org/ns/drugs/Category130"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aksw.org/ns/drugs/Drug9">
+    <j.0:status>N</j.0:status>
+    <j.0:genericEquivalency>Yes</j.0:genericEquivalency>
+    <j.0:brandName>Precose</j.0:brandName>
+    <rdfs:label>Acarbose</rdfs:label>
+    <rdf:type rdf:resource="http://aksw.org/ns/drugs/Category9"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aksw.org/ns/drugs/Drug139">
+    <j.0:status>N</j.0:status>
+    <j.0:genericEquivalency>No</j.0:genericEquivalency>
+    <j.0:brandName>Edluar SL</j.0:brandName>
+    <rdfs:label>Zolpidem</rdfs:label>
+    <rdf:type rdf:resource="http://aksw.org/ns/drugs/Category136"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aksw.org/ns/drugs/Drug125">
+    <j.0:status>N</j.0:status>
+    <j.0:genericEquivalency>No</j.0:genericEquivalency>
+    <j.0:brandName>Darvon-Nï¿½</j.0:brandName>
+    <rdfs:label>Propoxyphene napsylate</rdfs:label>
+    <rdf:type rdf:resource="http://aksw.org/ns/drugs/Category102"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aksw.org/ns/drugs/Drug49">
+    <j.0:status>N</j.0:status>
+    <j.0:genericEquivalency>No</j.0:genericEquivalency>
+    <j.0:brandName>Zyfloï¿½</j.0:brandName>
+    <rdfs:label>Zileuton</rdfs:label>
+    <rdf:type rdf:resource="http://aksw.org/ns/drugs/Category39"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aksw.org/ns/drugs/Drug106">
+    <j.0:status>N</j.0:status>
+    <j.0:genericEquivalency>No</j.0:genericEquivalency>
+    <j.0:brandName>Onsolisï¿½</j.0:brandName>
+    <rdfs:label>Fentanyl buccal film</rdfs:label>
+    <rdf:type rdf:resource="http://aksw.org/ns/drugs/Category102"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aksw.org/ns/drugs/Drug54">
+    <j.0:status>N</j.0:status>
+    <j.0:genericEquivalency>Yes</j.0:genericEquivalency>
+    <j.0:brandName>Klonopin</j.0:brandName>
+    <rdfs:label>Clonazepam</rdfs:label>
+    <rdf:type rdf:resource="http://aksw.org/ns/drugs/Category52"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aksw.org/ns/drugs/Drug5">
+    <j.0:status>N</j.0:status>
+    <j.0:genericEquivalency>Yes</j.0:genericEquivalency>
+    <j.0:brandName>Luvox </j.0:brandName>
     <rdfs:label>Fluvoxamine </rdfs:label>
-    <rdf:type rdf:resource="http://aksw.org/Saleh/resource/Class1"/>
+    <rdf:type rdf:resource="http://aksw.org/ns/drugs/Category1"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://aksw.org/Saleh/resource/Drug127">
-    <j.1:status>N</j.1:status>
-    <j.1:genericEquivalency>No</j.1:genericEquivalency>
-    <j.1:brandName>Nucyntaï¿½</j.1:brandName>
-    <rdfs:label>Tapentadol</rdfs:label>
-    <rdf:type rdf:resource="http://aksw.org/Saleh/resource/Class102"/>
+  <rdf:Description rdf:about="http://aksw.org/ns/drugs/Drug40">
+    <j.0:status>N</j.0:status>
+    <j.0:genericEquivalency>Yes</j.0:genericEquivalency>
+    <j.0:brandName>Cromolyn</j.0:brandName>
+    <rdfs:label>Cromolyn</rdfs:label>
+    <rdf:type rdf:resource="http://aksw.org/ns/drugs/Category39"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://aksw.org/Saleh/resource/Drug48">
-    <j.1:status>N</j.1:status>
-    <j.1:genericEquivalency>Yes</j.1:genericEquivalency>
-    <j.1:brandName>Accolateï¿½</j.1:brandName>
-    <rdfs:label>Zafirlukast</rdfs:label>
-    <rdf:type rdf:resource="http://aksw.org/Saleh/resource/Class39"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://aksw.org/Saleh/resource/Drug60">
-    <j.1:status>N</j.1:status>
-    <j.1:genericEquivalency>Yes</j.1:genericEquivalency>
-    <j.1:brandName>Versed</j.1:brandName>
+  <rdf:Description rdf:about="http://aksw.org/ns/drugs/Drug60">
+    <j.0:status>N</j.0:status>
+    <j.0:genericEquivalency>Yes</j.0:genericEquivalency>
+    <j.0:brandName>Versed</j.0:brandName>
     <rdfs:label>Midazolam</rdfs:label>
-    <rdf:type rdf:resource="http://aksw.org/Saleh/resource/Class52"/>
+    <rdf:type rdf:resource="http://aksw.org/ns/drugs/Category52"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://aksw.org/Saleh/resource/Drug37">
-    <j.1:status>N</j.1:status>
-    <j.1:genericEquivalency>Yes</j.1:genericEquivalency>
-    <j.1:brandName>Hytrin</j.1:brandName>
-    <rdfs:label>Terazosin</rdfs:label>
-    <rdf:type rdf:resource="http://aksw.org/Saleh/resource/Class30"/>
+  <rdf:Description rdf:about="http://aksw.org/ns/drugs/Drug89">
+    <j.0:status>N</j.0:status>
+    <j.0:genericEquivalency>Yes</j.0:genericEquivalency>
+    <j.0:brandName>Cataflamï¿½</j.0:brandName>
+    <rdfs:label>Diclofenac Potassium</rdfs:label>
+    <rdf:type rdf:resource="http://aksw.org/ns/drugs/Category87"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://aksw.org/Saleh/resource/Drug16">
-    <j.1:status>N</j.1:status>
-    <j.1:genericEquivalency>No</j.1:genericEquivalency>
-    <j.1:brandName>Glyset</j.1:brandName>
-    <rdfs:label>Miglitol</rdfs:label>
-    <rdf:type rdf:resource="http://aksw.org/Saleh/resource/Class9"/>
+  <rdf:Description rdf:about="http://aksw.org/ns/drugs/Drug74">
+    <j.0:status>N</j.0:status>
+    <j.0:genericEquivalency>Yes</j.0:genericEquivalency>
+    <j.0:brandName>Requipï¿½</j.0:brandName>
+    <rdfs:label>Ropinirole</rdfs:label>
+    <rdf:type rdf:resource="http://aksw.org/ns/drugs/Category73"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://aksw.org/Saleh/resource/Drug92">
-    <j.1:status>N</j.1:status>
-    <j.1:genericEquivalency>Yes</j.1:genericEquivalency>
-    <j.1:brandName>Voltaren-XRï¿½</j.1:brandName>
+  <rdf:Description rdf:about="http://aksw.org/ns/drugs/Drug23">
+    <j.0:status>N</j.0:status>
+    <j.0:genericEquivalency>No</j.0:genericEquivalency>
+    <j.0:brandName>Vimpatï¿½</j.0:brandName>
+    <rdfs:label>Lacosamide</rdfs:label>
+    <rdf:type rdf:resource="http://aksw.org/ns/drugs/Category23"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aksw.org/ns/drugs/Category30">
+    <rdfs:subClassOf rdf:resource="http://aksw.org/ns/drugs/Drug"/>
+    <rdfs:label>Antihypertensives</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aksw.org/ns/drugs/Drug12">
+    <j.0:status>N</j.0:status>
+    <j.0:genericEquivalency>Yes</j.0:genericEquivalency>
+    <j.0:brandName>Glucotrol</j.0:brandName>
+    <rdfs:label>Glipizide</rdfs:label>
+    <rdf:type rdf:resource="http://aksw.org/ns/drugs/Category9"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aksw.org/ns/drugs/Drug95">
+    <j.0:status>N</j.0:status>
+    <j.0:genericEquivalency>No</j.0:genericEquivalency>
+    <j.0:brandName>Arthrotecï¿½</j.0:brandName>
+    <rdfs:label>Diclofenac/ misoprostol</rdfs:label>
+    <rdf:type rdf:resource="http://aksw.org/ns/drugs/Category87"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aksw.org/ns/drugs/Drug81">
+    <j.0:status>N</j.0:status>
+    <j.0:genericEquivalency>Yes</j.0:genericEquivalency>
+    <j.0:brandName>Miltown</j.0:brandName>
+    <rdfs:label>Meprobamate</rdfs:label>
+    <rdf:type rdf:resource="http://aksw.org/ns/drugs/Category76"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aksw.org/ns/drugs/Drug68">
+    <j.0:status>N</j.0:status>
+    <j.0:genericEquivalency>No</j.0:genericEquivalency>
+    <j.0:brandName>Xeomin</j.0:brandName>
+    <rdfs:label>Botulinum toxin</rdfs:label>
+    <rdf:type rdf:resource="http://aksw.org/ns/drugs/Category65"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aksw.org/ns/drugs/Drug112">
+    <j.0:status>N</j.0:status>
+    <j.0:genericEquivalency>No</j.0:genericEquivalency>
+    <j.0:brandName>Exalgo</j.0:brandName>
+    <rdfs:label>Hydromorphone ER</rdfs:label>
+    <rdf:type rdf:resource="http://aksw.org/ns/drugs/Category102"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aksw.org/ns/drugs/Drug145">
+    <j.0:status>N</j.0:status>
+    <j.0:genericEquivalency>Yes</j.0:genericEquivalency>
+    <j.0:brandName>DMSO</j.0:brandName>
+    <rdfs:label>Dimethylsulfoxide</rdfs:label>
+    <rdf:type rdf:resource="http://aksw.org/ns/drugs/Category143"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aksw.org/ns/drugs/Category23">
+    <rdfs:subClassOf rdf:resource="http://aksw.org/ns/drugs/Drug"/>
+    <rdfs:label>Anti-epilepsy drugs (AEDs)</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aksw.org/ns/drugs/Drug33">
+    <j.0:status>N</j.0:status>
+    <j.0:genericEquivalency>Yes</j.0:genericEquivalency>
+    <j.0:brandName>Apresoline</j.0:brandName>
+    <rdfs:label>Hydralazine</rdfs:label>
+    <rdf:type rdf:resource="http://aksw.org/ns/drugs/Category30"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aksw.org/ns/drugs/Drug132">
+    <j.0:status>N</j.0:status>
+    <j.0:genericEquivalency>No</j.0:genericEquivalency>
+    <j.0:brandName>Vimovo</j.0:brandName>
+    <rdfs:label>Esomeprazole/Naproxen</rdfs:label>
+    <rdf:type rdf:resource="http://aksw.org/ns/drugs/Category130"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aksw.org/ns/drugs/Drug107">
+    <j.0:status>N</j.0:status>
+    <j.0:genericEquivalency>Yes</j.0:genericEquivalency>
+    <j.0:brandName>Actiqï¿½</j.0:brandName>
+    <rdfs:label>Fentanyl lollipop</rdfs:label>
+    <rdf:type rdf:resource="http://aksw.org/ns/drugs/Category102"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aksw.org/ns/drugs/Drug53">
+    <j.0:status>N</j.0:status>
+    <j.0:genericEquivalency>Yes</j.0:genericEquivalency>
+    <j.0:brandName>Librium</j.0:brandName>
+    <rdfs:label>Chlordiazepoxide</rdfs:label>
+    <rdf:type rdf:resource="http://aksw.org/ns/drugs/Category52"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aksw.org/ns/drugs/Drug63">
+    <j.0:status>N</j.0:status>
+    <j.0:genericEquivalency>Yes</j.0:genericEquivalency>
+    <j.0:brandName>Restoril</j.0:brandName>
+    <rdfs:label>Temazepam</rdfs:label>
+    <rdf:type rdf:resource="http://aksw.org/ns/drugs/Category52"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aksw.org/ns/drugs/Drug6">
+    <j.0:status>N</j.0:status>
+    <j.0:genericEquivalency>No</j.0:genericEquivalency>
+    <j.0:brandName>Savella/Ixelï¿½</j.0:brandName>
+    <rdfs:label>Milnacipran</rdfs:label>
+    <rdf:type rdf:resource="http://aksw.org/ns/drugs/Category1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aksw.org/ns/drugs/Category136">
+    <rdfs:subClassOf rdf:resource="http://aksw.org/ns/drugs/Drug"/>
+    <rdfs:label>Sedative-hypnotics</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aksw.org/ns/drugs/Drug138">
+    <j.0:status>N (for insomnia)</j.0:status>
+    <j.0:genericEquivalency>Yes</j.0:genericEquivalency>
+    <j.0:brandName>Desyrel</j.0:brandName>
+    <rdfs:label>Trazodone</rdfs:label>
+    <rdf:type rdf:resource="http://aksw.org/ns/drugs/Category136"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aksw.org/ns/drugs/Drug73">
+    <j.0:status>N</j.0:status>
+    <j.0:genericEquivalency>Yes</j.0:genericEquivalency>
+    <j.0:brandName>Mirapexï¿½</j.0:brandName>
+    <rdfs:label>Pramipexole</rdfs:label>
+    <rdf:type rdf:resource="http://aksw.org/ns/drugs/Category73"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aksw.org/ns/drugs/Category50">
+    <rdfs:subClassOf rdf:resource="http://aksw.org/ns/drugs/Drug"/>
+    <rdfs:label>Atypical antipsychotics</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aksw.org/ns/drugs/Category143">
+    <rdfs:subClassOf rdf:resource="http://aksw.org/ns/drugs/Drug"/>
+    <rdfs:label>Topical analgesics</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aksw.org/ns/drugs/Drug128">
+    <j.0:status>N</j.0:status>
+    <j.0:genericEquivalency>No</j.0:genericEquivalency>
+    <j.0:brandName>ConZip</j.0:brandName>
+    <rdfs:label>Tramadol ER</rdfs:label>
+    <rdf:type rdf:resource="http://aksw.org/ns/drugs/Category102"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aksw.org/ns/drugs/Drug15">
+    <j.0:status>N</j.0:status>
+    <j.0:genericEquivalency>No</j.0:genericEquivalency>
+    <j.0:brandName>Novolin</j.0:brandName>
+    <rdfs:label>Insulin</rdfs:label>
+    <rdf:type rdf:resource="http://aksw.org/ns/drugs/Category9"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aksw.org/ns/drugs/Drug43">
+    <j.0:status>N</j.0:status>
+    <j.0:genericEquivalency>Yes</j.0:genericEquivalency>
+    <j.0:brandName>Atroventï¿½</j.0:brandName>
+    <rdfs:label>Ipratropium</rdfs:label>
+    <rdf:type rdf:resource="http://aksw.org/ns/drugs/Category39"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aksw.org/ns/drugs/Drug2">
+    <j.0:status>N</j.0:status>
+    <j.0:genericEquivalency>Yes</j.0:genericEquivalency>
+    <j.0:brandName>Celexa</j.0:brandName>
+    <rdfs:label>Citalopram</rdfs:label>
+    <rdf:type rdf:resource="http://aksw.org/ns/drugs/Category1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aksw.org/ns/drugs/Drug117">
+    <j.0:status>N</j.0:status>
+    <j.0:genericEquivalency>No</j.0:genericEquivalency>
+    <j.0:brandName>Oxecta</j.0:brandName>
+    <rdfs:label>Oxycodone</rdfs:label>
+    <rdf:type rdf:resource="http://aksw.org/ns/drugs/Category102"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aksw.org/ns/drugs/Drug82">
+    <j.0:status>N</j.0:status>
+    <j.0:genericEquivalency>Yes</j.0:genericEquivalency>
+    <j.0:brandName>"Norflexï¿½, Banflexï¿½, Antiflexï¿½, Mio-Relï¿½, Orphenate"</j.0:brandName>
+    <rdfs:label>Orphenadrine</rdfs:label>
+    <rdf:type rdf:resource="http://aksw.org/ns/drugs/Category76"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aksw.org/ns/drugs/Drug20">
+    <j.0:status>N</j.0:status>
+    <j.0:genericEquivalency>No</j.0:genericEquivalency>
+    <j.0:brandName>Avandia</j.0:brandName>
+    <rdfs:label>Rosiglitazone</rdfs:label>
+    <rdf:type rdf:resource="http://aksw.org/ns/drugs/Category9"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aksw.org/ns/drugs/Drug34">
+    <j.0:status>N</j.0:status>
+    <j.0:genericEquivalency>Yes</j.0:genericEquivalency>
+    <j.0:brandName>Loniten</j.0:brandName>
+    <rdfs:label>Minoxidil</rdfs:label>
+    <rdf:type rdf:resource="http://aksw.org/ns/drugs/Category30"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aksw.org/ns/drugs/Drug148">
+    <j.0:status>N</j.0:status>
+    <j.0:genericEquivalency>No</j.0:genericEquivalency>
+    <j.0:brandName>Humiraï¿½</j.0:brandName>
+    <rdfs:label>Adalimumab</rdfs:label>
+    <rdf:type rdf:resource="http://aksw.org/ns/drugs/Category148"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aksw.org/ns/drugs/Drug29">
+    <j.0:status>N</j.0:status>
+    <j.0:genericEquivalency>Yes</j.0:genericEquivalency>
+    <j.0:brandName>Zonegranï¿½</j.0:brandName>
+    <rdfs:label>Zonisamide</rdfs:label>
+    <rdf:type rdf:resource="http://aksw.org/ns/drugs/Category23"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aksw.org/ns/drugs/Drug92">
+    <j.0:status>N</j.0:status>
+    <j.0:genericEquivalency>Yes</j.0:genericEquivalency>
+    <j.0:brandName>Voltaren-XRï¿½</j.0:brandName>
     <rdfs:label>Diclofenac Sodium ER</rdfs:label>
-    <rdf:type rdf:resource="http://aksw.org/Saleh/resource/Class87"/>
+    <rdf:type rdf:resource="http://aksw.org/ns/drugs/Category87"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://aksw.org/Saleh/resource/Drug108">
-    <j.1:status>N</j.1:status>
-    <j.1:genericEquivalency>No</j.1:genericEquivalency>
-    <j.1:brandName>Lazanda</j.1:brandName>
+  <rdf:Description rdf:about="http://aksw.org/ns/drugs/Drug52">
+    <j.0:status>N</j.0:status>
+    <j.0:genericEquivalency>Yes</j.0:genericEquivalency>
+    <j.0:brandName>Xanax</j.0:brandName>
+    <rdfs:label>Alprazolam</rdfs:label>
+    <rdf:type rdf:resource="http://aksw.org/ns/drugs/Category52"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aksw.org/ns/drugs/Drug108">
+    <j.0:status>N</j.0:status>
+    <j.0:genericEquivalency>No</j.0:genericEquivalency>
+    <j.0:brandName>Lazanda</j.0:brandName>
     <rdfs:label>Fentanyl nasal spray</rdfs:label>
-    <rdf:type rdf:resource="http://aksw.org/Saleh/resource/Class102"/>
+    <rdf:type rdf:resource="http://aksw.org/ns/drugs/Category102"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://aksw.org/Saleh/resource/Drug70">
-    <j.1:status>N</j.1:status>
-    <j.1:genericEquivalency>No</j.1:genericEquivalency>
-    <j.1:brandName>Cesametï¿½</j.1:brandName>
-    <rdfs:label>Nabilone</rdfs:label>
-    <rdf:type rdf:resource="http://aksw.org/Saleh/resource/Class69"/>
+  <rdf:Description rdf:about="http://aksw.org/ns/drugs/Drug72">
+    <j.0:status>N</j.0:status>
+    <j.0:genericEquivalency>Yes </j.0:genericEquivalency>
+    <j.0:brandName>Duraclonï¿½</j.0:brandName>
+    <rdfs:label>"Clonidine, intrathecal"</rdfs:label>
+    <rdf:type rdf:resource="http://aksw.org/ns/drugs/Category72"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://aksw.org/Saleh/resource/Class129">
+  <rdf:Description rdf:about="http://aksw.org/ns/drugs/Drug7">
+    <j.0:status>N</j.0:status>
+    <j.0:genericEquivalency>Yes</j.0:genericEquivalency>
+    <j.0:brandName>Paxil</j.0:brandName>
+    <rdfs:label>Paroxetine </rdfs:label>
+    <rdf:type rdf:resource="http://aksw.org/ns/drugs/Category1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aksw.org/ns/drugs/Drug62">
+    <j.0:status>N</j.0:status>
+    <j.0:genericEquivalency>No</j.0:genericEquivalency>
+    <j.0:brandName>Doral</j.0:brandName>
+    <rdfs:label>Quazepam</rdfs:label>
+    <rdf:type rdf:resource="http://aksw.org/ns/drugs/Category52"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aksw.org/ns/drugs/Drug127">
+    <j.0:status>N</j.0:status>
+    <j.0:genericEquivalency>No</j.0:genericEquivalency>
+    <j.0:brandName>Nucyntaï¿½</j.0:brandName>
+    <rdfs:label>Tapentadol</rdfs:label>
+    <rdf:type rdf:resource="http://aksw.org/ns/drugs/Category102"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aksw.org/ns/drugs/Drug137">
+    <j.0:status>N (for insomnia)</j.0:status>
+    <j.0:genericEquivalency>Yes</j.0:genericEquivalency>
+    <j.0:brandName>Phenergan</j.0:brandName>
+    <rdfs:label>Promethazine</rdfs:label>
+    <rdf:type rdf:resource="http://aksw.org/ns/drugs/Category136"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aksw.org/ns/drugs/Category83">
+    <rdfs:subClassOf rdf:resource="http://aksw.org/ns/drugs/Drug"/>
+    <rdfs:label>Muscle relaxants (Antispasmodics)</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aksw.org/ns/drugs/Drug118">
+    <j.0:status>N</j.0:status>
+    <j.0:genericEquivalency>No</j.0:genericEquivalency>
+    <j.0:brandName>OxyContinï¿½</j.0:brandName>
+    <rdfs:label>Oxycodone ER</rdfs:label>
+    <rdf:type rdf:resource="http://aksw.org/ns/drugs/Category102"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aksw.org/ns/drugs/Drug3">
+    <j.0:status>N (for pain)</j.0:status>
+    <j.0:genericEquivalency>No</j.0:genericEquivalency>
+    <j.0:brandName>Lexaproï¿½</j.0:brandName>
+    <rdfs:label>Escitalopram</rdfs:label>
+    <rdf:type rdf:resource="http://aksw.org/ns/drugs/Category1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aksw.org/ns/drugs/Drug42">
+    <j.0:status>N</j.0:status>
+    <j.0:genericEquivalency>No</j.0:genericEquivalency>
+    <j.0:brandName>Arcaptaï¿½</j.0:brandName>
+    <rdfs:label>Indacaterol</rdfs:label>
+    <rdf:type rdf:resource="http://aksw.org/ns/drugs/Category39"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aksw.org/ns/drugs/Drug21">
+    <j.0:status>N</j.0:status>
+    <j.0:genericEquivalency>No</j.0:genericEquivalency>
+    <j.0:brandName>Onglyza</j.0:brandName>
+    <rdfs:label>Saxagliptin</rdfs:label>
+    <rdf:type rdf:resource="http://aksw.org/ns/drugs/Category9"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aksw.org/ns/drugs/Drug83">
+    <j.0:status>N</j.0:status>
+    <j.0:genericEquivalency>Yes</j.0:genericEquivalency>
+    <j.0:brandName>Somaï¿½</j.0:brandName>
+    <rdfs:label>Carisoprodol</rdfs:label>
+    <rdf:type rdf:resource="http://aksw.org/ns/drugs/Category83"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aksw.org/ns/drugs/Drug110">
+    <j.0:status>N</j.0:status>
+    <j.0:genericEquivalency>No</j.0:genericEquivalency>
+    <j.0:brandName>Abstral</j.0:brandName>
+    <rdfs:label>Fentanyl transmucosal</rdfs:label>
+    <rdf:type rdf:resource="http://aksw.org/ns/drugs/Category102"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aksw.org/ns/drugs/Drug120">
+    <j.0:status>N</j.0:status>
+    <j.0:genericEquivalency>Yes</j.0:genericEquivalency>
+    <j.0:brandName>Combunox</j.0:brandName>
+    <rdfs:label>Oxycodone/ibuprofen</rdfs:label>
+    <rdf:type rdf:resource="http://aksw.org/ns/drugs/Category102"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aksw.org/ns/drugs/Drug14">
+    <j.0:status>N</j.0:status>
+    <j.0:genericEquivalency>No</j.0:genericEquivalency>
+    <j.0:brandName>Humulin</j.0:brandName>
+    <rdfs:label>Insulin</rdfs:label>
+    <rdf:type rdf:resource="http://aksw.org/ns/drugs/Category9"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aksw.org/ns/drugs/Category39">
+    <rdfs:subClassOf rdf:resource="http://aksw.org/ns/drugs/Drug"/>
+    <rdfs:label>Asthma medications</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aksw.org/ns/drugs/Drug130">
+    <j.0:status>N</j.0:status>
+    <j.0:genericEquivalency>No</j.0:genericEquivalency>
+    <j.0:brandName>Dexilantï¿½</j.0:brandName>
+    <rdfs:label>Dexlansoprazole </rdfs:label>
+    <rdf:type rdf:resource="http://aksw.org/ns/drugs/Category130"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aksw.org/ns/drugs/Drug100">
+    <j.0:status>N</j.0:status>
+    <j.0:genericEquivalency>No</j.0:genericEquivalency>
+    <j.0:brandName>Naprelanï¿½</j.0:brandName>
+    <rdfs:label>Naproxen ER</rdfs:label>
+    <rdf:type rdf:resource="http://aksw.org/ns/drugs/Category87"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aksw.org/ns/drugs/Drug35">
+    <j.0:status>N</j.0:status>
+    <j.0:genericEquivalency>Yes</j.0:genericEquivalency>
+    <j.0:brandName>Minipress</j.0:brandName>
+    <rdfs:label>Prazosin</rdfs:label>
+    <rdf:type rdf:resource="http://aksw.org/ns/drugs/Category30"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aksw.org/ns/drugs/Drug28">
+    <j.0:status>N</j.0:status>
+    <j.0:genericEquivalency>Yes</j.0:genericEquivalency>
+    <j.0:brandName>Topamaxï¿½</j.0:brandName>
+    <rdfs:label>Topiramate</rdfs:label>
+    <rdf:type rdf:resource="http://aksw.org/ns/drugs/Category23"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aksw.org/ns/drugs/Drug93">
+    <j.0:status>N</j.0:status>
+    <j.0:genericEquivalency>No</j.0:genericEquivalency>
+    <j.0:brandName>Voltarenï¿½ Gel</j.0:brandName>
+    <rdfs:label>Diclofenac Sodium Gel</rdfs:label>
+    <rdf:type rdf:resource="http://aksw.org/ns/drugs/Category87"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aksw.org/ns/drugs/Drug147">
+    <j.0:status>N</j.0:status>
+    <j.0:genericEquivalency>No</j.0:genericEquivalency>
+    <j.0:brandName>Lidodermï¿½</j.0:brandName>
+    <rdfs:label>Lidocaine patch</rdfs:label>
+    <rdf:type rdf:resource="http://aksw.org/ns/drugs/Category143"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aksw.org/ns/drugs/Category141">
+    <rdfs:subClassOf rdf:resource="http://aksw.org/ns/drugs/Drug"/>
+    <rdfs:label>Stimulants (adjunctive pain medication)</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aksw.org/ns/drugs/Drug141">
+    <j.0:status>N</j.0:status>
+    <j.0:genericEquivalency>No</j.0:genericEquivalency>
+    <j.0:brandName>Nuvigil</j.0:brandName>
+    <rdfs:label>Armodafinil</rdfs:label>
+    <rdf:type rdf:resource="http://aksw.org/ns/drugs/Category141"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aksw.org/ns/drugs/Drug17">
+    <j.0:status>N</j.0:status>
+    <j.0:genericEquivalency>Yes</j.0:genericEquivalency>
+    <j.0:brandName>Starlix</j.0:brandName>
+    <rdfs:label>Nateglinide</rdfs:label>
+    <rdf:type rdf:resource="http://aksw.org/ns/drugs/Category9"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aksw.org/ns/drugs/Drug136">
+    <j.0:status>N (for insomnia)</j.0:status>
+    <j.0:genericEquivalency>Y-OTC</j.0:genericEquivalency>
+    <j.0:brandName>Benadryl</j.0:brandName>
+    <rdfs:label>Diphenhydramine</rdfs:label>
+    <rdf:type rdf:resource="http://aksw.org/ns/drugs/Category136"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aksw.org/ns/drugs/Drug45">
+    <j.0:status>N</j.0:status>
+    <j.0:genericEquivalency>No</j.0:genericEquivalency>
+    <j.0:brandName>Xolairï¿½</j.0:brandName>
+    <rdfs:label>Omalizumab</rdfs:label>
+    <rdf:type rdf:resource="http://aksw.org/ns/drugs/Category39"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aksw.org/ns/drugs/Drug71">
+    <j.0:status>N</j.0:status>
+    <j.0:genericEquivalency>No</j.0:genericEquivalency>
+    <j.0:brandName>THC/ dronabinol</j.0:brandName>
+    <rdfs:label>Tetrahydrocannabinol</rdfs:label>
+    <rdf:type rdf:resource="http://aksw.org/ns/drugs/Category69"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aksw.org/ns/drugs/Drug109">
+    <j.0:status>N</j.0:status>
+    <j.0:genericEquivalency>No</j.0:genericEquivalency>
+    <j.0:brandName>Subsysï¿½</j.0:brandName>
+    <rdfs:label>Fentanyl sublingual spray</rdfs:label>
+    <rdf:type rdf:resource="http://aksw.org/ns/drugs/Category102"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aksw.org/ns/drugs/Drug122">
+    <j.0:status>N</j.0:status>
+    <j.0:genericEquivalency>Yes</j.0:genericEquivalency>
+    <j.0:brandName>Talwin</j.0:brandName>
+    <rdfs:label>Pentazocine lactate</rdfs:label>
+    <rdf:type rdf:resource="http://aksw.org/ns/drugs/Category102"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aksw.org/ns/drugs/Drug79">
+    <j.0:status>N</j.0:status>
+    <j.0:genericEquivalency>Yes</j.0:genericEquivalency>
+    <j.0:brandName>Dantriumï¿½</j.0:brandName>
+    <rdfs:label>Dantrolene</rdfs:label>
+    <rdf:type rdf:resource="http://aksw.org/ns/drugs/Category76"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aksw.org/ns/drugs/Category76">
+    <rdfs:subClassOf rdf:resource="http://aksw.org/ns/drugs/Drug"/>
+    <rdfs:label>Muscle relaxants</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aksw.org/ns/drugs/Drug101">
+    <j.0:status>N</j.0:status>
+    <j.0:genericEquivalency>Yes</j.0:genericEquivalency>
+    <j.0:brandName>Feldeneï¿½</j.0:brandName>
+    <rdfs:label>Piroxicam</rdfs:label>
+    <rdf:type rdf:resource="http://aksw.org/ns/drugs/Category87"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aksw.org/ns/drugs/Drug27">
+    <j.0:status>N</j.0:status>
+    <j.0:genericEquivalency>No</j.0:genericEquivalency>
+    <j.0:brandName>Gabitrilï¿½</j.0:brandName>
+    <rdfs:label>Tiagabine</rdfs:label>
+    <rdf:type rdf:resource="http://aksw.org/ns/drugs/Category23"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aksw.org/ns/drugs/Drug84">
+    <j.0:status>N</j.0:status>
+    <j.0:genericEquivalency>Yes</j.0:genericEquivalency>
+    <j.0:brandName>"Norflexï¿½, Banflexï¿½, Antiflexï¿½, Mio-Relï¿½, Orphenate"</j.0:brandName>
+    <rdfs:label>Orphenadrine</rdfs:label>
+    <rdf:type rdf:resource="http://aksw.org/ns/drugs/Category83"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aksw.org/ns/drugs/Drug59">
+    <j.0:status>N</j.0:status>
+    <j.0:genericEquivalency>Yes</j.0:genericEquivalency>
+    <j.0:brandName>Ativan</j.0:brandName>
+    <rdfs:label>Lorazepam</rdfs:label>
+    <rdf:type rdf:resource="http://aksw.org/ns/drugs/Category52"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aksw.org/ns/drugs/Drug65">
+    <j.0:status>N</j.0:status>
+    <j.0:genericEquivalency>No</j.0:genericEquivalency>
+    <j.0:brandName>Botoxï¿½</j.0:brandName>
+    <rdfs:label>Botulinum toxin</rdfs:label>
+    <rdf:type rdf:resource="http://aksw.org/ns/drugs/Category65"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aksw.org/ns/drugs/Drug98">
+    <j.0:status>N (for oral form)</j.0:status>
+    <j.0:genericEquivalency>Yes</j.0:genericEquivalency>
+    <j.0:brandName>Toradolï¿½</j.0:brandName>
+    <rdfs:label>Ketorolac</rdfs:label>
+    <rdf:type rdf:resource="http://aksw.org/ns/drugs/Category87"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aksw.org/ns/drugs/Category86">
+    <rdfs:subClassOf rdf:resource="http://aksw.org/ns/drugs/Drug"/>
+    <rdfs:label>Muscle relaxants (Antispasticity/ Antispasmodics)</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aksw.org/ns/drugs/Drug140">
+    <j.0:status>N</j.0:status>
+    <j.0:genericEquivalency>Yes</j.0:genericEquivalency>
+    <j.0:brandName>Ambien CR</j.0:brandName>
+    <rdfs:label>Zolpidem ER</rdfs:label>
+    <rdf:type rdf:resource="http://aksw.org/ns/drugs/Category136"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aksw.org/ns/drugs/Drug51">
+    <j.0:status>N</j.0:status>
+    <j.0:genericEquivalency>Yes</j.0:genericEquivalency>
+    <j.0:brandName>Risperdal</j.0:brandName>
+    <rdfs:label>Risperidone</rdfs:label>
+    <rdf:type rdf:resource="http://aksw.org/ns/drugs/Category50"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aksw.org/ns/drugs/Drug115">
+    <j.0:status>N</j.0:status>
+    <j.0:genericEquivalency>No</j.0:genericEquivalency>
+    <j.0:brandName>Avinzaï¿½</j.0:brandName>
+    <rdfs:label>Morphine ER</rdfs:label>
+    <rdf:type rdf:resource="http://aksw.org/ns/drugs/Category102"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aksw.org/ns/drugs/Category148">
+    <rdfs:subClassOf rdf:resource="http://aksw.org/ns/drugs/Drug"/>
+    <rdfs:label>Tumor necrosis factor (TNF) modifiers</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aksw.org/ns/drugs/Drug37">
+    <j.0:status>N</j.0:status>
+    <j.0:genericEquivalency>Yes</j.0:genericEquivalency>
+    <j.0:brandName>Hytrin</j.0:brandName>
+    <rdfs:label>Terazosin</rdfs:label>
+    <rdf:type rdf:resource="http://aksw.org/ns/drugs/Category30"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aksw.org/ns/drugs/Drug142">
+    <j.0:status>N</j.0:status>
+    <j.0:genericEquivalency>No</j.0:genericEquivalency>
+    <j.0:brandName>Provigilï¿½</j.0:brandName>
+    <rdfs:label>Modafinil</rdfs:label>
+    <rdf:type rdf:resource="http://aksw.org/ns/drugs/Category141"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aksw.org/ns/drugs/Category129">
+    <rdfs:subClassOf rdf:resource="http://aksw.org/ns/drugs/Drug"/>
     <rdfs:label>Opioids &amp; related entities</rdfs:label>
     <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://aksw.org/Saleh/resource/Drug23">
-    <j.1:status>N</j.1:status>
-    <j.1:genericEquivalency>No</j.1:genericEquivalency>
-    <j.1:brandName>Vimpatï¿½</j.1:brandName>
-    <rdfs:label>Lacosamide</rdfs:label>
-    <rdf:type rdf:resource="http://aksw.org/Saleh/resource/Class23"/>
+  <rdf:Description rdf:about="http://aksw.org/ns/drugs/Drug36">
+    <j.0:status>N</j.0:status>
+    <j.0:genericEquivalency>Yes</j.0:genericEquivalency>
+    <j.0:brandName>Aldactone</j.0:brandName>
+    <rdfs:label>Spironolactone</rdfs:label>
+    <rdf:type rdf:resource="http://aksw.org/ns/drugs/Category30"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://aksw.org/Saleh/resource/Drug58">
-    <j.1:status>N</j.1:status>
-    <j.1:genericEquivalency>Yes</j.1:genericEquivalency>
-    <j.1:brandName>Dalmane</j.1:brandName>
-    <rdfs:label>Flurazepam</rdfs:label>
-    <rdf:type rdf:resource="http://aksw.org/Saleh/resource/Class52"/>
+  <rdf:Description rdf:about="http://aksw.org/ns/drugs/Drug44">
+    <j.0:status>N</j.0:status>
+    <j.0:genericEquivalency>No</j.0:genericEquivalency>
+    <j.0:brandName>Singulairï¿½</j.0:brandName>
+    <rdfs:label>Montelukast</rdfs:label>
+    <rdf:type rdf:resource="http://aksw.org/ns/drugs/Category39"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://aksw.org/Saleh/resource/Drug78">
-    <j.1:status>N</j.1:status>
-    <j.1:genericEquivalency>No</j.1:genericEquivalency>
-    <j.1:brandName>Amrixï¿½</j.1:brandName>
-    <rdfs:label>Cyclobenzaprine ER</rdfs:label>
-    <rdf:type rdf:resource="http://aksw.org/Saleh/resource/Class76"/>
+  <rdf:Description rdf:about="http://aksw.org/ns/drugs/Drug135">
+    <j.0:status>N</j.0:status>
+    <j.0:genericEquivalency>No</j.0:genericEquivalency>
+    <j.0:brandName>Aciphexï¿½</j.0:brandName>
+    <rdfs:label>Rabeprazole</rdfs:label>
+    <rdf:type rdf:resource="http://aksw.org/ns/drugs/Category130"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://aksw.org/Saleh/resource/Drug133">
-    <j.1:status>N</j.1:status>
-    <j.1:genericEquivalency>No</j.1:genericEquivalency>
-    <j.1:brandName>Duexisï¿½</j.1:brandName>
-    <rdfs:label>Famotidine (H2 blocker)/ Ibuprofen</rdfs:label>
-    <rdf:type rdf:resource="http://aksw.org/Saleh/resource/Class130"/>
+  <rdf:Description rdf:about="http://aksw.org/ns/drugs/Drug16">
+    <j.0:status>N</j.0:status>
+    <j.0:genericEquivalency>No</j.0:genericEquivalency>
+    <j.0:brandName>Glyset</j.0:brandName>
+    <rdfs:label>Miglitol</rdfs:label>
+    <rdf:type rdf:resource="http://aksw.org/ns/drugs/Category9"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://aksw.org/Saleh/resource/Drug50">
-    <j.1:status>N</j.1:status>
-    <j.1:genericEquivalency>Yes</j.1:genericEquivalency>
-    <j.1:brandName>Seroquel</j.1:brandName>
-    <rdfs:label>Quetiapine</rdfs:label>
-    <rdf:type rdf:resource="http://aksw.org/Saleh/resource/Class50"/>
+  <rdf:Description rdf:about="http://aksw.org/ns/drugs/Drug1">
+    <j.0:status>N (for pain)</j.0:status>
+    <j.0:genericEquivalency>Yes</j.0:genericEquivalency>
+    <j.0:brandName>Wellbutrinï¿½</j.0:brandName>
+    <rdfs:label>Bupropion</rdfs:label>
+    <rdf:type rdf:resource="http://aksw.org/ns/drugs/Category1"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://aksw.org/Saleh/resource/Drug89">
-    <j.1:status>N</j.1:status>
-    <j.1:genericEquivalency>Yes</j.1:genericEquivalency>
-    <j.1:brandName>Cataflamï¿½</j.1:brandName>
-    <rdfs:label>Diclofenac Potassium</rdfs:label>
-    <rdf:type rdf:resource="http://aksw.org/Saleh/resource/Class87"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://aksw.org/Saleh/resource/Drug113">
-    <j.1:status>N</j.1:status>
-    <j.1:genericEquivalency>Yes</j.1:genericEquivalency>
-    <j.1:brandName>Demerolï¿½</j.1:brandName>
-    <rdfs:label>Meperidine</rdfs:label>
-    <rdf:type rdf:resource="http://aksw.org/Saleh/resource/Class102"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://aksw.org/Saleh/resource/Drug40">
-    <j.1:status>N</j.1:status>
-    <j.1:genericEquivalency>Yes</j.1:genericEquivalency>
-    <j.1:brandName>Cromolyn</j.1:brandName>
-    <rdfs:label>Cromolyn</rdfs:label>
-    <rdf:type rdf:resource="http://aksw.org/Saleh/resource/Class39"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://aksw.org/Saleh/resource/Drug148">
-    <j.1:status>N</j.1:status>
-    <j.1:genericEquivalency>No</j.1:genericEquivalency>
-    <j.1:brandName>Humiraï¿½</j.1:brandName>
-    <rdfs:label>Adalimumab</rdfs:label>
-    <rdf:type rdf:resource="http://aksw.org/Saleh/resource/Class148"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://aksw.org/Saleh/resource/Drug99">
-    <j.1:status>N</j.1:status>
-    <j.1:genericEquivalency>No</j.1:genericEquivalency>
-    <j.1:brandName>Sprix</j.1:brandName>
-    <rdfs:label>Ketorolac nasal spray</rdfs:label>
-    <rdf:type rdf:resource="http://aksw.org/Saleh/resource/Class87"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://aksw.org/Saleh/resource/Drug68">
-    <j.1:status>N</j.1:status>
-    <j.1:genericEquivalency>No</j.1:genericEquivalency>
-    <j.1:brandName>Xeomin</j.1:brandName>
+  <rdf:Description rdf:about="http://aksw.org/ns/drugs/Category65">
+    <rdfs:subClassOf rdf:resource="http://aksw.org/ns/drugs/Drug"/>
     <rdfs:label>Botulinum toxin</rdfs:label>
-    <rdf:type rdf:resource="http://aksw.org/Saleh/resource/Class65"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aksw.org/ns/drugs/Drug70">
+    <j.0:status>N</j.0:status>
+    <j.0:genericEquivalency>No</j.0:genericEquivalency>
+    <j.0:brandName>Cesametï¿½</j.0:brandName>
+    <rdfs:label>Nabilone</rdfs:label>
+    <rdf:type rdf:resource="http://aksw.org/ns/drugs/Category69"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aksw.org/ns/drugs/Drug58">
+    <j.0:status>N</j.0:status>
+    <j.0:genericEquivalency>Yes</j.0:genericEquivalency>
+    <j.0:brandName>Dalmane</j.0:brandName>
+    <rdfs:label>Flurazepam</rdfs:label>
+    <rdf:type rdf:resource="http://aksw.org/ns/drugs/Category52"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aksw.org/ns/drugs/Drug121">
+    <j.0:status>N</j.0:status>
+    <j.0:genericEquivalency>Yes</j.0:genericEquivalency>
+    <j.0:brandName>Opanaï¿½</j.0:brandName>
+    <rdfs:label>Oxymorphone</rdfs:label>
+    <rdf:type rdf:resource="http://aksw.org/ns/drugs/Category102"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aksw.org/ns/drugs/Drug78">
+    <j.0:status>N</j.0:status>
+    <j.0:genericEquivalency>No</j.0:genericEquivalency>
+    <j.0:brandName>Amrixï¿½</j.0:brandName>
+    <rdfs:label>Cyclobenzaprine ER</rdfs:label>
+    <rdf:type rdf:resource="http://aksw.org/ns/drugs/Category76"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aksw.org/ns/drugs/Drug85">
+    <j.0:status>N</j.0:status>
+    <j.0:genericEquivalency>Yes</j.0:genericEquivalency>
+    <j.0:brandName>Dantriumï¿½</j.0:brandName>
+    <rdfs:label>Dantrolene</rdfs:label>
+    <rdf:type rdf:resource="http://aksw.org/ns/drugs/Category85"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aksw.org/ns/drugs/Drug50">
+    <j.0:status>N</j.0:status>
+    <j.0:genericEquivalency>Yes</j.0:genericEquivalency>
+    <j.0:brandName>Seroquel</j.0:brandName>
+    <rdfs:label>Quetiapine</rdfs:label>
+    <rdf:type rdf:resource="http://aksw.org/ns/drugs/Category50"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aksw.org/ns/drugs/Drug26">
+    <j.0:status>N</j.0:status>
+    <j.0:genericEquivalency>Yes</j.0:genericEquivalency>
+    <j.0:brandName>Dilantinï¿½</j.0:brandName>
+    <rdfs:label>Phenytoin</rdfs:label>
+    <rdf:type rdf:resource="http://aksw.org/ns/drugs/Category23"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aksw.org/ns/drugs/Category85">
+    <rdfs:subClassOf rdf:resource="http://aksw.org/ns/drugs/Drug"/>
+    <rdfs:label>Muscle relaxants (Antispasticity drugs)</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aksw.org/ns/drugs/Category75">
+    <rdfs:subClassOf rdf:resource="http://aksw.org/ns/drugs/Drug"/>
+    <rdfs:label>Gout medications</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aksw.org/ns/drugs/Drug102">
+    <j.0:status>N (for pain)</j.0:status>
+    <j.0:genericEquivalency>No</j.0:genericEquivalency>
+    <j.0:brandName>Suboxoneï¿½</j.0:brandName>
+    <rdfs:label>Buprenorphine</rdfs:label>
+    <rdf:type rdf:resource="http://aksw.org/ns/drugs/Category102"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aksw.org/ns/drugs/Drug116">
+    <j.0:status>N</j.0:status>
+    <j.0:genericEquivalency>Yes</j.0:genericEquivalency>
+    <j.0:brandName>Kadianï¿½</j.0:brandName>
+    <rdfs:label>Morphine ER</rdfs:label>
+    <rdf:type rdf:resource="http://aksw.org/ns/drugs/Category102"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aksw.org/ns/drugs/Drug129">
+    <j.0:status>N</j.0:status>
+    <j.0:genericEquivalency>No</j.0:genericEquivalency>
+    <j.0:brandName>Prialtï¿½</j.0:brandName>
+    <rdfs:label>Ziconotide (morphine pump)</rdfs:label>
+    <rdf:type rdf:resource="http://aksw.org/ns/drugs/Category129"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aksw.org/ns/drugs/Category130">
+    <rdfs:subClassOf rdf:resource="http://aksw.org/ns/drugs/Drug"/>
+    <rdfs:label>PPI (Proton Pump Inhibitor)</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aksw.org/ns/drugs/Drug99">
+    <j.0:status>N</j.0:status>
+    <j.0:genericEquivalency>No</j.0:genericEquivalency>
+    <j.0:brandName>Sprix</j.0:brandName>
+    <rdfs:label>Ketorolac nasal spray</rdfs:label>
+    <rdf:type rdf:resource="http://aksw.org/ns/drugs/Category87"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aksw.org/ns/drugs/Drug64">
+    <j.0:status>N</j.0:status>
+    <j.0:genericEquivalency>Yes</j.0:genericEquivalency>
+    <j.0:brandName>Halcion </j.0:brandName>
+    <rdfs:label>Triazolam</rdfs:label>
+    <rdf:type rdf:resource="http://aksw.org/ns/drugs/Category52"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aksw.org/ns/drugs/Drug149">
+    <j.0:status>N</j.0:status>
+    <j.0:genericEquivalency>No</j.0:genericEquivalency>
+    <j.0:brandName>Enbrelï¿½</j.0:brandName>
+    <rdfs:label>Etanercept</rdfs:label>
+    <rdf:type rdf:resource="http://aksw.org/ns/drugs/Category148"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aksw.org/ns/drugs/Drug47">
+    <j.0:status>N</j.0:status>
+    <j.0:genericEquivalency>Yes</j.0:genericEquivalency>
+    <j.0:brandName>Slo-Bidï¿½</j.0:brandName>
+    <rdfs:label>Theophylline</rdfs:label>
+    <rdf:type rdf:resource="http://aksw.org/ns/drugs/Category39"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aksw.org/ns/drugs/Drug134">
+    <j.0:status>N</j.0:status>
+    <j.0:genericEquivalency>Yes</j.0:genericEquivalency>
+    <j.0:brandName>Protonixï¿½</j.0:brandName>
+    <rdfs:label>Pantoprazole</rdfs:label>
+    <rdf:type rdf:resource="http://aksw.org/ns/drugs/Category130"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aksw.org/ns/drugs/Category102">
+    <rdfs:subClassOf rdf:resource="http://aksw.org/ns/drugs/Drug"/>
+    <rdfs:label>Opioids</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aksw.org/ns/drugs/Drug143">
+    <j.0:status>N</j.0:status>
+    <j.0:genericEquivalency>No</j.0:genericEquivalency>
+    <j.0:brandName>Qutenza</j.0:brandName>
+    <rdfs:label>"Capsaicin, topical"</rdfs:label>
+    <rdf:type rdf:resource="http://aksw.org/ns/drugs/Category143"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aksw.org/ns/drugs/Drug19">
+    <j.0:status>N</j.0:status>
+    <j.0:genericEquivalency>No</j.0:genericEquivalency>
+    <j.0:brandName>Prandin</j.0:brandName>
+    <rdfs:label>Repaglinide</rdfs:label>
+    <rdf:type rdf:resource="http://aksw.org/ns/drugs/Category9"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aksw.org/ns/drugs/Drug25">
+    <j.0:status>N</j.0:status>
+    <j.0:genericEquivalency>Yes</j.0:genericEquivalency>
+    <j.0:brandName>Keppraï¿½</j.0:brandName>
+    <rdfs:label>Levetiracetam</rdfs:label>
+    <rdf:type rdf:resource="http://aksw.org/ns/drugs/Category23"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aksw.org/ns/drugs/Drug10">
+    <j.0:status>N</j.0:status>
+    <j.0:genericEquivalency>No</j.0:genericEquivalency>
+    <j.0:brandName>Byetta</j.0:brandName>
+    <rdfs:label>Exenatide</rdfs:label>
+    <rdf:type rdf:resource="http://aksw.org/ns/drugs/Category9"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aksw.org/ns/drugs/Drug57">
+    <j.0:status>N</j.0:status>
+    <j.0:genericEquivalency>Yes</j.0:genericEquivalency>
+    <j.0:brandName>ProSom</j.0:brandName>
+    <rdfs:label>Estazolam</rdfs:label>
+    <rdf:type rdf:resource="http://aksw.org/ns/drugs/Category52"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aksw.org/ns/drugs/Drug124">
+    <j.0:status>N</j.0:status>
+    <j.0:genericEquivalency>Yes</j.0:genericEquivalency>
+    <j.0:brandName>Darvonï¿½</j.0:brandName>
+    <rdfs:label>Propoxyphene hcl</rdfs:label>
+    <rdf:type rdf:resource="http://aksw.org/ns/drugs/Category102"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aksw.org/ns/drugs/Drug91">
+    <j.0:status>N</j.0:status>
+    <j.0:genericEquivalency>Yes</j.0:genericEquivalency>
+    <j.0:brandName>Voltarenï¿½</j.0:brandName>
+    <rdfs:label>Diclofenac Sodium</rdfs:label>
+    <rdf:type rdf:resource="http://aksw.org/ns/drugs/Category87"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aksw.org/ns/drugs/Drug86">
+    <j.0:status>N</j.0:status>
+    <j.0:genericEquivalency>Yes</j.0:genericEquivalency>
+    <j.0:brandName>N/A</j.0:brandName>
+    <rdfs:label>Benzodiazepines</rdfs:label>
+    <rdf:type rdf:resource="http://aksw.org/ns/drugs/Category86"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aksw.org/ns/drugs/Drug77">
+    <j.0:status>N</j.0:status>
+    <j.0:genericEquivalency>Yes</j.0:genericEquivalency>
+    <j.0:brandName>Somaï¿½</j.0:brandName>
+    <rdfs:label>Carisoprodol</rdfs:label>
+    <rdf:type rdf:resource="http://aksw.org/ns/drugs/Category76"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aksw.org/ns/drugs/Drug103">
+    <j.0:status>N</j.0:status>
+    <j.0:genericEquivalency>No</j.0:genericEquivalency>
+    <j.0:brandName>Butransï¿½</j.0:brandName>
+    <rdfs:label>Buprenorphine (transdermal)</rdfs:label>
+    <rdf:type rdf:resource="http://aksw.org/ns/drugs/Category102"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aksw.org/ns/drugs/Drug30">
+    <j.0:status>N</j.0:status>
+    <j.0:genericEquivalency>No</j.0:genericEquivalency>
+    <j.0:brandName>Tekturna</j.0:brandName>
+    <rdfs:label>Aliskiren</rdfs:label>
+    <rdf:type rdf:resource="http://aksw.org/ns/drugs/Category30"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aksw.org/ns/drugs/Drug113">
+    <j.0:status>N</j.0:status>
+    <j.0:genericEquivalency>Yes</j.0:genericEquivalency>
+    <j.0:brandName>Demerolï¿½</j.0:brandName>
+    <rdfs:label>Meperidine</rdfs:label>
+    <rdf:type rdf:resource="http://aksw.org/ns/drugs/Category102"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aksw.org/ns/drugs/Drug39">
+    <j.0:status>N</j.0:status>
+    <j.0:genericEquivalency>Yes</j.0:genericEquivalency>
+    <j.0:brandName>Albuterol</j.0:brandName>
+    <rdfs:label>Albuterol oral tablet</rdfs:label>
+    <rdf:type rdf:resource="http://aksw.org/ns/drugs/Category39"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aksw.org/ns/drugs/Drug67">
+    <j.0:status>N</j.0:status>
+    <j.0:genericEquivalency>No</j.0:genericEquivalency>
+    <j.0:brandName>Myoblocï¿½</j.0:brandName>
+    <rdfs:label>Botulinum toxin</rdfs:label>
+    <rdf:type rdf:resource="http://aksw.org/ns/drugs/Category65"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aksw.org/ns/drugs/Drug96">
+    <j.0:status>N</j.0:status>
+    <j.0:genericEquivalency>Yes</j.0:genericEquivalency>
+    <j.0:brandName>Indocinï¿½</j.0:brandName>
+    <rdfs:label>Indomethacin</rdfs:label>
+    <rdf:type rdf:resource="http://aksw.org/ns/drugs/Category87"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aksw.org/ns/drugs/Drug46">
+    <j.0:status>N</j.0:status>
+    <j.0:genericEquivalency>No</j.0:genericEquivalency>
+    <j.0:brandName>Sereventï¿½</j.0:brandName>
+    <rdfs:label>Salmeterol</rdfs:label>
+    <rdf:type rdf:resource="http://aksw.org/ns/drugs/Category39"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aksw.org/ns/drugs/Drug18">
+    <j.0:status>N</j.0:status>
+    <j.0:genericEquivalency>No</j.0:genericEquivalency>
+    <j.0:brandName>Actos</j.0:brandName>
+    <rdfs:label>Pioglitazone</rdfs:label>
+    <rdf:type rdf:resource="http://aksw.org/ns/drugs/Category9"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aksw.org/ns/drugs/Drug133">
+    <j.0:status>N</j.0:status>
+    <j.0:genericEquivalency>No</j.0:genericEquivalency>
+    <j.0:brandName>Duexisï¿½</j.0:brandName>
+    <rdfs:label>Famotidine (H2 blocker)/ Ibuprofen</rdfs:label>
+    <rdf:type rdf:resource="http://aksw.org/ns/drugs/Category130"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aksw.org/ns/drugs/Category9">
+    <rdfs:subClassOf rdf:resource="http://aksw.org/ns/drugs/Drug"/>
+    <rdfs:label>Antidiabetics</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aksw.org/ns/drugs/Drug144">
+    <j.0:status>N</j.0:status>
+    <j.0:genericEquivalency>No</j.0:genericEquivalency>
+    <j.0:brandName>Voltarenï¿½ Gel</j.0:brandName>
+    <rdfs:label>Diclofenac Sodium Gel</rdfs:label>
+    <rdf:type rdf:resource="http://aksw.org/ns/drugs/Category143"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aksw.org/ns/drugs/Drug11">
+    <j.0:status>N</j.0:status>
+    <j.0:genericEquivalency>Yes</j.0:genericEquivalency>
+    <j.0:brandName>Amaryl</j.0:brandName>
+    <rdfs:label>Glimepiride</rdfs:label>
+    <rdf:type rdf:resource="http://aksw.org/ns/drugs/Category9"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aksw.org/ns/drugs/Drug90">
+    <j.0:status>N</j.0:status>
+    <j.0:genericEquivalency>No</j.0:genericEquivalency>
+    <j.0:brandName>Zipsor</j.0:brandName>
+    <rdfs:label>Diclofenac Potassium</rdfs:label>
+    <rdf:type rdf:resource="http://aksw.org/ns/drugs/Category87"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aksw.org/ns/drugs/Drug24">
+    <j.0:status>N</j.0:status>
+    <j.0:genericEquivalency>Yes</j.0:genericEquivalency>
+    <j.0:brandName>Lamictalï¿½</j.0:brandName>
+    <rdfs:label>Lamotrigine</rdfs:label>
+    <rdf:type rdf:resource="http://aksw.org/ns/drugs/Category23"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aksw.org/ns/drugs/Drug123">
+    <j.0:status>N</j.0:status>
+    <j.0:genericEquivalency>Yes</j.0:genericEquivalency>
+    <j.0:brandName>Talwin NX</j.0:brandName>
+    <rdfs:label>Pentazocine/Naloxone</rdfs:label>
+    <rdf:type rdf:resource="http://aksw.org/ns/drugs/Category102"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aksw.org/ns/drugs/Drug56">
+    <j.0:status>N</j.0:status>
+    <j.0:genericEquivalency>Yes</j.0:genericEquivalency>
+    <j.0:brandName>Valium</j.0:brandName>
+    <rdfs:label>Diazepam</rdfs:label>
+    <rdf:type rdf:resource="http://aksw.org/ns/drugs/Category52"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aksw.org/ns/drugs/Drug76">
+    <j.0:status>N</j.0:status>
+    <j.0:genericEquivalency>Yes</j.0:genericEquivalency>
+    <j.0:brandName>N/A</j.0:brandName>
+    <rdfs:label>Benzodiazepines</rdfs:label>
+    <rdf:type rdf:resource="http://aksw.org/ns/drugs/Category76"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aksw.org/ns/drugs/Drug104">
+    <j.0:status>N</j.0:status>
+    <j.0:genericEquivalency>Yes</j.0:genericEquivalency>
+    <j.0:brandName>Fioricetï¿½</j.0:brandName>
+    <rdfs:label>Butalbital (a barbiturate)</rdfs:label>
+    <rdf:type rdf:resource="http://aksw.org/ns/drugs/Category102"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aksw.org/ns/drugs/Drug31">
+    <j.0:status>N</j.0:status>
+    <j.0:genericEquivalency>Yes</j.0:genericEquivalency>
+    <j.0:brandName>Catapres</j.0:brandName>
+    <rdfs:label>Clonidine</rdfs:label>
+    <rdf:type rdf:resource="http://aksw.org/ns/drugs/Category30"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aksw.org/ns/drugs/Drug87">
+    <j.0:status>N</j.0:status>
+    <j.0:genericEquivalency>Yes</j.0:genericEquivalency>
+    <j.0:brandName>Voltarenï¿½</j.0:brandName>
+    <rdfs:label>Diclofenac</rdfs:label>
+    <rdf:type rdf:resource="http://aksw.org/ns/drugs/Category87"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aksw.org/ns/drugs/Category73">
+    <rdfs:subClassOf rdf:resource="http://aksw.org/ns/drugs/Drug"/>
+    <rdfs:label>Dopamine agonists</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aksw.org/ns/drugs/Drug38">
+    <j.0:status>N</j.0:status>
+    <j.0:genericEquivalency>No</j.0:genericEquivalency>
+    <j.0:brandName>Zyvox</j.0:brandName>
+    <rdfs:label>Linezolid</rdfs:label>
+    <rdf:type rdf:resource="http://aksw.org/ns/drugs/Category38"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aksw.org/ns/drugs/Drug66">
+    <j.0:status>N</j.0:status>
+    <j.0:genericEquivalency>No</j.0:genericEquivalency>
+    <j.0:brandName>Dysport</j.0:brandName>
+    <rdfs:label>Botulinum toxin</rdfs:label>
+    <rdf:type rdf:resource="http://aksw.org/ns/drugs/Category65"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aksw.org/ns/drugs/Drug114">
+    <j.0:status>N</j.0:status>
+    <j.0:genericEquivalency>Yes</j.0:genericEquivalency>
+    <j.0:brandName>Methadoseï¿½</j.0:brandName>
+    <rdfs:label>Methadone</rdfs:label>
+    <rdf:type rdf:resource="http://aksw.org/ns/drugs/Category102"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aksw.org/ns/drugs/Drug97">
+    <j.0:status>N</j.0:status>
+    <j.0:genericEquivalency>Yes</j.0:genericEquivalency>
+    <j.0:brandName>Indocin SRï¿½</j.0:brandName>
+    <rdfs:label>Indomethacin ER</rdfs:label>
+    <rdf:type rdf:resource="http://aksw.org/ns/drugs/Category87"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aksw.org/ns/drugs/Category87">
+    <rdfs:subClassOf rdf:resource="http://aksw.org/ns/drugs/Drug"/>
+    <rdfs:label>NSAIDs </rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://aksw.org/ns/drugs/Category1">
+    <rdfs:subClassOf rdf:resource="http://aksw.org/ns/drugs/Drug"/>
+    <rdfs:label>Antidepressants</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
   </rdf:Description>
 </rdf:RDF>
