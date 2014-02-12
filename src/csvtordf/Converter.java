@@ -66,6 +66,7 @@ public class Converter {
 
 			// create drug as instance of category
 			Resource drug = m.createResource(ns+"Drug" + i, cat); 
+			m.createResource(ns+"Drug"+i, classDrug);
 
 			// for each column
 			for (int j = 1; j < nextLine.length; j++)
