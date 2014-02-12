@@ -1,0 +1,88 @@
+12.02.2014 16:58:47 INFO  [main] de.uni_leipzig.simba.controller.PPJoinController.run(PPJoinController.java:131): ID: akswdrugs
+Var: ?x
+Prefixes: {rdfs=http://www.w3.org/2000/01/rdf-schema#, drugbank=http://wifo5-04.informatik.uni-mannheim.de/drugbank/resource/drugbank/, rdf=http://www.w3.org/1999/02/22-rdf-syntax-ns#, akswdrugs=http://aksw.org/ns/drugs/}
+Endpoint: C:\Users\Saleh\git\CsvToRdf\output.nt
+Graph: null
+Restrictions: [?x rdf:type akswdrugs:Drug]
+Properties: [rdfs:label]
+Functions: {rdfs:label={rdfs:label=nolang->lowercase}}
+Page size: 1000
+Type: nt
+
+12.02.2014 16:58:47 INFO  [main] de.uni_leipzig.simba.controller.PPJoinController.run(PPJoinController.java:132): ID: drugbank
+Var: ?y
+Prefixes: {rdfs=http://www.w3.org/2000/01/rdf-schema#, drugbank=http://wifo5-04.informatik.uni-mannheim.de/drugbank/resource/drugbank/, rdf=http://www.w3.org/1999/02/22-rdf-syntax-ns#, akswdrugs=http://aksw.org/ns/drugs/}
+Endpoint: http://wifo5-04.informatik.uni-mannheim.de/drugbank/sparql
+Graph:  
+Restrictions: [?y rdf:type drugbank:drugs]
+Properties: [rdfs:label, drugbank:genericName]
+Functions: {rdfs:label={name=nolang->lowercase}, drugbank:genericName={name=nolang->lowercase}}
+Page size: 300
+Type: sparql
+
+12.02.2014 16:58:47 INFO  [main] de.uni_leipzig.simba.controller.PPJoinController.run(PPJoinController.java:137): Loading source data ...
+12.02.2014 16:58:47 INFO  [main] de.uni_leipzig.simba.cache.HybridCache.getData(HybridCache.java:245): No cached data found for akswdrugs
+12.02.2014 16:58:47 INFO  [main] de.uni_leipzig.simba.query.QueryModuleFactory.getQueryModule(QueryModuleFactory.java:19): Generating <nt> reader
+12.02.2014 16:58:49 INFO  [main] de.uni_leipzig.simba.query.FileQueryModule.<init>(FileQueryModule.java:56): RDF model read from C:\Users\Saleh\git\CsvToRdf\output.nt is of size 977
+12.02.2014 16:58:49 INFO  [main] de.uni_leipzig.simba.query.ModelRegistry.register(ModelRegistry.java:34): Registry = [C:\Users\Saleh\git\CsvToRdf\output.nt]
+12.02.2014 16:58:49 INFO  [main] de.uni_leipzig.simba.query.SparqlQueryModule.fillCache(SparqlQueryModule.java:93): Properties are [rdfs:label]
+12.02.2014 16:58:49 INFO  [main] de.uni_leipzig.simba.query.SparqlQueryModule.fillCache(SparqlQueryModule.java:135): Query issued is 
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX drugbank: <http://wifo5-04.informatik.uni-mannheim.de/drugbank/resource/drugbank/>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX akswdrugs: <http://aksw.org/ns/drugs/>
+SELECT DISTINCT ?x ?v0
+WHERE {
+?x rdf:type akswdrugs:Drug .
+?x rdfs:label ?v0 .
+}
+12.02.2014 16:58:49 INFO  [main] de.uni_leipzig.simba.query.SparqlQueryModule.fillCache(SparqlQueryModule.java:137): Querying the endpoint.
+12.02.2014 16:58:49 INFO  [main] de.uni_leipzig.simba.query.SparqlQueryModule.fillCache(SparqlQueryModule.java:145): Getting statements 0 to 1000
+12.02.2014 16:58:49 INFO  [main] de.uni_leipzig.simba.query.SparqlQueryModule.fillCache(SparqlQueryModule.java:145): Getting statements 1000 to 2000
+12.02.2014 16:58:49 INFO  [main] de.uni_leipzig.simba.query.SparqlQueryModule.fillCache(SparqlQueryModule.java:243): Retrieved 150 triples and 150 entities.
+12.02.2014 16:58:49 INFO  [main] de.uni_leipzig.simba.query.SparqlQueryModule.fillCache(SparqlQueryModule.java:244): Retrieving statements took 0.441 seconds.
+12.02.2014 16:58:49 INFO  [main] de.uni_leipzig.simba.cache.HybridCache.saveToFile(HybridCache.java:178): Serializing 150 objects to C:\Users\Saleh\LIMES\cache\983684917.ser
+12.02.2014 16:58:49 INFO  [main] de.uni_leipzig.simba.controller.PPJoinController.run(PPJoinController.java:142): Loading target data ...
+12.02.2014 16:58:49 INFO  [main] de.uni_leipzig.simba.cache.HybridCache.getData(HybridCache.java:245): No cached data found for drugbank
+12.02.2014 16:58:49 INFO  [main] de.uni_leipzig.simba.query.QueryModuleFactory.getQueryModule(QueryModuleFactory.java:19): Generating <sparql> reader
+12.02.2014 16:58:49 INFO  [main] de.uni_leipzig.simba.query.SparqlQueryModule.fillCache(SparqlQueryModule.java:93): Properties are [rdfs:label, drugbank:genericName]
+12.02.2014 16:58:49 INFO  [main] de.uni_leipzig.simba.query.SparqlQueryModule.fillCache(SparqlQueryModule.java:135): Query issued is 
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX drugbank: <http://wifo5-04.informatik.uni-mannheim.de/drugbank/resource/drugbank/>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX akswdrugs: <http://aksw.org/ns/drugs/>
+SELECT DISTINCT ?y ?v0 ?v1
+WHERE {
+?y rdf:type drugbank:drugs .
+?y rdfs:label ?v0 .
+?y drugbank:genericName ?v1 .
+}
+12.02.2014 16:58:49 INFO  [main] de.uni_leipzig.simba.query.SparqlQueryModule.fillCache(SparqlQueryModule.java:137): Querying the endpoint.
+12.02.2014 16:58:49 INFO  [main] de.uni_leipzig.simba.query.SparqlQueryModule.fillCache(SparqlQueryModule.java:145): Getting statements 0 to 300
+12.02.2014 16:58:50 INFO  [main] de.uni_leipzig.simba.query.SparqlQueryModule.fillCache(SparqlQueryModule.java:145): Getting statements 300 to 600
+12.02.2014 16:58:50 INFO  [main] de.uni_leipzig.simba.query.SparqlQueryModule.fillCache(SparqlQueryModule.java:145): Getting statements 600 to 900
+12.02.2014 16:58:51 INFO  [main] de.uni_leipzig.simba.query.SparqlQueryModule.fillCache(SparqlQueryModule.java:145): Getting statements 900 to 1200
+12.02.2014 16:58:51 INFO  [main] de.uni_leipzig.simba.query.SparqlQueryModule.fillCache(SparqlQueryModule.java:145): Getting statements 1200 to 1500
+12.02.2014 16:58:51 INFO  [main] de.uni_leipzig.simba.query.SparqlQueryModule.fillCache(SparqlQueryModule.java:145): Getting statements 1500 to 1800
+12.02.2014 16:58:52 INFO  [main] de.uni_leipzig.simba.query.SparqlQueryModule.fillCache(SparqlQueryModule.java:145): Getting statements 1800 to 2100
+12.02.2014 16:58:52 INFO  [main] de.uni_leipzig.simba.query.SparqlQueryModule.fillCache(SparqlQueryModule.java:145): Getting statements 2100 to 2400
+12.02.2014 16:58:52 INFO  [main] de.uni_leipzig.simba.query.SparqlQueryModule.fillCache(SparqlQueryModule.java:145): Getting statements 2400 to 2700
+12.02.2014 16:58:53 INFO  [main] de.uni_leipzig.simba.query.SparqlQueryModule.fillCache(SparqlQueryModule.java:145): Getting statements 2700 to 3000
+12.02.2014 16:58:53 INFO  [main] de.uni_leipzig.simba.query.SparqlQueryModule.fillCache(SparqlQueryModule.java:145): Getting statements 3000 to 3300
+12.02.2014 16:58:53 INFO  [main] de.uni_leipzig.simba.query.SparqlQueryModule.fillCache(SparqlQueryModule.java:145): Getting statements 3300 to 3600
+12.02.2014 16:58:54 INFO  [main] de.uni_leipzig.simba.query.SparqlQueryModule.fillCache(SparqlQueryModule.java:145): Getting statements 3600 to 3900
+12.02.2014 16:58:54 INFO  [main] de.uni_leipzig.simba.query.SparqlQueryModule.fillCache(SparqlQueryModule.java:145): Getting statements 3900 to 4200
+12.02.2014 16:58:54 INFO  [main] de.uni_leipzig.simba.query.SparqlQueryModule.fillCache(SparqlQueryModule.java:145): Getting statements 4200 to 4500
+12.02.2014 16:58:55 INFO  [main] de.uni_leipzig.simba.query.SparqlQueryModule.fillCache(SparqlQueryModule.java:145): Getting statements 4500 to 4800
+12.02.2014 16:58:55 INFO  [main] de.uni_leipzig.simba.query.SparqlQueryModule.fillCache(SparqlQueryModule.java:145): Getting statements 4800 to 5100
+12.02.2014 16:58:55 INFO  [main] de.uni_leipzig.simba.query.SparqlQueryModule.fillCache(SparqlQueryModule.java:243): Retrieved 4772 triples and 4772 entities.
+12.02.2014 16:58:55 INFO  [main] de.uni_leipzig.simba.query.SparqlQueryModule.fillCache(SparqlQueryModule.java:244): Retrieving statements took 6.013 seconds.
+12.02.2014 16:58:55 INFO  [main] de.uni_leipzig.simba.cache.HybridCache.saveToFile(HybridCache.java:178): Serializing 4772 objects to C:\Users\Saleh\LIMES\cache\12156930.ser
+12.02.2014 16:58:57 INFO  [main] de.uni_leipzig.simba.controller.PPJoinController.run(PPJoinController.java:155): Getting links ...
+12.02.2014 16:58:57 INFO  [main] de.uni_leipzig.simba.controller.PPJoinController.run(PPJoinController.java:158): Got links in 637ms.
+12.02.2014 16:58:57 INFO  [main] de.uni_leipzig.simba.io.SerializerFactory.getSerializer(SerializerFactory.java:22): Getting serializer with name TTL
+12.02.2014 16:58:57 INFO  [main] de.uni_leipzig.simba.controller.PPJoinController.run(PPJoinController.java:164): Using TtlSerializer to serialize
+12.02.2014 16:58:57 INFO  [main] de.uni_leipzig.simba.controller.PPJoinController.run(PPJoinController.java:183): Returned 124 links above acceptance threshold.
+12.02.2014 16:58:57 INFO  [main] de.uni_leipzig.simba.controller.PPJoinController.run(PPJoinController.java:184): Returned 50 links to review.
+12.02.2014 16:58:57 INFO  [main] de.uni_leipzig.simba.controller.PPJoinController.run(PPJoinController.java:191): Mapping carried out in 10.303 seconds
+12.02.2014 16:58:57 INFO  [main] de.uni_leipzig.simba.controller.PPJoinController.run(PPJoinController.java:192): Done.
